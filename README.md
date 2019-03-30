@@ -36,5 +36,5 @@
 # Array
 | No | Title | Solution & Note | Difficulty | Time | Space | Tag | Tips |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
-| 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search]()|
-| 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search]()|
+| 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
+| 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
