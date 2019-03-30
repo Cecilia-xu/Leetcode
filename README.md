@@ -1,6 +1,5 @@
 # Leetcode
 # Table of Contents
----
 - Complexity
 - Classical Algorithm
 - Bit Manipulation
@@ -20,3 +19,8 @@
 - Graph
 - BackTracking
 - Dynamic Programming
+# Complexity
+# Bit Manipulation
+| No | Title | Solution | Note | Difficulty | Time | Space | Tag |
+| :--- | :----: | :----: |:----: |:----: |:----: |:----: |:----: |
+| 136 | Single Number | Solution | Easy | | | Bit Manipulation|
