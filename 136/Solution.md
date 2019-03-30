@@ -1,7 +1,7 @@
 # Solution 1
 思路：利用动态数组自带方法实现，只需要遍历一遍即可
 时间复杂度 O（n）
-空间复杂度 O（n）
+空间复杂度 O（1）
 ```Java
 class Solution {
     public int singleNumber(int[] nums) {
