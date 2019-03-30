@@ -23,4 +23,4 @@
 # Bit Manipulation
 | No | Title | Solution | Note | Difficulty | Time | Space | Tag |
 | :--- | :----: | :----: |:----: |:----: |:----: |:----: |:----: |
-| 136 | Single Number | Note | Solution | Easy | |  |Bit Manipulation|
+| 136 |[Single Number](https://leetcode.com/problems/single-number/) | Note | Solution | Easy | |  |Bit Manipulation|
