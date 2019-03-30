@@ -37,4 +37,4 @@
 | No | Title | Solution & Note | Difficulty | Time | Space | Tag | Tips |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search]()|
-| 350 | Intersection of Two Arrays|  | Easy | | |Array |[Search]()|
+| 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search]()|
