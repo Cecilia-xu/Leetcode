@@ -9,7 +9,7 @@ Example 2:
 Input: [4,1,2,1,2]
 Output: 4
 # Solution 1
-思路：利用动态数组自带方法实现，只需要遍历一遍即可
+思路：利用list实现
 + 时间复杂度 O（n^2）
 <br> We iterate through \text{nums}nums, taking O(n)O(n) time. We search the whole list to find whether there is duplicate number, taking O(n)O(n) time. Because search is in the for loop, so we have to multiply both time complexities which is O(n^2)O(n 
 2
