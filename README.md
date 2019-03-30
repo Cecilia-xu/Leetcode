@@ -37,4 +37,4 @@
 | No | Title | Solution & Note | Difficulty | Time | Space | Tag | Tips |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 349 | | Easy | |  | Array | [Search]()|
-| 350 | |  | Easy | |  | Array |[Search]()|
+| 350 | | Easy | |  |Array |[Search]()|
