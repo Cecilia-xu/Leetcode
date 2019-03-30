@@ -1,4 +1,4 @@
-#Solution 1
+# Solution 1
 ```Java
 class Solution {
     public int singleNumber(int[] nums) {
