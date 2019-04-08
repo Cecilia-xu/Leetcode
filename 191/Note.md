@@ -1,5 +1,5 @@
 # Part 1: Bit manipulation
-## Bitwise Operatiors
+## Bitwise Operators
 
 1. NOT ( ~ ): Bitwise NOT is an unary operator that flips the bits of the number i.e., if the ith bit is 0, it will change it to 1 and vice versa. Bitwise NOT is nothing but simply the one’s complement of a number. Lets take an example. 
 N = 5 = 101
@@ -28,3 +28,5 @@ A ^ B = (101) ^ (011) = (110) = 6
 6 >> 1 = 3
 5 >> 1 = 2
 16 >> 4 = 1
+
+<strong>Example<strong>
