@@ -25,7 +25,7 @@
 # Java Collections
 - Set
 # Bit Manipulation
-| No | Title | Solution & Note | Difficulty | Time | Space | Tag | Tips |
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 136 |[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Solution.md) | Easy | |  |Bit Manipulation| |
 | 191 | |  | Easy | |  |Bit Manipulation| |
@@ -36,7 +36,7 @@
 | 461 | |  | Easy | |  |Bit Manipulation| |
 | 645 | |  | Easy | |  |Bit Manipulation| |
 # Array
-| No | Title | Solution & Note | Difficulty | Time | Space | Tag | Tips |
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
