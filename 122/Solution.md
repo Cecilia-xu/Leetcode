@@ -8,6 +8,7 @@ class Solution {
         }
         else {
             int maxProfit = 0;
+            // loop until length-1 because when loop=length-1, prices[i+1] is out of bound
             for (int i = 0; i < length-1; i++){
                 if (prices[i] < prices[i+1]) {
                     maxProfit += prices[i+1] - prices[i];
