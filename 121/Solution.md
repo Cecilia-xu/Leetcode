@@ -1,4 +1,4 @@
-# Solution
+# My Solution
 ``` Java
 class Solution {
 
@@ -34,3 +34,25 @@ class Solution {
     
 }
 ```
+# Official Solution
+```Java
+public class Solution {
+    public int maxProfit(int prices[]) {
+        int minprice = Integer.MAX_VALUE;
+        int maxprofit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minprice)
+                minprice = prices[i];
+            else if (prices[i] - minprice > maxprofit)
+                maxprofit = prices[i] - minprice;
+        }
+        return maxprofit;
+    }
+}
+```
+
+MAX_VALUE: public static final int MAX_VALUE(A constant holding the maximum value an int can have, 2^31-1.)<br>
+MIN_VALUE: public static final int MIN_VALUE(A constant holding the minimum value an int can have, 2^31-1.)<br>
+
+
+Cons: Ignore the situation when prices is null
