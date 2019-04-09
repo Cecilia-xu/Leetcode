@@ -1,7 +1,6 @@
 # Leetcode
 # Table of Contents
 - Complexity
-- Classical Algorithm
 - Bit Manipulation
 - Array
 - Linked List
