@@ -51,7 +51,8 @@ Assuming that the most-significant-bit is on the left, notice that the value of 
 # Part 2: Pseudocode
 ## Solution 1
 Input: n <br>
-Output: sum (the number of 1 bits of n)<br>
+Output: sum (the number of 1 bits of n)<br><br>
+>
 sum <- 0 <br>
 // *define a variable and compare it with every bit of n*<br>
 mask <- 1 <br>
