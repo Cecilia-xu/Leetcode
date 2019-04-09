@@ -40,4 +40,4 @@
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Solution.md)| Easy |O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Note.md)|
-| 122 | [Best time to buy and sell stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution}() |Easy|O(n)|O(1)|Array,Greedy|[Note}()|
+| 122 | [Best time to buy and sell stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Solution.md) |Easy|O(n)|O(1)|Array,Greedy|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Note.md)|
