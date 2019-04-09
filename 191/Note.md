@@ -58,6 +58,7 @@ sum <- 0
 // define a variable and compare it with every bit of n
 mask <- 1 
 // compare every bit from bit 0 to bit 32
+
 for i <- 0 to 32-1
   //check the i^{th} bit of a number using a bit mask.
   if n & mask != 0 then sum++
