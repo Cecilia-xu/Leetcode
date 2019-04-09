@@ -57,9 +57,9 @@ sum <- 0 <br>
 mask <- 1 <br>
 // *compare every bit from bit 0 to bit 32* <br>
 for i <- 0 to 32-1<br>
-</n>*check the i^{th} bit of a number using a bit mask.*
-</n> if n & mask != 0 then sum++
-</n>* update mask to change the bit of 1-bit
-</n>mask <<= 1
-return sum
+</n>*check the i^{th} bit of a number using a bit mask.*<br>
+</n> if n & mask != 0 then sum++<br>
+</n>* update mask to change the bit of 1-bit<br>
+</n>mask <<= 1<br>
+return sum<br>
 ## Solution 2
