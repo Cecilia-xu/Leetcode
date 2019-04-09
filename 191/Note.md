@@ -82,3 +82,6 @@ while (n != 0)
 
 return sum
 ```
+# Part 3：Complexity
+1. Since bit manipulation is to calculate a specific number, we just need constant time to deal with this problem. The time complexity is O(1).
+2. Also, the space complexity is O(1) n is a constant number and just takes constant space.
