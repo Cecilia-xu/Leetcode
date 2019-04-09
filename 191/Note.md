@@ -46,7 +46,7 @@ A ^ B = (101) ^ (011) = (110) = 6
 
 ## A Word About Bit Order
 Assuming that the most-significant-bit is on the left, notice that the value of bit 0 is 2^0, bit 1 is 2^1, ..., bit 7 is 2^7.
-10010110 (from bit 7 to bit 0)
+e.g. 10010110 (from bit 7 to bit 0)
 
 # Part 2: Pseudocode
 ## Solution 1
