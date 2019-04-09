@@ -29,4 +29,25 @@ A ^ B = (101) ^ (011) = (110) = 6
 5 >> 1 = 2
 16 >> 4 = 1
 
-<strong>Example<strong>
+<strong>Example</strong><br>
+1010 & 0101 == 0000
+1100 & 0110 == 0100
+
+1010 | 0101 == 1111
+1100 | 0110 == 1110
+
+~1111 == 0000
+~0011 == 1100
+
+1010 ^ 0101 == 1111
+1100 ^ 0110 == 1010
+
+10000001 | 00100000 = 10100001 /* turned on bit 5 */
+
+## A Word About Bit Order
+Assuming that the most-significant-bit is on the left, notice that the value of bit 0 is 2^0, bit 1 is 2^1, ..., bit 7 is 2^7.
+10010110
+^      ^
+|      |------- bit 0
+|
+|-------------- bit 7
