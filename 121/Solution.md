@@ -50,7 +50,7 @@ public class Solution {
     }
 }
 ```
-Pros: Initialize minprice to Integer.MAX_VALUE and update minprice in the first step of loop
+Pros: Initialize minprice to Integer.MAX_VALUE and update minprice in the first step of loop<br>
 MAX_VALUE: public static final int MAX_VALUE(A constant holding the maximum value an int can have, 2^31-1.)<br>
 MIN_VALUE: public static final int MIN_VALUE(A constant holding the minimum value an int can have, 2^31-1.)<br>
 
