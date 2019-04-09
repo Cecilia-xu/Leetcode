@@ -60,7 +60,7 @@ mask <- 1
 // compare every bit from bit 0 to bit 32
 
 for i <- 0 to 32-1
-  //check the i^{th} bit of a number using a bit mask.
+  //check the i^{th} bit of a number using a bit mask. If i^{th} bit is 1, update sum.
   if n & mask != 0 then sum++
   //update mask to change the bit of 1-bit
   mask <<= 1
@@ -73,10 +73,12 @@ Input: n
 Output: sum (the number of 1 bits of n)
 
 sum <- 0 
-
+// when n was not be transfered to 0, use loop to check 1-bits
 while (n != 0)
+  // update sum since we will transfer the last 1-bit
   sum ++
+  // a effective way to transfer every bit to 0 from the last 1-bit to the end  
   n = n & (n-1)
 
-reurn sum
+return sum
 ```
