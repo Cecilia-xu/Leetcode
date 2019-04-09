@@ -11,7 +11,7 @@ if (length==0) then return 0
 
 // when prices array is not null
 else 
-
+  //Initialize maxProfit to 0
   maxProfit<- 0
   
   //earn the profit whenever the prices of next day is higher than i^{th} day
