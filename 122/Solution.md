@@ -19,6 +19,7 @@ class Solution {
     }   
 }
 ```
+<Strong>Be careful to write the range of loop!</Strong>
 # Officail solution
 ```Java
 class Solution {
@@ -32,3 +33,4 @@ class Solution {
     }
 }
 ```
+Cons: Ignore the situation when prices is null
