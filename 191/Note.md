@@ -53,10 +53,13 @@ Assuming that the most-significant-bit is on the left, notice that the value of 
 Input: n <br>
 Output: sum (the number of 1 bits of n)<br>
 sum <- 0 <br>
-// define a variable and compare it with every bit of n<br>
+// *define a variable and compare it with every bit of n*<br>
 mask <- 1 <br>
-// compare every bit from bit 0 to bit 32 <br>
+// *compare every bit from bit 0 to bit 32* <br>
 for i <- 0 to 32-1<br>
-</n> 
-  
+</n>*check the i^{th} bit of a number using a bit mask.*
+</n> if n & mask != 0 then sum++
+</n>* update mask to change the bit of 1-bit
+</n>mask <<= 1
+return sum
 ## Solution 2
