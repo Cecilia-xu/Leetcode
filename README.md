@@ -40,3 +40,5 @@
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
+| 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | Easy | |  |Array| |
+| 122 | [Best time to buy and sell stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|  | Easy | |  |Array,Greedy| |
