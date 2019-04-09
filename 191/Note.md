@@ -46,5 +46,16 @@ A ^ B = (101) ^ (011) = (110) = 6
 
 ## A Word About Bit Order
 Assuming that the most-significant-bit is on the left, notice that the value of bit 0 is 2^0, bit 1 is 2^1, ..., bit 7 is 2^7.
-10010110<br>
-from bit 7 to bit 0
+10010110 (from bit 7 to bit 0)
+
+# Part 2: Pseudocode
+## Solution 1
+Input: n <br>
+Output: sum (the number of 1 bits of n)<br>
+sum <- 0
+// define a variable and compare it with every bit of n
+mask <- 1 
+// compare every bit from bit 0 to bit 32 
+for i <- 0 to 32-1
+  
+## Solution 2
