@@ -68,3 +68,15 @@ for i <- 0 to 32-1
 return sum
 ```
 ## Solution 2
+```
+Input: n 
+Output: sum (the number of 1 bits of n)
+
+sum <- 0 
+
+while (n != 0)
+  sum ++
+  n = n & (n-1)
+
+reurn sum
+```
