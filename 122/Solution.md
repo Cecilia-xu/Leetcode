@@ -19,7 +19,7 @@ class Solution {
     }   
 }
 ```
-<Strong>Be careful to write the range of loop!</Strong>
+<Strong>Note</Strong>：Be careful to write the range of loop!
 # Officail solution
 ```Java
 class Solution {
