@@ -61,7 +61,7 @@ mask <- 1
 
 for i <- 0 to 32-1
   //check the i^{th} bit of a number using a bit mask. If i^{th} bit is 1, update sum.
-  if n & mask != 0 then sum++
+  if (n & mask) != 0 then sum++
   //update mask to change the bit of 1-bit
   mask <<= 1
   
