@@ -12,14 +12,14 @@ if (length == 0) {
 }
 
 else {
-  //define low and high to record the lowest price we already find, initialize it to prices[0] because we start to search from index 0
-  int low <- prices[0]
+  //define low and high to record the lowest price we already find
+  int low <- Integer.MAX_VALUE
   //define the maxProfit to record the maxProfit we already find, initialize it to 0 because when the price decreases all the time the maxprofit is 0
   int maxProfit <- 0
   
-  for i <-1 to length-1{
+  for i <-0 to length-1{
     // update the lowest price
-    if (prices[1] <= low) then low = prices[i]
+    if (prices[i] <= low) then low = prices[i]
     // update maxProfit
     else if (prices[i] - low > maxProfit) then maxProfit = prices[i] - low
     }
