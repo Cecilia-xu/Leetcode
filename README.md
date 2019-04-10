@@ -28,7 +28,7 @@
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 136 |[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Solution.md) | Easy | |  |Bit Manipulation| |
 | 191 |[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Solution.md) | Easy |O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Note.md) |
-| 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution}()|Easy| |  |Bit Manipulation|[Note]()|
+| 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution]()|Easy| |  |Bit Manipulation|[Note]()|
 | 231 | |  | Easy | |  |Bit Manipulation| |
 | 342 | |  | Easy | |  |Bit Manipulation| |
 | 401 | |  | Easy | |  |Bit Manipulation| |
