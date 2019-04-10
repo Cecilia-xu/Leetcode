@@ -1,4 +1,4 @@
-# pseudocode
+# Pseudocode
 ## 1. My Solution
 ```
 Input: int n
