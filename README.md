@@ -29,6 +29,7 @@
 | 136 |[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Solution.md) | Easy | |  |Bit Manipulation| |
 | 191 |[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Solution.md) | Easy |O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Note.md) |
 | 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Note.md)|
+| 326 |[Power of Three](https://leetcode.com/problems/power-of-three/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Solution.md)|Easy|O(logn)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Note.md)|
 | 231 |[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Solution.md)|Easy|O(logn)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Note.md)|
 | 342 | |  | Easy | |  |Bit Manipulation| |
 | 401 | |  | Easy | |  |Bit Manipulation| |
