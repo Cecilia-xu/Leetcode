@@ -12,7 +12,7 @@ class Solution {
     }
 }
 ```
-Time complexity O(logn)<br>
+Time complexity O(log${3}{n}$)<br>
 Space complexity O(1) <br>
 
 # Official Solution
