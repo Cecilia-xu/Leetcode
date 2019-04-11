@@ -28,4 +28,6 @@ if (n == 1) then return true
 else then return false
 ```
 
-Pros: 从range出发比较容易思考全面不遗漏 
+- Pros: 从range出发比较容易思考全面不遗漏 
+- Time Complexity： O(log3 n)
+- Space Complexity:  O(1)
