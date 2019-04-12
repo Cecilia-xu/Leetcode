@@ -8,6 +8,5 @@ int i = 0;
 // Intiailize j to 1, j represents the index of the first number in the set which needs to be searched
 for (int j = 1 to nums.length)
   if (nums[i] != nums [j]) then i++,nums[i]=nums[j] 
-  else j++
 }
 ```
