@@ -38,11 +38,11 @@
 # Array
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
-| 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
-| 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Solution.md)| Easy |O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Note.md)|
 | 122 | [Best time to buy and sell stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Solution.md) |Easy|O(n)|O(1)|Array,Greedy|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Note.md)|
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Note.md)|
 | 283 | [Move Zeros](https://leetcode.com/problems/move-zeroes/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/283/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/283/Note.md)|
 | 027 | [Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Note.md)|
 | 082 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/82/Solution.md)|Medium|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/82/Note.md)|
+| 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
+| 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
