@@ -13,3 +13,6 @@ for (int j = 1 to nums.length)
   if (nums[i] != nums [j]) then i++,nums[i]=nums[j] 
 }
 ```
+# Complexity
+- Time Complexity: O(n)
+- Space Complexity: O(1)
