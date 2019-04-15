@@ -1,7 +1,7 @@
 # Pseudocode
 ## Solution 1 (Brute Force)
 - Tips: Use another array to store the non-zero elements.
--
+
 ```
 Input: int[] nums
 Output: void
