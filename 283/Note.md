@@ -19,5 +19,6 @@ for j -> 0 to nonZeroNums.size-1:
 nums[i] = nonZeroNums.get(i)
 for j - > nonZeroNums.size-1 to nums.length-1
 nums[j] = 0
+```
 
 ## Solution 2 (Two pointers)
