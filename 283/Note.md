@@ -20,9 +20,11 @@ nums[i] = nonZeroNums.get(i)
 for j - > nonZeroNums.size-1 to nums.length-1
 nums[j] = 0
 ```
+- Time Complexity: O(n) (two loops, no nested loop)
+- Space Complexity: O()
 
 ## Solution 2 (Two pointers)
--Tips: Use one pointer to memorize the index of non-zero numbers and use another one pointer to traverse the array
+-Tips: Use one pointer to record the index of non-zero numbers and use another one pointer to traverse the array
 ```
 Input: int[] nums
 Output: void
@@ -38,4 +40,20 @@ if (nums[j] != 0) then nums[i] = nums[j] and i++
 while (i < nums.length):
 nums[i] = 0
 i++
+```
+
+## Solution 3 (Two pointers)
+- Tips: Use one poingter to record the index of non-zero numbers and use another one poinger to record the index of zero numbers. Swap the first non-zero numbers and zero
+```
+Input: int[] nums
+Output: void
+
+//define a variable to record the index of non-zero numbers
+int i = 0
+
+//traverse the array and record all the non zero numbers in the first part
+for int j ->0 to nums.length-1:
+if (nums[j] != 0) then nums[i] = nums[j] and i++ 
+
+
 ```
