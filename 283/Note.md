@@ -24,7 +24,9 @@ nums[j] = 0
 - Space Complexity: O()
 
 ## Solution 2 (Two pointers)
--Tips: Use one pointer to record the index of non-zero numbers and use another one pointer to traverse the array
+-Tips: Use one pointer to record the index of non-zero numbers and use another one pointer to traverse the array<br>
+1. tranverse and make non-zero number in the right place
+2. add zero in the end
 ```
 Input: int[] nums
 Output: void
@@ -43,7 +45,8 @@ i++
 ```
 
 ## Solution 3 (Two pointers)
-- Tips: Use one poingter to record the index of non-zero numbers and use another one poinger to record the index of zero numbers. Swap the first non-zero numbers and zero
+- Tips: Use one pointer to record the index of non-zero numbers and use another one pointer to record the index of zero numbers. Swap the first non-zero numbers and the first zero numbers<br>
+1. Tranverse and swap the position of non-zero number and zero
 ```
 Input: int[] nums
 Output: void
