@@ -45,7 +45,8 @@ while (i < nums.length):
 nums[i] = 0
 i++
 ```
-
+- Time complexity: O(n)
+- Space complexity: O(1)
 ## Solution 3 (Two pointers)
 - Tips: Use one pointer to record the index of non-zero numbers and use another one pointer to record the index of zero numbers. Swap the first non-zero numbers and the first zero numbers<br>
 1. Tranverse and swap the position of non-zero number and zero
@@ -53,12 +54,12 @@ i++
 Input: int[] nums
 Output: void
 
-//define a variable to record the index of non-zero numbers
-int i = 0
-
-//traverse the array and record all the non zero numbers in the first part
-for int j ->0 to nums.length-1:
-if (nums[j] != 0) then nums[i] = nums[j] and i++ 
-
-
+//define a variable to record the index of the first index of non-zero number in the searching part
+int i = 0 
+//define a variable to record the index of 0 in the part which has been searched
+int j = 0
+for int i ->0 to nums.length-1:
+if (nums[i] != 0) then swap(num[i], num[j]) and j++
 ```
+- Time complexity: O(n)
+- Space complexity: O(1)
