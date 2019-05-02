@@ -18,4 +18,4 @@ Reference：https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 3. Search: get(index) - O(1) / contains(element)/indexOf(element) - O(n)
 4. Modify: set(index,element) - O(1)
 ## Implementation
-[ArrayList]()
+[ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayListImplementation.java)
