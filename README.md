@@ -22,6 +22,7 @@
 - Time Complexity
 - Space Complexity
 # Data structure
+- [Array]()
 - [ArrayList]()
 # Array
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
