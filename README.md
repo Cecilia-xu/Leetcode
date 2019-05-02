@@ -1,6 +1,7 @@
 # Leetcode
 # Table of Contents
 - Complexity
+- Data structures
 - Array
 - Bit Manipulation
 - Linked List
