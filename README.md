@@ -22,8 +22,8 @@
 - Time Complexity
 - Space Complexity
 # Data structure
-- [Array]()
-- [ArrayList]()
+- [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
+- [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
 # Array
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
