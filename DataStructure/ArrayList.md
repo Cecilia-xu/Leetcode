@@ -17,3 +17,5 @@ Reference：https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 2. Delete: remove(Object element/int index) - O(n)
 3. Search: get(index) - O(1) / contains(element)/indexOf(element) - O(n)
 4. Modify: set(index,element) - O(1)
+## Implementation
+[ArrayList]()
