@@ -5,5 +5,5 @@
 ## Benifits
 random access
 ## Drawbacks
-Fixed size
-no support for insert or delete
+1) Fixed size
+2) no support for insert or delete
