@@ -12,3 +12,4 @@
 3.3 Operates in O(n) time
 ## Methods
 Reference：https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+## Time Complexity
