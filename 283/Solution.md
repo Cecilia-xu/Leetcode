@@ -17,7 +17,7 @@ class Solution {
     }
 }
 ```
-注意：ArrayList获得size是调用ArrayList里的size方法，所以需要加括号
+注意：ArrayList获得size是调用ArrayList class里的size方法，所以需要加括号; array获得length不需要加括号，因为只是array中的一个attribute，不是method
 # Solution 3
 ```Java
 class Solution {
