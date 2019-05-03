@@ -53,6 +53,7 @@ class Solution {
     }
 }
 ```
+注:swap方法最好单独写，保证每个method实现1个功能，使代码可读性更强
 ```Java
 class Solution {
     public void moveZeroes(int[] nums) {
