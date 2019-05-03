@@ -1,9 +1,9 @@
 # Pseudocode
 ## Solution 1 (Brute Force)
 - Tips: Use another array to store the non-zero elements.<br>
-1.Traverse and find all the non-zero numbers in an array(store all the non-zero numbers in another arraylist)
-2.Put all the non-zero numbers from the arraylist to the array back 
-3.Add zero in the end
+1. Traverse and find all the non-zero numbers in an array(store all the non-zero numbers in another arraylist)
+2. Put all the non-zero numbers from the arraylist to the array back 
+3. Add zero in the end
 ```
 Input: int[] nums
 Output: void
