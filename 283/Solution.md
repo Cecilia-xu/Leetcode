@@ -1,0 +1,36 @@
+# Solution 1
+``` Java
+class Solution {
+    public void moveZeroes(int[] nums) {
+        ArrayList<Integer> newNums = new ArrayList<>();
+        for (int i = 0 ; i < nums.length; i ++) {
+            if (nums[i] != 0) {
+                newNums.add(nums[i]);
+            }
+        }
+        for (int j = 0; j < newNums.size(); j ++) {
+            nums[j] = newNums.get(j);
+        }
+        for (int j = newNums.size(); j < nums.length; j++) {
+            nums[j] = 0;
+        }
+    }
+}
+```
+注意：ArrayList获得size是调用ArrayList里的size方法，所以需要加括号
+# Solution 3
+```Java
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int i = 0;
+        for (int j = 0; j < nums.length; j ++) {
+            if (nums[j] != 0) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                i ++;
+            }
+        }
+    }
+}
+```
