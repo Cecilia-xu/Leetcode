@@ -46,3 +46,4 @@ public class Solution extends GuessGame {
     }
 }
 ```
+Note: binary search形成模板，low，high，while条件，medium，随着区间不同更新low/high
