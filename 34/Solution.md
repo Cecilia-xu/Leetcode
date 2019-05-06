@@ -36,5 +36,5 @@ class Solution {
     }
 }
 ```
-HOWEVER, TIME COMPLEXITY IS o(n) !!!(WORST CASE)<br>
+<strong>HOWEVER, TIME COMPLEXITY IS o(n) !!!(WORST CASE)</strong><br>
 space complexity: O(1)
