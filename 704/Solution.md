@@ -1,3 +1,4 @@
+```Java
 class Solution {
     public int search(int[] nums, int target) {
         int low = 0;
@@ -17,3 +18,4 @@ class Solution {
         return -1;
     }
 }
+```
