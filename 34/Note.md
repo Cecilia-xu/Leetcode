@@ -10,7 +10,7 @@
 # Soultion 1: linear search
 ## Algorithm
 1. start from the smallest index and search for the first index whose value equals target
-2. start from the largest index and search for the first index whose value equals target
+2. start from the largest index and search for the first index whose value equals target<br>
 Note：对撞指针（常用）
 ## Complexity
 - Time complexity: O(n)
@@ -39,3 +39,22 @@ return result
 Time complexity: O(logn)
 Space complexity: O(1)
 ## Pseudocode
+```
+Method 1 : decide how to deal with the condition left/right
+Input: 
+int[] nums
+int target
+boolean left
+
+//binary search in a range [low,high)
+int low = 0
+int high = nums.length 
+int mid = low + (high - low ) / 2
+while (low < high) then 
+    //update low index if the number we found is larger than target
+    //or equals to the target when we find the left most index
+    if (nums[mid] > target || nums[mid] == target && left) then low = mid + 1 
+    //update high index if the number we found is smaller than target
+    //or equals to the target but we are trying to find the larger one
+    else then high = mid - 1
+```
