@@ -1,39 +1,23 @@
-```Java
-class Solution {
-    // returns leftmost (or rightmost) index at which `target` should be
-    // inserted in sorted array `nums` via binary search.
-    private int extremeInsertionIndex(int[] nums, int target, boolean left) {
-        int lo = 0;
-        int hi = nums.length;
+# Soultion 1: linear search
+## Algorithm：
+1. start from the smallest index and search for the first index whose value equals target
+2. start from the largest index and search for the first index whose value equals target
+## Complexity
+- Time complexity: O(n)
+- Space complexity: O(1)
+## Pseudocode
+```
+Input: int[] nums, int target
+Output: int[2] result(start/end)
 
-        while (lo < hi) {
-            int mid = (lo + hi) / 2;
-            if (nums[mid] > target || (left && target == nums[mid])) {
-                hi = mid;
-            }
-            else {
-                lo = mid+1;
-            }
-        }
-
-        return lo;
-    }
-
-    public int[] searchRange(int[] nums, int target) {
-        int[] targetRange = {-1, -1};
-
-        int leftIdx = extremeInsertionIndex(nums, target, true);
-
-        // assert that `leftIdx` is within the array bounds and that `target`
-        // is actually in `nums`.
-        if (leftIdx == nums.length || nums[leftIdx] != target) {
-            return targetRange;
-        }
-
-        targetRange[0] = leftIdx;
-        targetRange[1] = extremeInsertionIndex(nums, target, false)-1;
-
-        return targetRange;
-    }
-}
+result[] = {-1,-1}
+//find the left most 
+for i -> 0 to nums.length-1:
+    if nums[i] == target then result[0] = i and then break
+//check whether needs to find the right most(not neccessary, but can improve efficiency)
+if result[0] == -1 then return result
+//fint the right most
+for i ->nums.length-1 to 0:
+    if nums[i] == target then result[1] = i and then break
+return result
 ```
