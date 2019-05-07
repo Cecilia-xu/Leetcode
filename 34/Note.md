@@ -1,3 +1,12 @@
+# My solution: combination
+## Algorithm
+1. find any element which is equal to the target using binary search
+2. search the left most index: search leftward from the index we found in the first step by using linear search
+3. search the right most index: search rightward from the index we found in the first step by using linear search
+## Complexity
+- Time complexity: O(n) (WORST CASE)
+- Space complexity: O(1)
+
 # Soultion 1: linear search
 ## Algorithm
 1. start from the smallest index and search for the first index whose value equals target
@@ -25,6 +34,8 @@ return result
 # Solution 2: binary search
 ## Algorithm
 1. Use binary search to find the left most index of the range
-2. Use binary search to find the right most index of the range
+2. Use binary search to find the first index whose value is larger than target(the right most index = this index - 1)
 ## Complexity
+Time complexity: O(logn)
+Space complexity: O(1)
 ## Pseudocode
