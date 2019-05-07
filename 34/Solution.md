@@ -38,3 +38,29 @@ class Solution {
 ```
 <strong>HOWEVER, TIME COMPLEXITY IS o(n) !!!(WORST CASE)</strong><br>
 space complexity: O(1)
+# Solution 1: linear search
+```Java
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        int[] result = {-1,-1};
+        //find the start index of the the range
+        for(int i = 0; i < nums.length; i ++) {
+            if (nums[i] == target) {
+                result[0] = i;
+                break;
+            }
+        }
+        if (result[0] == -1) {
+            return result;
+        }
+        // find the end index of the range
+        for (int j = nums.length - 1; j >= 0; j --) {
+            if (nums[j] == target) {
+                result[1] = j;
+                break;
+            }
+        }
+        return result;
+    }
+}
+```
