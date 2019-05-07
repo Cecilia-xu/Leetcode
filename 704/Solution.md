@@ -1,3 +1,4 @@
+# Solution 1： range \[low, high\]
 ```Java
 class Solution {
     public int search(int[] nums, int target) {
@@ -19,3 +20,5 @@ class Solution {
     }
 }
 ```
+# Solution 2 : range \[low, high)
+`
