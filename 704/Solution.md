@@ -1,4 +1,4 @@
-# Solution:
+# Solution
 ## 1. range \[low, high\]
 ```Java
 class Solution {
@@ -51,3 +51,30 @@ classs Solution {
     }
 }
 ```
+## 3. Similar problem: generics
+Take range \[low, high) as example:
+```Java
+class Solution {
+     // Tyoe: Comparable!
+     public int search(Comparable[] arr, Comparable target) {
+        int low = 0;
+        int high = arr.length;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid].compareTo(target) == 0) {
+                return mid;
+            }
+            else {
+                if (arr[mid].compareTo(target) < 0) {
+                    low = mid + 1;
+                }
+                else {
+                    high = mid;
+                }
+            }
+        }
+        return -1;
+     }
+}
+```
+Note: generics - use compareTo method to compare 2 different values / use Comparable API to define the type and rules
