@@ -14,7 +14,7 @@ class Solution {
 ```
 Note:
 1. traverse the array-for (int n : nums)
-2. Clear, beautiful (especially in the logic statement)<br>
+2. Clear, beautiful (especially in the logic statement)
 写法 2
 ```Java
 class Solution {
