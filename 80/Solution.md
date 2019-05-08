@@ -14,4 +14,19 @@ class Solution {
 ```
 Note:
 1. traverse the array-for (int n : nums)
-2. Clear, beautiful (especially in the logic statement)
+2. Clear, beautiful (especially in the logic statement)<br>
+写法 2
+```Java
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 0; j < nums.length; j ++) {
+            if (j < 2 || nums[j] > nums[i - 2]) {
+                nums[i] = nums[j];
+                i ++;
+            } 
+        }
+        return i;
+    }
+}
+```
