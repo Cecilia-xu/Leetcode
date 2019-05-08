@@ -12,4 +12,6 @@ class Solution {
     }
 }
 ```
-！ 这个解法真的是简洁又优美
+Note:
+1. traverse the array-for (int n : nums)
+2. Clear, beautiful (especially in the logic statement)
