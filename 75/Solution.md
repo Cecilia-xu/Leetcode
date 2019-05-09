@@ -55,4 +55,5 @@ public class Solution1 {
 ```
 ## Comparasion & Notes:
 1. Use assert! [assert用法](https://www.geeksforgeeks.org/assertions-in-java/)
-2. Create a new variable index, which can make the code more clear!
+2. There is no need to use if ... else... in counting. e.g. count\[nums\[i\]\]
+3. Create a new variable index, which can make the code more clear!
