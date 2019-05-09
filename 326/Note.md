@@ -16,7 +16,7 @@ Output: boolean isPower
   else then return false
 ```
 
-2. official solution is to think about the range of n 
+2. official solution is to focus on the range of n 
 
 ```
 if (n <= 0 ) then return false;
