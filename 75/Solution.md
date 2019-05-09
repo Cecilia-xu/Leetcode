@@ -31,3 +31,28 @@ class Solution {
     }
 }
 ```
+## Other's solution
+``` Java
+public class Solution1 {
+
+    public void sortColors(int[] nums) {
+
+        int[] count = {0, 0, 0};    // 存放0, 1, 2三个元素的频率
+        for(int i = 0 ; i < nums.length ; i ++){
+            assert nums[i] >= 0 && nums[i] <= 2;
+            count[nums[i]] ++;
+        }
+
+        int index = 0;
+        for(int i = 0 ; i < count[0] ; i ++)
+            nums[index++] = 0;
+        for(int i = 0 ; i < count[1] ; i ++)
+            nums[index++] = 1;
+        for(int i = 0 ; i < count[2] ; i ++)
+            nums[index++] = 2;
+    }
+
+```
+## Comparasion & Notes:
+1. Use assert! [assert用法](https://www.geeksforgeeks.org/assertions-in-java/)
+2. Create a new variable index, which can make the code more clear!
