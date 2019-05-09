@@ -37,6 +37,7 @@
 | 027 | [Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Note.md)|
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Note.md)|
 | 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/80/Solution.md)|Medium|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/80/Note.md)|
+| 075 | [Sort colors](https://leetcode.com/problems/sort-colors/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/75/Solution.md)|Medium|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/75/Note.md)|
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 # Bit Manipulation
