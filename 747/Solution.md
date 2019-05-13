@@ -26,3 +26,22 @@ class Solution {
     }
 }
 ```
+#Official Solution
+```Java
+class Solution {
+    public int dominantIndex(int[] nums) {
+        int maxIndex = 0;
+        for (int i = 0; i < nums.length; ++i) {
+            if (nums[i] > nums[maxIndex])
+                maxIndex = i;
+        }
+        for (int i = 0; i < nums.length; ++i) {
+            if (maxIndex != i && nums[maxIndex] < 2 * nums[i])
+                return -1;
+        }
+        return maxIndex;
+    }
+}
+```
+Note：1. There is no need to create a new variable maxNumber to make comparsion. Finding maxIndex is enough.
+2.There is no need to find the second largest number. Just compare it with twice of each element.
