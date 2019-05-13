@@ -22,3 +22,6 @@ for (int i -> nums.length - 1):
 //Not found
 return -1
 ```
+# Complexity
+- Time complexity: O(n)
+- Space complexity: O(1)
