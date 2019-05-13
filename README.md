@@ -1,6 +1,7 @@
 # Leetcode
 # Table of Contents
 - Complexity
+- LeetCode Explore
 - Data structures
 - Array
 - Bit Manipulation
@@ -22,6 +23,10 @@
 # Complexity
 - Time Complexity
 - Space Complexity
+# LeetCode Explore
+| No | Title | Note | 
+| :----- | :-----: | :----------: |
+| 01 | [Array and String]()|[Note]()|
 # Data structure
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
 - [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
