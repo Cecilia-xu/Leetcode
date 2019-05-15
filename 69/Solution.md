@@ -57,4 +57,8 @@ class Solution {
     
 }
 ```
-### Comparsion
+### Analysis
+1. target: x
+2. nums: \[0,1 ... x\] (作比较是从1开始的，因为下面涉及了除法，把0单独拿出来讨论)  left = 1, right = x
+3. comparsion: mid <= x/mid && ( mid + 1 ) > x / (mid + 1)
+### Comparsion 
