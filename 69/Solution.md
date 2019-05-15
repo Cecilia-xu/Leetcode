@@ -61,4 +61,8 @@ class Solution {
 1. target: x
 2. nums: \[0,1 ... x\] (作比较是从1开始的，因为下面涉及了除法，把0单独拿出来讨论)  left = 1, right = x
 3. comparsion: mid <= x/mid && ( mid + 1 ) > x / (mid + 1)
-### Comparsion 
+### Comparsion & Notes 
+1. The question states that the number should be non-negative! ——> Pay attention to the range of the numbers! Be patient to read the question!!!
+2.
+3.
+4.
