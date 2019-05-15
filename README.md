@@ -27,7 +27,7 @@
 | No | Title | Note | Date |
 | :----- | :-----: | :----------: | :----------: |
 | 01 | [Array and String](https://leetcode.com/explore/learn/card/array-and-string/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Array%20and%20String.md)| 2019-05-13|
-| 02 | [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Array%20and%20String.md)| 2019-05-15|
+| 02 | [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Binary%20Search.md)| 2019-05-15|
 # Data structure
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
 - [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
