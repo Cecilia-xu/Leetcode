@@ -1,13 +1,13 @@
 # Note: binary search
 ## Algorithm & Template
 Find variables:
-target: x
-start: 1
-end: x
-mid: start + (start - end) / 2
-when to return mid: mid <= x / mid && mid + 1 > x / (mid + 1) 
-when to change start: mid < x / mid
-when to change end: mid > x / mid
+1. target: x
+2. start: 1
+3. end: x
+4. mid: start + (start - end) / 2
+5. when to return mid: mid <= x / mid && mid + 1 > x / (mid + 1) 
+6. when to change start: mid < x / mid
+7. when to change end: mid > x / mid
 ## Pseudocode
 Input: int x
 Output: int i
