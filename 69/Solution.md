@@ -15,13 +15,13 @@ Note： 此为修改后解法，注意关注x=0的情况，以及Math.sqrt的返
 ```Java
 class Solution {
     public int mySqrt(int x) {
-        if (x < 0) {
+        if (x < 0) { //Note 1
             return -1;
         }
-        int left = 0;
+        int left = 0; 
         int right = x;
-        while (left * left <= right * right) {
-            int mid = left + (right - left) / 2;
+        while (left * left <= right * right) { 
+            int mid = left + (right - left) / 2; //Note 2
             if (mid * mid == x) {
                 return mid;
             }
@@ -63,6 +63,6 @@ class Solution {
 3. comparsion: mid <= x/mid && ( mid + 1 ) > x / (mid + 1)
 ### Comparsion & Notes 
 1. The question states that the number should be non-negative! ——> Pay attention to the range of the numbers! Be patient to read the question!!!
-2.
-3.
+2. A little trick is using i <= x / i for comparison, instead of i * i <= x, to avoid exceeding integer upper limit.
+3. !IMPORTANT: when we return mid: it is not only mid * mid == x but 
 4.
