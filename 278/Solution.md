@@ -20,4 +20,6 @@ public class Solution extends VersionControl {
     }
 }
 ```
-Note: If we need to use any method that will return a boolean value, we have to figure out the meaning of this method first. It is important to know the cases where the method will return true. For example, the element is bad when the isBadVersion method returns ture.
+Note: 
+1. If we need to use any method that will return a boolean value, we have to figure out the meaning of this method first. It is important to know the cases where the method will return true. For example, the element is bad when the isBadVersion method returns ture.
+2. You do not need to think about when no first bad verion exists because in this question there must exist one.
