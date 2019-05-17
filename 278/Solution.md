@@ -20,3 +20,4 @@ public class Solution extends VersionControl {
     }
 }
 ```
+Note: If we need to use any method that will return a boolean value, we have to figure out the meaning of this method first. It is important to know the cases where the method will return true. For example, the element is bad when the isBadVersion method returns ture.
