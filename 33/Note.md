@@ -16,12 +16,14 @@ Just focus on finding the target number without searching two sorted subarrays.
 1. Find the mid and nums\[mid\].
 2. If nums\[mid\] == target, return mid
 3. If nums\[mid\] > nums\[start\]:(which means the sequence is not changed in \[start, mid\])
-- If nums\[mid\] > target && nums\[start\] <= target, end = mid - 1 (target in the unrotated part, search in the left part)
+- If nums\[start\] == target, return start (!等于的情况一定要单独拎出来，以防在后面的书写中造成麻烦和错误)
+- If nums\[mid\] > target && nums\[start\] < target, end = mid - 1 (target in the unrotated part, search in the left part)
 - If nums\[mid\] > target && nums\[satrt\] > target, start = mid + 1 (target in the rotated part, search in the right part)
-- If nums\[mid\] < target, start = mid + 1 (nums\[start\] must be smaller than target)  
+- If nums\[mid\] < target, start = mid + 1 (nums\[start\] must be smaller than target, target will not exists in the right part)  
 4. If nums\[mid\] < nums\[start\]: (which means the sequence is changed in \[start, mid\])
+- If nums\[end\] == target, return end (!)
 - If nums\[mid\] < target && nums\[end\] < target, end = mid - 1 (target in the unrotated part, search in the left part)
-- If nums\[mid\] < target && nums\[end\] >= target, start = mid + 1 (target in the rotated part, search in the right part)
+- If nums\[mid\] < target && nums\[end\] > target, start = mid + 1 (target in the rotated part, search in the right part)
 - If nums\[mid\] > target, end = mid - 1 (nums\[end\] must be larger than target.)
 ## Complexity
 - Time complexity: O(logn)
