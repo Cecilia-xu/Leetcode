@@ -1,4 +1,5 @@
 # Solution 1: Linear search
+``` Java
 class Solution {
     public int findPeakElement(int[] nums) {
         for (int i = 0; i < nums.length - 1; i ++) {
@@ -9,4 +10,5 @@ class Solution {
         return nums.length - 1;
     } 
 }
+```
 Note:对于peak的理解，对于默认return值的理解
