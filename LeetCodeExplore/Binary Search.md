@@ -37,6 +37,8 @@ Template #1 is used to search for an element or condition which can be determine
 - Termination: left > right(!)
 - Searching Left: right = mid - 1
 - Searching Right: left = mid + 1
+### My conclusion
+This template can be used into some questions in which you have to find a single index in the array. Also, you can compare any 2 numbers in the array. 
 # Template 2
 ``` Java
 int binarySearch(int[] nums, int target){
@@ -58,3 +60,5 @@ int binarySearch(int[] nums, int target){
   return -1;
 }
 ```
+### My conclusion
+This template can be used into some questions similar to "OOOOOOOOOOOXXXXXXXXXXX". Sometimes, we do not need to compare different elements in the array.
