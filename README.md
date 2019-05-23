@@ -51,6 +51,7 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/724/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/724/Note.md)|
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/747/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/747/Note.md)|
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Note.md)|
+| 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Note.md)|
 | 349 | Intersection of Two Arrays |  | Easy | | | Array | [Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 | 350 | Intersection of Two Arrays II|  | Easy | | |Array |[Search](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Tips.md)|
 # Bit Manipulation
