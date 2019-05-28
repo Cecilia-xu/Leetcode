@@ -1,4 +1,5 @@
 # My solution
+Intuition: Find the largest number and the second largest number in the array. If the largest number is two times larger than the second largest number, then return i.
 ```Java
 class Solution {
     public int dominantIndex(int[] nums) {
@@ -27,6 +28,7 @@ class Solution {
 }
 ```
 # Official Solution
+Intuition: Find the largest number in the array. If there is a number which mutiple 2 is larger than the largest number, we return -1. Otherwise, return the index of the largest number.
 ```Java
 class Solution {
     public int dominantIndex(int[] nums) {
