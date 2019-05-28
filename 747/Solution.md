@@ -26,7 +26,7 @@ class Solution {
     }
 }
 ```
-#Official Solution
+# Official Solution
 ```Java
 class Solution {
     public int dominantIndex(int[] nums) {
