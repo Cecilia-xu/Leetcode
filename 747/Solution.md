@@ -45,5 +45,6 @@ class Solution {
     }
 }
 ```
-Note：1. There is no need to create a new variable maxNumber to make comparsion. Finding maxIndex is enough.
-2.There is no need to find the second largest number. Just compare it with twice of each element.
+# Comparasion
+1. There is no need to create a new variable maxNumber to store the number. Finding maxIndex is enough.
+2. There is no need to find the second largest number. Just compare it with twice of each element. If we
