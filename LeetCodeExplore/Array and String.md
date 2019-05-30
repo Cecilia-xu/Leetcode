@@ -207,7 +207,8 @@ Line 5: error: array required, but String found [in Main.java]
         s1[5] = ',';
           ^
 ```
-- <strong> Other operation </strong> <br>
+#### More discussions : problems & solutions
+- <strong> Other operations: concatenate, indexOf and substring </strong> <br>
 ```Java
 // "static void main" must be defined in a public class.
 public class Main {
