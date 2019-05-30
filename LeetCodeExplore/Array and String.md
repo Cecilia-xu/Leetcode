@@ -208,9 +208,21 @@ Line 5: error: array required, but String found [in Main.java]
           ^
 ```
 > <strong> More discussions : problems & solutions </strong> <br> 
-    1. Modification operation <br> 
-    If you want to modify just one of the characters, you have to create a new string.
-    
+    1. Modification operation: If you want to modify just one of the characters, you have to create a new string.<br>
+    2. String Concatenation: In Java, since the string is immutable, concatenation works by first allocating enough space for the new       string, copy the contents from the old string and append to the new string.<br>
+    Therefore, the time complexity in total will be: 5 + 5 × 2 + 5 × 3 + … + 5 × n = 5 × (1 + 2 + 3 + … + n) = 5 × n × (n + 1) / 2, which is O(n2).
+    ```Java
+        // "static void main" must be defined in a public class.
+    public class Main {
+        public static void main(String[] args) {
+            String s = "";
+            int n = 10000;
+            for (int i = 0; i < n; i++) {
+                s += "hello";
+            }
+        }
+    }
+    ```
 - <strong> Other operations: concatenate, indexOf and substring </strong> <br>
 ```Java
 // "static void main" must be defined in a public class.
