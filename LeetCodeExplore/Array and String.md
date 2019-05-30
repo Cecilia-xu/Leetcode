@@ -139,7 +139,7 @@ Example III:
 ```
 #### Principles
 In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers. (N can be different in anyone in these M elements)
-## 4. Introduction to String (focus on the differences between array and string)
+## 4. Introduction to String (focus on differences between array and string)
 - Compare function <br>
 Since Java does not support operator overloading, we may not use "==" to compare two strings. When we use "==", it actually compares whether these two objects are the same object.
 ```Java
@@ -183,7 +183,7 @@ public class Main {
 }
 ```
 Other Reference: [Java | ==, equals(), compareTo(), equalsIgnoreCase() and compare()](https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/)
->  Conclusion: <br>
+>  <strong> Conclusion: <br>
     1. ==: compare the object<br>
     2. equals: compare the content of string <br>
     3. compareTo: compare the ASCII value of the string <br>
