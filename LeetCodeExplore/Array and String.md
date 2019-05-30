@@ -183,3 +183,9 @@ public class Main {
 }
 ```
 Other Reference: [Java | ==, equals(), compareTo(), equalsIgnoreCase() and compare()](https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/)
+> Conclusion: 
+    - ==: compare the object
+    - equals: compare the content of string 
+    - compareTo: compare the ASCII value of the string 
+    - equalsIgnoreCase: similar to equals, but ignore the case 
+    - compare: should use Collator class which is in java.text packages; can define our own custom comparison rules
