@@ -208,9 +208,9 @@ Line 5: error: array required, but String found [in Main.java]
           ^
 ```
 > <strong> More discussions: Problems </strong><br> 
-    <strong>1. Modification Operation:</strong><br>
+   *1. Modification Operation:*<br>
     If you want to modify just one of the characters, you have to create a new string. <br>
-    <strong>2. String Concatenation: </strong><br>
+    *2. String Concatenation:*</strong><br>
     In Java, since the string is immutable, concatenation works by first allocating enough space for the new       string, copy the contents from the old string and append to the new string. <br>
     Therefore, the time complexity in total will be: 5 + 5 × 2 + 5 × 3 + … + 5 × n = 5 × (1 + 2 + 3 + … + n) = 5 × n × (n + 1) / 2, which is O(n^2).
 ```Java
