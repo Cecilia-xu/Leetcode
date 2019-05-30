@@ -1,5 +1,5 @@
 # Array and String
-## Array Operations
+## 1. Array Operations
 ```Java
 // "static void main" must be defined in a public class.
 public class Main {
@@ -29,7 +29,7 @@ public class Main {
     }
 }
 ```
-## ArrayList Operations
+## 2. ArrayList Operations
 ```Java
 // "static void main" must be defined in a public class.
 public class Main {
@@ -73,7 +73,7 @@ public class Main {
     }
 }
 ```
-# 2d Array
+## 3. 2D Array
 ```Java
 // "static void main" must be defined in a public class.
 public class Main {
