@@ -238,8 +238,8 @@ Line 5: error: array required, but String found [in Main.java]
         }
     }
  ```
-    2. If you have to concatenate strings often, it will be better to use some other data structures like StringBuilder. The below code runs in O(n) complexity.
-```
+   > 2. If you have to concatenate strings often, it will be better to use some other data structures like StringBuilder. The below code runs in O(n) complexity.
+```Java
     // "static void main" must be defined in a public class.
     public class Main {
         public static void main(String[] args) {
