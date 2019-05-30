@@ -189,4 +189,5 @@ Other Reference: [Java | ==, equals(), compareTo(), equalsIgnoreCase() and compa
     3. compareTo: compare the ASCII value of the string <br>
     4. equalsIgnoreCase: similar to equals, but ignore the case <br>
     5. compare: should use Collator class which is in java.text packages; can define our own custom comparison rules
-- Immutable
+- Immutable <br>
+In Java,the string is immutable, which means you cannot modify the string like what youdid in array
