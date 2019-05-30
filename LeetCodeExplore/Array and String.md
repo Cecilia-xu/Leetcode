@@ -168,15 +168,18 @@ public class Main {
         
         // compare using 'equals'
         System.out.println("Compared by 'equals':");
+        // all true since contents of all the strings are "Hello world"
         System.out.println("s1 and \"Hello World\": " + s1.equals("Hello World"));
         System.out.println("s1 and s2: " + s1.equals(s2));
         System.out.println("s1 and s3: " + s1.equals(s3));
         
         // compare using 'compareTo'
         System.out.println("Compared by 'compareTo':");
+        // all true since ASCII values of all the strings are equal
         System.out.println("s1 and \"Hello World\": " + (s1.compareTo("Hello World") == 0));
         System.out.println("s1 and s2: " + (s1.compareTo(s2) == 0));
         System.out.println("s1 and s3: " + (s1.compareTo(s3) == 0));
     }
 }
 ```
+Other Reference:[Java | ==, equals(), compareTo(), equalsIgnoreCase() and compare()](https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/)
