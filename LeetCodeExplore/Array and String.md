@@ -140,7 +140,7 @@ Example III:
 #### Principles
 In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers. (N can be different in anyone in these M elements)
 ## 4. Introduction to String (focus on differences between array and string)
-- Compare function <br>
+- <strong> Compare function </strong><br>
 Since Java does not support operator overloading, we may not use "==" to compare two strings. When we use "==", it actually compares whether these two objects are the same object.
 ```Java
 // "static void main" must be defined in a public class.
@@ -183,13 +183,13 @@ public class Main {
 }
 ```
 Other Reference: [Java | ==, equals(), compareTo(), equalsIgnoreCase() and compare()](https://www.geeksforgeeks.org/java-equals-compareto-equalsignorecase-and-compare/)
->  <strong> Conclusion: <br>
+>  <strong> Conclusion: </strong> <br>
     1. ==: compare the object<br>
     2. equals: compare the content of string <br>
     3. compareTo: compare the ASCII value of the string <br>
     4. equalsIgnoreCase: similar to equals, but ignore the case <br>
     5. compare: should use Collator class which is in java.text packages; can define our own custom comparison rules
-- Immutable <br>
+- <strong> Immutable </strong><br>
 In Java,the string is immutable, which means you cannot modify the string like what you did in array
 ``` Java
 // "static void main" must be defined in a public class.
