@@ -175,7 +175,7 @@ public class Main {
         
         // compare using 'compareTo'
         System.out.println("Compared by 'compareTo':");
-        // all true since ASCII values of all the strings are equal and thus the CompareTo methods return 0
+        // all true since ASCII values of all the strings are equal and thus all the CompareTo methods return 0
         System.out.println("s1 and \"Hello World\": " + (s1.compareTo("Hello World") == 0));
         System.out.println("s1 and s2: " + (s1.compareTo(s2) == 0));
         System.out.println("s1 and s3: " + (s1.compareTo(s3) == 0));
