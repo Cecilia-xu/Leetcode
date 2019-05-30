@@ -226,6 +226,32 @@ Line 5: error: array required, but String found [in Main.java]
     }
 ```
 > <strong> More discussions: Solutions </strong><br> 
+    1.  If you did want your string to be mutable, you can convert it to a char array.
+ ```Java
+    // "static void main" must be defined in a public class.
+    public class Main {
+        public static void main(String[] args) {
+            String s = "Hello World";
+            char[] str = s.toCharArray();
+            str[5] = ',';
+            System.out.println(str);
+        }
+    }
+ ```
+    2. If you have to concatenate strings often, it will be better to use some other data structures like StringBuilder. The below code runs in O(n) complexity.
+```
+    // "static void main" must be defined in a public class.
+    public class Main {
+        public static void main(String[] args) {
+            int n = 10000;
+            StringBuilder str = new StringBuilder();
+            for (int i = 0; i < n; i++) {
+                str.append("hello");
+            }
+            String s = str.toString();
+        }
+    }
+```
 - <strong> Other operations: concatenate, indexOf and substring </strong> <br>
 ```Java
 // "static void main" must be defined in a public class.
