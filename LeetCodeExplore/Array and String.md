@@ -208,7 +208,8 @@ Line 5: error: array required, but String found [in Main.java]
           ^
 ```
 > #### More discussions : problems & solutions
->> 1. Problem 1: Modification operation
+>> 1. Modification operation
+If you want to modify just one of the characters, you have to create a new string.
 - <strong> Other operations: concatenate, indexOf and substring </strong> <br>
 ```Java
 // "static void main" must be defined in a public class.
