@@ -207,8 +207,8 @@ Line 5: error: array required, but String found [in Main.java]
         s1[5] = ',';
           ^
 ```
-> <strong> More discussions : problems </strong><br> 
-    1. Modification Oeration: <br>
+> <strong> More discussions: problems </strong><br> 
+    1. Modification Operation: <br>
     If you want to modify just one of the characters, you have to create a new string. <br>
     2. String Concatenation: <br>
     In Java, since the string is immutable, concatenation works by first allocating enough space for the new       string, copy the contents from the old string and append to the new string. <br>
@@ -225,7 +225,7 @@ Line 5: error: array required, but String found [in Main.java]
         }
     }
 ```
-
+> <strong> More discussions: solutions </strong><br> 
 - <strong> Other operations: concatenate, indexOf and substring </strong> <br>
 ```Java
 // "static void main" must be defined in a public class.
