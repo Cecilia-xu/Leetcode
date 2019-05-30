@@ -207,7 +207,7 @@ Line 5: error: array required, but String found [in Main.java]
         s1[5] = ',';
           ^
 ```
-> <h3><strong> More discussions : problems </strong></h3> <br> 
+> <strong> More discussions : problems </strong><br> 
     1. Modification Oeration: <br>
     If you want to modify just one of the characters, you have to create a new string. <br>
     2. String Concatenation: <br>
