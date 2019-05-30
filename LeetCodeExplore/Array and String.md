@@ -233,3 +233,5 @@ The position of first 'o' is: 4
 The position of last 'o' is: 7
 World
 ```
+> <strong> Complexity of built-in operation </strong> <br>
+For instance, if the length of the string is N, the time complexity of both finding operation and substring operation is O(N). Never forget to take the time complexity of built-in operations into consideration when you compute the time complexity for your solution.
