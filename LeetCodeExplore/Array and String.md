@@ -102,3 +102,23 @@ public class Main {
     }
 }
 ```
+#### Result
+```
+Example I:
+[I@7d4991ad
+[I@28d93b30
+0 0 0 0 0 
+0 0 0 0 0 
+Example II:
+null
+null
+
+
+Example III:
+[I@1b6d3586
+[I@4554617c
+0 0 0 
+0 0 0 0 0 
+```
+#### Principles
+In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers.
