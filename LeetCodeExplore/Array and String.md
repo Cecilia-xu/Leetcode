@@ -123,5 +123,5 @@ Example III:
 #### Principles
 In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers.
 ## 4. Introduction to String (focus on the differences between array and string)
-- Compare function
+- Compare function: <br>
 Since Java does not support operator overloading, we may not use "==" to compare two strings. When we use "==", it actually compares whether these two objects are the same object.
