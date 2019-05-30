@@ -190,7 +190,7 @@ Other Reference: [Java | ==, equals(), compareTo(), equalsIgnoreCase() and compa
     4. equalsIgnoreCase: similar to equals, but ignore the case <br>
     5. compare: should use Collator class which is in java.text packages; can define our own custom comparison rules
 - <strong> Immutable </strong><br>
-In Java,the string is immutable, which means that you cannot modify the string like what you did in array.
+In Java, the string is immutable, which means that you cannot modify the string like what you did in array.
 ``` Java
 // "static void main" must be defined in a public class.
 public class Main {
