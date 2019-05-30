@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
         // 5. Modify Element
         a1[0] = 4;
-        // *6. Sort
+        // ***6. Sort
         Arrays.sort(a1);
     }
 }
@@ -37,10 +37,10 @@ public class Main {
         // 1. initialize
         List<Integer> v0 = new ArrayList<>();
         List<Integer> v1;                           // v1 == null
-        // *2. cast an array to a vector
+        // ***2. cast an array to a vector
         Integer[] a = {0, 1, 2, 3, 4};
         v1 = new ArrayList<>(Arrays.asList(a));
-        // *3. make a copy
+        // ***3. make a copy
         List<Integer> v2 = v1;                      // another reference to v1
         List<Integer> v3 = new ArrayList<>(v1);     // make an actual copy of v1
         // 3. get length
@@ -63,7 +63,7 @@ public class Main {
         System.out.println("The first element in v1 is: " + v1.get(0));
         v3.set(0, -1);
         System.out.println("The first element in v1 is: " + v1.get(0));
-        // *7. sort
+        // ***7. sort
         Collections.sort(v1);
         // 8. add new element at the end of the vector
         v1.add(-1);
@@ -121,7 +121,7 @@ Example III:
 0 0 0 0 0 
 ```
 #### Principles
-In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers.
+In Java, a two-dimensional array is actually one-dimensional array which contains M elelments, each of which is an array of N integers. (N can be different in anyone in these M elements)
 ## 4. Introduction to String (focus on the differences between array and string)
 - Compare function <br>
 Since Java does not support operator overloading, we may not use "==" to compare two strings. When we use "==", it actually compares whether these two objects are the same object.
