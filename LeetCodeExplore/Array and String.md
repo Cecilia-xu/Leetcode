@@ -280,3 +280,23 @@ World
 ```
 > <strong> Complexity of built-in operation: </strong> <br>
 For instance, if the length of the string is N, the time complexity of both finding operation and substring operation is O(N). Never forget to take the time complexity of built-in operations into consideration when you compute the time complexity for your solution.
+## 5. Two pointers
+1. Scenario 1: Iterate the array from two ends to the middle. One pointer starts from the beginning while the other pointer starts from the end.
+2.  Scenario 2：One slow-runner and one fast-runner at the same time. The key to solving this kind of problems is to determine the movement strategy for both pointers.
+## 6. Conclusion
+1. There are some other data structures which are similar to the array but have some different properties:
+
+String (has been introduced in this card)
+Hash Table
+Linked List
+Queue
+Stack
+2. As we mentioned, we can call the built-in function to sort an array. But it is useful to understand the principle of some widely-used sorting algorithms and their complexity.
+
+3. Binary search is also an important technique used to search a specific element in a sorted array.
+
+4. We have introduced two-pointer technique in this chapter. It is not easy to use this technique flexibly. This technique can also be used to solve:
+
+Slow-pointer and fast-pointer problem in Linked List
+Sliding Window Problem
+5. The two-pointer technique sometimes will relate to Greedy Algorithm which helps us design our pointers' movement strategy.
