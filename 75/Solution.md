@@ -33,27 +33,26 @@ class Solution {
 ```
 ## Other's solution
 ``` Java
-public class Solution1 {
-
+class Solution {
     public void sortColors(int[] nums) {
-
-        int[] count = {0, 0, 0};    // 存放0, 1, 2三个元素的频率
-        for(int i = 0 ; i < nums.length ; i ++){
-            assert nums[i] >= 0 && nums[i] <= 2;
+        int[] count = {0,0,0};
+        for (int i = 0; i < nums.length; i ++) {
+            assert(nums[i] >= 0 && nums[i] <= 2);
             count[nums[i]] ++;
         }
-
+        
         int index = 0;
-        for(int i = 0 ; i < count[0] ; i ++)
-            nums[index++] = 0;
-        for(int i = 0 ; i < count[1] ; i ++)
-            nums[index++] = 1;
-        for(int i = 0 ; i < count[2] ; i ++)
-            nums[index++] = 2;
+        for (int j = 0; j < 3; j ++) {
+            for (int i = 0; i < count[j]; i ++) {
+                nums[index ++] = j;
+            }
+        }
     }
+}
 
 ```
 ## Comparasion & Notes:
-1. Use assert! [assert用法](https://www.geeksforgeeks.org/assertions-in-java/)
-2. There is no need to use if ... else... in counting. e.g. count\[nums\[i\]\]
+1. Use assert to make sure the range of nums\[i\] meets the requirement of the array! [assert用法](https://www.geeksforgeeks.org/assertions-in-java/)
+2. Concise: There is no need to use if ... else... in counting. e.g. count\[nums\[i\]\]
 3. Create a new variable index, which can make the code more clear!
+# Solution 2: Quick sort in 3 ways
