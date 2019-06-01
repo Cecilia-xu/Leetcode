@@ -1,3 +1,8 @@
+# Questions 
+1. edge case: when the array is null, what should be returned?
+2. how to define remove?: remove directly in the array/ put the elements which needed to be removed in the end?
+3. should we keep the original order after removing?
+4. complexity?
 # Pseudocode
 ```
 Input: int[] nums
