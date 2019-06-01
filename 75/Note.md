@@ -1,6 +1,6 @@
 # Solution 1: counting sort
 ## Algorithms
-Since the color can be represented by 0, 1, 2, we can create an array, in whcih the index can represent the color and the value can represnt the number of each color.
+Since the color can be represented by 0, 1, 2(just 3 numbers), we can create an array, in whcih the index can represent the color and the value can represnt the number of each color.
 ## Pseudocode
 ```
 Input: int nums[]
@@ -16,13 +16,10 @@ for int i -> 0 to nums.length - 1 :
   //Note: avoid the invaild input
   else assert ("Invaild color")
 //construct the new array 
-for int j-> 0 to count[0] - 1:
-  nums[j] = 0
-for int j-> count[0]  to count[0] - 1 + count[1]:
-  nums[j] = 1
-for int j -> count[0] + count[1] to nums.length - 1:
-  nums[j] = 2
+int index = 0
+for int i -> 0 to
 ```
 ## Complexity
 - Time complexity: O(n)
 - Space complexity: O(k),k是element的取值范围
+# Solution 2: quick sort 3 ways
