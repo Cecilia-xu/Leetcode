@@ -14,7 +14,7 @@ right <- -1
 // Intialize sum (No element. Sum = 0)
 sum <- 0
 // Intialize the size (A size that can be used to find minimize)
-res <- nums.length + 1/ INT_MAX 
+res <- nums.length + 1/ Integer.MAX_VALUE 
 
 // Make the left pointer of the sliding window traverse the array
 while (left < nums.length):
@@ -23,14 +23,14 @@ while (left < nums.length):
   else sum -= nums[left--]
   
   // Update result
-  if (sum >= s) then res = min (res, right - left + 1)
+  if (sum >= s) then res = Math.min (res, right - left + 1)
   
 // Make sure the res isthe minimum size of subarray
-if (res == nums.length + 1 / INT_MAX) then return 0
+if (res == nums.length + 1 / Integer.MAX_VALUE) then return 0
 
 return res
   
 ```
 # Complexity
-- Time complexity:
-- Space complexity:
+- Time complexity: O(n)
+- Space complexity: O(1)
