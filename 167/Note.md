@@ -1,5 +1,3 @@
-# Questions needs to be asked
-1.
 # Solution 1 : Two pointers
 ## Algorithm
 Notice that the array is sorted and the starting index is 1 not 0
@@ -15,4 +13,4 @@ Notice that the array is sorted and the starting index is 1 not 0
 - Space complexity: O(1)
 ## Solution 2: Binary search
 
-## Solution 3: Brute-Force
+
