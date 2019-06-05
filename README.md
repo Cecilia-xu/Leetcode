@@ -3,10 +3,10 @@
 - Complexity
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
-- Array
-- Binary Search
-- Map/Set
-- Bit Manipulation
+- [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
+- [Binary Search]()
+- [Map/Set]()
+- [Bit Manipulation]()
 - Linked List
 - Stack
 - Recursion
