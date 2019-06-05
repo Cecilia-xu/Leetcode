@@ -4,7 +4,7 @@
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
-- [Binary Search]()
+- [Binary Search](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#binary-search)
 - [Map/Set]()
 - [Bit Manipulation]()
 - Linked List
