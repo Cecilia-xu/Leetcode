@@ -4,6 +4,7 @@
 - LeetCode Explore
 - Data structures
 - Array
+- Binary Search
 - Bit Manipulation
 - Linked List
 - Stack
@@ -36,13 +37,6 @@
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Solution.md)| Easy |O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/121/Note.md)|
 | 122 | [Best time to buy and sell stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Solution.md) |Easy|O(n)|O(1)|Array,Greedy|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/122/Note.md)|
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/704/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note1: template](https://github.com/Cecilia-xu/AlgorithmReview/blob/master/Searching/binary%20search.md)<br> [Note2: generics](https://www.cnblogs.com/jasminemzy/articles/7478119.html)|
-| 069 |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/69/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/69/Note.md)|
-| 033 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/33/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/33/Note.md)|
-| 034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/34/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/34/Note.md)|
-| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Note.md)|
-| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Note.md)|
-| 162 | [First Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Note.md)|
 | 283 | [Move Zeros](https://leetcode.com/problems/move-zeroes/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/283/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/283/Note.md)|
 | 027 | [Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/27/Note.md)|
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Solution.md)|Easy|O(n)|O(1)|Array, Two pointers|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/26/Note.md)|
@@ -55,6 +49,16 @@
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Note.md)|
 | 167 | [Two sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Note.md)|
 | 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/88/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/88/Note.md)|
+# Binary search
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
+| :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/704/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note1: template](https://github.com/Cecilia-xu/AlgorithmReview/blob/master/Searching/binary%20search.md)<br> [Note2: generics](https://www.cnblogs.com/jasminemzy/articles/7478119.html)|
+| 069 |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/69/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/69/Note.md)|
+| 033 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/33/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/33/Note.md)|
+| 034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/34/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/34/Note.md)|
+| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Note.md)|
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Note.md)|
+| 162 | [First Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Note.md)|
 # Map/Set
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
