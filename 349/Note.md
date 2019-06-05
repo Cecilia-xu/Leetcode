@@ -1,6 +1,6 @@
 # Solution 1
 ## Data Structure: using TreeSet
-## Algorithm
+## Algorithms
 - Use set1 to record the numbers in nums1 without any duplication
 - Use resultSet to record the intersection of nums1 and nums2
 - Create an array and put all the numbers from resultSet to this array 
