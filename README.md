@@ -1,6 +1,6 @@
 # Leetcode
 ## Table of Contents
-- [Complexity]()
+- [Complexity](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#complexity)
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
