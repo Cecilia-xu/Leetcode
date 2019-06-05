@@ -5,17 +5,16 @@
 - Data structures
 - Array
 - Binary Search
+- Map/Set
 - Bit Manipulation
 - Linked List
 - Stack
 - Recursion
 - Queue
 - Binary Tree
-- Hash Table
 - Sort
 - Heap
 - Math
-- Binary Search
 - Binary Search Tree
 - N-ary Tree
 - Graph
@@ -32,6 +31,7 @@
 # Data structure
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
 - [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
+- [TreeSet](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/TreeSet.md)
 # Array
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
