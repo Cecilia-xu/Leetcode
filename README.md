@@ -1,7 +1,7 @@
 # Leetcode
 # Table of Contents
 - Complexity
-- LeetCode Explore
+- [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - Data structures
 - Array
 - Binary Search
