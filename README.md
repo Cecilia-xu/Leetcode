@@ -2,7 +2,7 @@
 # Table of Contents
 - Complexity
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
-- Data structures
+- [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
 - Array
 - Binary Search
 - Map/Set
