@@ -2,7 +2,7 @@
 ## Algorithms
 Since the color can be represented by 0, 1, 2(just 3 numbers), we can create an array, in whcih the index can represent the color and the value can represnt the number of each color.
 ## Pseudocode
-```
+``` Java
 Input: int nums[]
 Output: void
 
