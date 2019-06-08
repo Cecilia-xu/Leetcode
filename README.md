@@ -51,7 +51,6 @@
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Note.md)|
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Note.md)|
 | 167 | [Two sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Note.md)|
-| 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/88/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/88/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
