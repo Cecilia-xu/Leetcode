@@ -28,7 +28,7 @@ Use three different pinters:
 1. mark the last index of zero
 2. mark the index of traversal
 3. mark the first index of two
-Important! How to change the range when traversing the array. How to change the pointer when facing different numbers.
+> Important! How to change the range when traversing the array. How to change the pointer when facing different numbers.
 ## Pseudocode
 ``` Java
 Input: int[] nums
