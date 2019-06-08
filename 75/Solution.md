@@ -56,3 +56,29 @@ class Solution {
 2. Concise: There is no need to use if ... else... in counting. e.g. count\[nums\[i\]\]
 3. Create a new variable index, which can make the code more clear!
 # Solution 2: Quick sort in 3 ways
+``` Java
+class Solution {
+    public void sortColors(int[] nums) {
+        int zero = -1;
+        int two = nums.length;
+        for (int i = 0; i < two; ) {
+            if (nums[i] == 1) {
+                i ++;
+            }    
+            else if (nums[i] == 2) {
+                swap(nums, i, -- two);   
+            }
+            else {
+                assert (nums[i] == 0);
+                swap(nums, i ++, ++ zero);
+            }
+        }
+    }
+    
+    public void swap(int[] nums,int i,int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    } 
+}
+```
