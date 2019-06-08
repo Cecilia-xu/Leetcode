@@ -37,9 +37,6 @@ Output: void
 int zero = -1
 int two = nums.length
 
-// Intialize the result
-int result = 0
-
 // i is the pointer which can be used to traverse the array.
 //!! We just need to traverse the array from 0 to two because [two, nums.length - 1] are sorted well. 
 for (int i = 0; i < two; ) :
