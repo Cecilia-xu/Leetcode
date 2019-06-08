@@ -28,6 +28,7 @@ Use three different pinters:
 1. mark the last index of zero
 2. mark the index of traversal
 3. mark the first index of two
+Important! How to change the range when traversing the array. How to change the pointer when facing different numbers.
 ## Pseudocode
 ``` Java
 Input: int[] nums
@@ -40,9 +41,12 @@ int two = nums.length
 // i is the pointer which can be used to traverse the array.
 //!! We just need to traverse the array from 0 to two because [two, nums.length - 1] are sorted well. 
 for (int i = 0; i < two; ) :
+  //If the number is 1, keep traversing
   if (nums[i] == 1): i ++
-  else if (nums[i] == 0) : swap(nums,i ++, -- two)
-  else : assert (nums[i] == 2)  swap (nums, i ++, ++ zero)
+  // If the number is 2, swap the last number with this number. Keep sorting from the number that has been swaped yet.
+  else if (nums[i] == 2) : swap(nums, i, -- two)
+  // If the number is 0, swap the first number with this number. Keep sorting from the next one.  
+  else : assert (nums[i] == 0)  swap (nums, i ++, ++ zero)
 ```
 ## Complexity
 - Time complexity: O(n)
