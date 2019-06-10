@@ -1,4 +1,4 @@
-# My solution 1 : sort
+# My solution 1 : Sorting
 > Time complexity: O(nlogn) <not accepted> <br> Space complexity: O(1)
 ``` Java
 class Solution {
@@ -87,7 +87,7 @@ class Solution {
 注意
 1. 此方法比方法1效率更高，在已经sorted的数组中，binary search优于linear search的效率
 2. binary search仍然需要进一步理解，锁定最终的范围。边界和while条件变化的同步；if里的条件反映的是左右范围的变化
-# Solution 5:bit minipulation
+# Solution 5: Bit minipulation
 ``` Java
 class Solution {
     public int missingNumber(int[] nums) { //binary search
