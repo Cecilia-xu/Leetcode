@@ -37,6 +37,7 @@ class Solution {
 > ### Iterate Hashset
 Since Set interface or HashSet class doesn't provide a get() method to retrieve elements, the only way to take out elements from a Set is to iterate over it by using Iterator, or loop over Set using advanced for loop of Java 5. You can get the iterator by calling the iterator() method of Set interface.
 # Solution 3 : Math - Gauss' Formula
+> Time complexity：O(n) (accpected) <br> Space complexity: O(1) (accepted)
 ``` Java
 class Solution {
     public int missingNumber(int[] nums) {
@@ -63,6 +64,7 @@ class Solution {
 }
 ```
 # Solution 4: Binary search
+> Time complexity：O(nlogn) (not accpected) <br> Space complexity: O(1) (accepted)
 ``` Java
 class Solution {
     public int missingNumber(int[] nums) { 
@@ -85,9 +87,10 @@ class Solution {
 }
 ```
 注意
-1. 此方法比方法1效率更高，在已经sorted的数组中，binary search优于linear search的效率
+1. 此方法虽然时间复杂度和方法1一样，但是实际会比方法1效率更高，在已经sorted的数组中，binary search优于linear search的效率
 2. binary search仍然需要进一步理解，锁定最终的范围。边界和while条件变化的同步；if里的条件反映的是左右范围的变化
 # Solution 5: Bit minipulation
+> Time complexity：O(n) (accpected) <br> Space complexity: O(1) (accepted)
 ``` Java
 class Solution {
     public int missingNumber(int[] nums) { //binary search
