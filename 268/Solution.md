@@ -14,7 +14,7 @@ class Solution {
     }
 }
 ```
-注意题目的定义，missing number是否会出现在头部和尾部                                       
+注意:题目的定义，missing number是否会出现在头部和尾部                                       
 # My solution 2: HashSet
 > Time complexity：O(n) (accpected) <br> Space complexity: O(n) (not accepted)
 ```Java
@@ -49,4 +49,29 @@ class Solution {
     }
 }
 ```
-写之前要想清楚，理论上以及实际的序列是什么样的，首项？末项？项数？
+注意：写之前要想清楚，理论上以及实际的序列是什么样的，首项？末项？项数？
+# Solution 4: Binary search
+``` Java
+class Solution {
+    public int missingNumber(int[] nums) { 
+        Arrays.sort(nums);
+        //binary search
+        int left = 0, right = nums.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            // when nums[mid] > mid, the missing number is in the left range. Update right.        
+            if (nums[mid] > mid) {
+                right = mid;
+            }
+            // otherwise, the missing number is in the right range. Update left.
+            else {
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+}
+```
+注意
+1. 此方法比方法1效率更高，在已经sorted的数组中，binary search优于linear search的效率
+2. binary search仍然需要进一步理解，锁定最终的范围。边界和while条件变化的同步；if里的条件反映的是左右范围的变化
