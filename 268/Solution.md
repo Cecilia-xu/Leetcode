@@ -33,6 +33,6 @@ class Solution {
     }
 }
 ```
-注意：HashSet没有put方法！
-> # Iterate Hashset
+注意：HashSet没有put方法！因此在这个题里我们可以使用contains()方法
+> #### Iterate Hashset
 Since Set interface or HashSet class doesn't provide a get() method to retrieve elements, the only way to take out elements from a Set is to iterate over it by using Iterator, or loop over Set using advanced for loop of Java 5. You can get the iterator by calling the iterator() method of Set interface.
