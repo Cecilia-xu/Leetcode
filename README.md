@@ -69,6 +69,7 @@
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 268 |[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/268/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/268/Note.md)|
 | 136 |[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Solution.md) | Easy | |  |Bit Manipulation| |
 | 191 |[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) | [Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Solution.md) | Easy |O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Note.md) |
 | 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Note.md)|
