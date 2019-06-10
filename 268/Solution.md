@@ -49,7 +49,19 @@ class Solution {
     }
 }
 ```
-注意：写之前要想清楚，理论上以及实际的序列是什么样的，首项？末项？项数？
+注意：写之前要想清楚，理论上以及实际的序列是什么样的，首项？末项？项数？<br>
+### Optimize space
+``` Java
+class Solution {
+    public int missingNumber(int[] nums) {
+        int sum = (0 + nums.length) * (nums.length + 1) / 2;
+        for (int num: nums) {
+            sum -= num;
+        }
+        return sum;
+    }
+}
+```
 # Solution 4: Binary search
 ``` Java
 class Solution {
