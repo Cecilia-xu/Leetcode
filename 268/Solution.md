@@ -87,3 +87,15 @@ class Solution {
 注意
 1. 此方法比方法1效率更高，在已经sorted的数组中，binary search优于linear search的效率
 2. binary search仍然需要进一步理解，锁定最终的范围。边界和while条件变化的同步；if里的条件反映的是左右范围的变化
+# Solution 5:bit minipulation
+``` Java
+class Solution {
+    public int missingNumber(int[] nums) { //binary search
+        int missing = nums.length;
+        for (int i = 0; i < nums.length; i ++) {
+            missing ^= i ^ nums[i];
+        }
+        return missing;
+    }
+}
+```
