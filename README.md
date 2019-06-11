@@ -61,6 +61,7 @@
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/374/Note.md)|
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Note.md)|
 | 162 | [First Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Note.md)|
+| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/540/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/540/Note.md)|
 ## Map/Set
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
@@ -77,3 +78,4 @@
 | 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Note.md)|
 | 326 |[Power of Three](https://leetcode.com/problems/power-of-three/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Solution.md)|Easy|O(logn)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Note.md)|
 | 231 |[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Solution.md)|Easy|O(logn)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Note.md)|
+| 137 |[Single Number II](https://leetcode.com/problems/single-number-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Note.md)|
