@@ -1,5 +1,5 @@
 # My solution： Bit manipulation
-> Time complexity: O(n) <br> Space complexity: O(1)
+> Time complexity: O(1) (Since our operation is performed in 32 bits of each number, the number of operations is 32 in the worst case. Therefore, the time complexity is O(1).) <br> Space complexity: O(1)
 ```Java
 class Solution {
     public int getSum(int a, int b) {
