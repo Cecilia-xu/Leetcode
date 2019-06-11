@@ -1,51 +1,13 @@
-# Solution 1（List）
-自己的思路：利用list实现
-+ 时间复杂度 O（n^2）
-<br> We iterate through \text{nums}nums, taking O(n)O(n) time. We search the whole list to find whether there is duplicate number, taking O(n)O(n) time. Because search is in the for loop, so we have to multiply both time complexities which is O(n^2)O(n 
-2
- ).
-+ 空间复杂度 O（n）
-<br> Space complexity : O(n)O(n). We need a list of size nn to contain elements in \text{nums}nums. 
-
+# Solution：Bit manipulation
 ```Java
 class Solution {
     public int singleNumber(int[] nums) {
-        ArrayList<Integer> newNums = new ArrayList<Integer>();
-        for (int i = 0; i < nums.length; i ++) {
-            if (! newNums.contains(nums[i]) ) {
-                newNums.add(nums[i]);
-            }
-            else {
-                newNums.remove(newNums.indexOf(nums[i]));
-            }
+        int c = nums[0];
+        for (int i = 1; i < nums.length; i ++) {
+            c ^= nums[i];
         }
-        return newNums.get(0);
+        return c;
     }
 }
+ 
 ```
-# Solution 2(Hashmap)
-
-# Best Solution 
-```Java
-class Solution {
-    public int singleNumber(int[] nums) {
-        int result;
-        
-        if (nums.length == 0) {
-            return (0);
-        }
-        
-        result = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            result = result ^ nums[i];
-        }
-        
-        return (result);
-    }
-}
-```
-# 分析
-# 相关知识补充
-1. 位运算
-2. 哈希表
-3. 动态数组
