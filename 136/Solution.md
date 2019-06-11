@@ -1,4 +1,5 @@
 # My solution：Bit manipulation
+> Time complexity: O(n) <br> Space complexity: O(1)
 ```Java
 class Solution {
     public int singleNumber(int[] nums) {
