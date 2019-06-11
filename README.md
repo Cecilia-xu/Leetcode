@@ -70,7 +70,7 @@
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 268 |[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/268/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/268/Note.md)|
-| 371 |[Sum of two integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/371/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/371/Note.md)|
+| 371 |[Sum of two integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/371/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/371/Note.md)|
 | 136 |[Single Number](https://leetcode.com/problems/single-number/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/136/Note.md)|
 | 191 |[Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/191/Note.md) |
 | 461 |[Hamming Distance](https://leetcode.com/problems/hamming-distance/) |[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/461/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/461/Note.md) |
