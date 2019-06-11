@@ -26,7 +26,7 @@ Therefore, we need to use & to make sure no more 1s exist on the same spot.
 100 & 001 => 000
 ```
 In the example above, no more carries exists so we get the final answer. If not, we have to repeat the steps above until no carry exists.
-# Complexity:
+# Complexity
 `- Time complexity: O(1)
 All the operations of bit manipulation are performed on two numbers. Time complexity of bit manipulation is O(1).
 - Space complexity: O(1)
