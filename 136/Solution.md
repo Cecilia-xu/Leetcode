@@ -1,4 +1,4 @@
-# Solution：Bit manipulation
+# My solution：Bit manipulation
 ```Java
 class Solution {
     public int singleNumber(int[] nums) {
@@ -10,4 +10,16 @@ class Solution {
     }
 }
  
+```
+# Official solution: Bit manipulation
+```Java
+class Solution {
+    public int singleNumber(int[] nums) {
+        int res = 0;
+        for (int num: nums) {
+            res ^= num;
+        }
+        return res;
+    }
+}
 ```
