@@ -13,7 +13,7 @@ class Solution {
     }
 }
 ```
-### Optimize
+### Optimized solution 1
 ``` Java
 class Solution {
     public int getSum(int a, int b) {
@@ -24,6 +24,14 @@ class Solution {
             b = temp << 1;
         }
         return a;
+    }
+}
+```
+### Optimized solution 2: recursion
+``` Java
+class Solution {
+    public int getSum(int a, int b) {
+        return b == 0 ?: a : getSum(a ^ b, (a & b) << 1);
     }
 }
 ```
