@@ -1,5 +1,5 @@
 # My solution: Bit manipulation
-> - Time complexity: O(1) - Space complexity: O(1)
+> - Time complexity: O(1)<br> - Space complexity: O(1)
 ```Java
 class Solution {
     public int hammingDistance(int x, int y) {
