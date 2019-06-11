@@ -5,7 +5,7 @@
 2    =>  010 
 3(011) & 2(010)  =>  010
 ```
-In the example above, we found that the 1th  bit can generate a carry
+In the example above, we found that the 1th  bit can generate a carry.
 - Make sure the number gets added at the right spot: Left shift the previous result by one
 ``` Java
 010 <<1   => 100
@@ -20,7 +20,7 @@ In the example above, we found that the 1th  bit can generate a carry
 ``` Java
 100 ^ 001 => 101
 ```
-- Notice that the previous result may not be the final answer because when two 1s exist on the same spot, XOR are not similar to addition.
+- Notice that the previous result may not be the final answer because when two 1s exist on the same spot. XOR is not always similar to addition operation.
 Therefore, we need to use & to make sure no more 1s exist on the same spot.
 ``` Java
 100 & 001 => 000
