@@ -1,5 +1,5 @@
 # My solution
-```
+```Java
 class Solution {
     public int getSum(int a, int b) {
         int temp;
@@ -35,3 +35,4 @@ class Solution {
     }
 }
 ```
+注意：完全可以用递归写的更简洁
