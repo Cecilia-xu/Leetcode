@@ -78,7 +78,7 @@
 | 190 |[Reverse bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Solution.md)|Easy|O(1)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/190/Note.md)|
 | 231 |[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/231/Note.md)|
 | 342 |[Power of Four](https://leetcode.com/problems/power-of-four/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/342/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/342/Note.md)|
-| 137 |[Single Number II](https://leetcode.com/problems/single-number-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Solution.md)|Easy|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Note.md)|
+| 137 |[Single Number II](https://leetcode.com/problems/single-number-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Solution.md)|Medium|O(n)|O(1)|Bit Manipulation|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/137/Note.md)|
 ## Math
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
