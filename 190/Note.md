@@ -1,7 +1,7 @@
-# Pseudocode
-## 1. My Solution
+# Algorithm
 Get every bits from the end to the start and add it to the output one by one- the origin n move rightwards, the output move leftwards
-```
+# Pseudocode
+```Java
 Input: int n
 Output: int output(a reverse number)
 
@@ -15,7 +15,6 @@ for int  i <- 0 to 31
   //after getting the last bit, make n move rightwards
   n >>= 1
 ```
-## 2. Other Solution
 # Complexity
 - Time complexity: O(1) <br>
 loop from bit 0 to bit 31 of a number -> the time complexity is cosntant.
