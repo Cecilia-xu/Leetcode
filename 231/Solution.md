@@ -11,6 +11,7 @@ class Solution {
 1. 位运算内部加括号，保证运算优先级！ 
 2.n>0必须先单独列出来，因为位运算是可以对负数进行的。凡是涉及到对这个数性质要先考虑正负问题！
 # My Solution 2: bitCount method
+> Time complexity: O(1) <br> Space complexity: O(1)
 ``` Java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -28,7 +29,8 @@ class Solution {
 }
 ```
 注意：本来逻辑运算就会自动返回true/false，不需要画蛇添足用conditional operator
-# My Solution 2: 
+# My Solution 3: Recursion
+> Time complexity: O(1) <br> Space complexity: O(1)
 ``` Java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -42,3 +44,4 @@ class Solution {
     }
 }
 ```
+注意：这个程序就犯了前面提到的错误！没有先验证n>0就开始算！
