@@ -1,4 +1,5 @@
 # Solution
+> Time complexity: O(n) <br> Space complexity: O(1)
 ```Java
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -16,3 +17,4 @@ class Solution {
     }
 }
 ```
+注意：只要是数组类问题都要优先考虑数组为空的情况，形成条件反射
