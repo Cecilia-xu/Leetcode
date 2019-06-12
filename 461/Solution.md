@@ -15,6 +15,7 @@ class Solution {
     }
 }
 ```
+注意：多次出现的几个问题！因为位运算的运算优先级低于逻辑运算符，所以在做位运算的时候，需要给位运算部分单独加括号!!
 ### optimized solution: 调包法
 ```Java
 public class Solution {
