@@ -30,7 +30,7 @@ class Solution {
 ```
 注意：本来逻辑运算就会自动返回true/false，不需要画蛇添足用conditional operator
 # My Solution 3: Recursion
-> Time complexity: O(1ogn) <br> Space complexity: O(1)
+> Time complexity: O(logn) <br> Space complexity: O(1)
 ``` Java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -46,7 +46,7 @@ class Solution {
 ```
 注意：这个程序就犯了前面提到的错误！没有先验证n>0就开始算！
 # Solution 4: Iteration
-> Time complexity: O(1ogn) <br> Space complexity: O(1)
+> Time complexity: O(logn) <br> Space complexity: O(1)
 ```Java
 class Solution {
     public boolean isPowerOfTwo(int n) {
