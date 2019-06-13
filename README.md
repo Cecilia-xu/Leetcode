@@ -4,6 +4,7 @@
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
+- [String]()
 - [Binary Search](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#binary-search)
 - [Map/Set](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#mapset)
 - [Bit Manipulation](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#bit-manipulation)
@@ -51,6 +52,11 @@
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/66/Note.md)|
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Note.md)|
 | 167 | [Two sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Note.md)|
+## String
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
+| :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 014 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Note.md)|
+| 028 |[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
