@@ -3,24 +3,24 @@
 - [Complexity](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#complexity)
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
+- [Bit Manipulation](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#bit-manipulation)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
-- [String]()
+- [String](https://leetcode.com/problems/implement-strstr/)
+- [Linked List]()
+- [Stack]()
+- [Queue]()
+- [Sort]()
 - [Binary Search](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#binary-search)
 - [Map/Set](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#mapset)
-- [Bit Manipulation](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#bit-manipulation)
-- Linked List
-- Stack
-- Recursion
-- Queue
-- Binary Tree
-- Sort
 - Heap
-- Math
+- Binary Tree
 - Binary Search Tree
 - N-ary Tree
+- Recursion
 - Graph
 - BackTracking
 - Dynamic Programming
+- [Math]()
 ## Complexity
 - [Time Complexity](https://github.com/zhangruochi/leetcode/blob/master/classical_algorithm/TimeSpaceCpmlexity.md)
 - [Space Complexity](https://github.com/zhangruochi/leetcode/blob/master/classical_algorithm/TimeSpaceCpmlexity.md)
