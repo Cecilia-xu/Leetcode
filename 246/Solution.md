@@ -1,4 +1,5 @@
 # Solution: Hash Set
+> Time complexity: O(n) <br> Space complexity: O(1)
 ```Java
 class Solution {
     public boolean isStrobogrammatic(String num) {
@@ -19,3 +20,6 @@ class Solution {
     }
 }
 ```
+Note:
+1. If we want to use char in a string, it is not neccessary to use toCharArray. Instead, charAt can also be considered.
+2. The logoic in checking: exist or not -> right position or not -> next pairs of char
