@@ -2,7 +2,9 @@
 - Find pairs of numbers meets the requirement: (0,0) (1,1) (6,9) (9,6) (8,8) and put them in a dictionary
 - Use two pointers which start at the right most and left most position:
   - Make sure the opposite char of the char which left pointer points is the same as the char that right pointer points.
-  - Check all the chars in pairs.
+    - Check whether the character can be paired (in {0,1,6,8,9})
+    - Check whether the left pointer and the right pointer can be paired
+    - Move pointers
   # Pseudocode
   ```Java
   Input: String num
