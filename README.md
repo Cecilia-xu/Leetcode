@@ -5,7 +5,7 @@
 - [Data structures](https://github.com/Cecilia-xu/Leetcode#data-structure)
 - [Bit Manipulation](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#bit-manipulation)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
-- [String](https://leetcode.com/problems/implement-strstr/)
+- [String](https://github.com/Cecilia-xu/Leetcode#string)
 - [Linked List]()
 - [Stack]()
 - [Queue]()
