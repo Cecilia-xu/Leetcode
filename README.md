@@ -88,4 +88,5 @@
 ## Math
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 007 |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/007/Solution.md)|Easy|O(logn)|O(1)|Math|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/007/Note.md)|
 | 326 |[Power of Three](https://leetcode.com/problems/power-of-three/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Solution.md)|Easy|O(logn)|O(1)|Math|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Note.md)|
