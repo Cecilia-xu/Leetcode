@@ -57,6 +57,7 @@
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 014 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Note.md)|
 | 028 |[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Note.md)|
+| 013 |[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/13/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/13/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
