@@ -73,7 +73,8 @@
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 349 |[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Solution.md)|Easy|O()|O()|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/349/Note.md)|
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/submissions/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/350/Solution.md)|Easy|O()|O()|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/350/Note.md)|
-| 001 | [Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Solution.md)|Easy|O()|O()|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Note.md)|
+| 001 | [Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Note.md)|
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Solution.md)|Easy|O(J.length+S.length)|O(J.length)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Note.md)|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
