@@ -19,6 +19,9 @@
     if (!map.containsKey(num.charAt(l))) then return false
     // If exist, check the position
     if (map.get(num.charAt(l))!= num.charAt(r)) then return false
+    // If positions are right, check next position
+    l++
+    r--
   
   return true
   ```
