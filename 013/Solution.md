@@ -30,3 +30,39 @@ class Solution {
 }
 ```
 注意：理解题目规则，不是只有仅仅列出的情况，要把它一般化
+### Optimized solution
+```Java
+public class Solution {
+    /**
+     * @param s Roman representation
+     * @return an integer
+     */
+    public int romanToInt(String s) {
+        char[] sChar = s.toCharArray();
+        int res = toInt(sChar[0]);
+        for (int i = 1; i < s.length; i ++) {   
+            res += sChar[i];
+            if (toInt(sChar[i]) > toInt(sChar[i - 1])) {
+                res -= 2 * toInt(sChar[i - 1]);
+            }
+        }
+        return res;
+    }
+    
+    private int toInt(char c) {
+        switch (c) {
+            case 'I': return 1;
+            case 'V': return 5;
+            case 'X': return 10;
+            case 'L': return 50;
+            case 'C': return 100;
+            case 'D': return 500;
+            case 'M': return 1000;
+        }
+        return 0;
+    }
+}
+```
+Note: <br>
+- 运用数组和switch效率更高（原因不详，但是性能就是高）
+- 
