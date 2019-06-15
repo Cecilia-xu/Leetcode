@@ -58,6 +58,7 @@
 | 014 |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/14/Note.md)|
 | 028 |[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/28/Note.md)|
 | 013 |[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/13/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/13/Note.md)|
+| 681 |[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/681/Solution.md)|Medium|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/681/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
@@ -76,7 +77,7 @@
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/submissions/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/350/Solution.md)|Easy|O()|O()|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/350/Note.md)|
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/1/Note.md)|
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Solution.md)|Easy|O(J.length+S.length)|O(J.length)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Note.md)|
-| 246 | [Jewels and Stones Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Solution.md)|Easy|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Note.md)|
+| 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Solution.md)|Easy|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Note.md)|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
