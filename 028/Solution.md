@@ -39,7 +39,7 @@ class Solution {
 Note：<br>
 1. 这种做法更作弊，实际不可以用，在这里写是为了提醒自己这个题本质是要求实现indexOf（）
 # Solution 3：Brute-force method
-> Time complexity:O()<br> Space complexity: O()
+> Time complexity:O(nm)(n=l1,m=l2)<br> Space complexity: O(1)
 ```Java
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -61,3 +61,4 @@ class Solution {
 }
 ```
 Reference: Algorithms 4th Chapter 5 P760
+Note:worst case time complexity example—— We want to find a substring "ab" in string "aaaaaaaa...ab"
