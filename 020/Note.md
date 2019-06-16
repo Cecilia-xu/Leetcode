@@ -9,7 +9,8 @@ We found that we should match every closing bracket with the last opening bracke
     3. If the last opening bracket is a match, keep checking
 - After checking all the brackets:(DO NOT FORGET!)
   - If all the brackets have their matches (stack not empty), return true
-  - Else, return false
+  - Else, return false<br>
+  Conclusion: In this stack, we do not need to push all the brackets. 
 # Complexity 
 - Time complexity: O(n) (scan each character once)
 - Space complexity: O(n) (create a stack)
