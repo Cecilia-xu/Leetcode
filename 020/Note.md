@@ -2,7 +2,7 @@
 We found that we should match every closing bracket with the last opening bracket -> Last In First Out -> Stack
 # Algorithm: check by rules mentioned
 - Check the bracket one by one
-  -If it is an opening bracket, push it into the stack
+  - If it is an opening bracket, push it into the stack
   -If it is an closing bracket:
   If no opening bracket exists, return false
   If the last opening bracket is not a match, return false
