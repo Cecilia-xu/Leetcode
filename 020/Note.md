@@ -1,4 +1,4 @@
-#Intuition
+# Intuition
 We found that we should match every closing bracket with the last opening bracket -> Last In First Out -> Stack
 # Algorithm: check by rules mentioned
 - Check the bracket one by one
