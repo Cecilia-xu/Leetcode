@@ -60,5 +60,5 @@ class Solution {
     }
 }
 ```
-Reference: Algorithms 4th Chapter 5 P760
+Reference: Algorithms 4th Chapter 5 P760<br>
 Note:worst case time complexity example—— We want to find a substring "ab" in string "aaaaaaaa...ab"
