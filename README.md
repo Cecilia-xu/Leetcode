@@ -62,7 +62,8 @@
 ## Stack
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
-| 020 |[Vaild Parenthese](https://leetcode.com/problems/valid-parentheses/submissions/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Note.md)|
+| 020 |[Vaild Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Note.md)|
+| 150 |[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/150/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/150/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
