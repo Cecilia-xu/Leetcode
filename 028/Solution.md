@@ -22,7 +22,8 @@ class Solution {
 Note:<br>
 1. How to use structural thinking! No duplication ! No omission!
 2. Logic operatior: == not =！
-3. 实际面试不一定可以用
+3. 注意这里的for循环的范围一定是到l1-l2,还必须得包括这个数！因为如果超过这个范围都不可能取到完整的l2长度的字符，所以根本不用查！
+4. 实际面试不一定可以用
 # Solution 2: Use indexOf method
 ```Java
 class Solution {
@@ -37,4 +38,25 @@ class Solution {
 ```
 Note：<br>
 1. 这种做法更作弊，实际不可以用，在这里写是为了提醒自己这个题本质是要求实现indexOf（）
-# Solution 3：
+# Solution 3：Brute-force method
+> Time complexity:O()<br> Space complexity: O()
+```Java
+class Solution {
+    public int strStr(String haystack, String needle) {
+        int l1 = haystack.length(), l2 = needle.length();
+        for (int i = 0; i <= l1 - l2; i ++) {
+            int j;
+            for (j = 0; j < l2; j ++) {
+                if (haystack.charAt(i + j) != needle.charAt(j)) {
+                    break;
+                }
+            }
+            // If all characters in needle are checked without any mistake, which means we find this substring correctly, return i.
+            if (j == l2) return i;
+        }
+        //Otherwise, return -1.
+        return -1;
+    }
+}
+```
+Reference: Algorithms 4th Chapter 5 P760
