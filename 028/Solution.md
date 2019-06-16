@@ -27,7 +27,7 @@ Note:<br>
 ```Java
 class Solution {
     public int strStr(String haystack, String needle) {
-        if (needle == null) {
+        if (needle。length == 0) {
             return 0;
         }
 
