@@ -65,4 +65,5 @@ public class Solution {
 ```
 Note: <br>
 - 运用数组和switch效率更高（原因不详，但是性能就是高）
+破译了：《算法（普林斯顿第四版）》P453“在一般的Java算法实现中，a\[i\]通常比s.charAt(i)快很多”
 
