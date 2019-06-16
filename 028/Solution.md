@@ -1,5 +1,5 @@
 # Solution 1: Use substring method
-> Time complexity: O(nm) (m = l2,因为substring的时间复杂度是O(n))<br> Space complexity: O(1）
+> Time complexity: O(nm) (m = l2,因为substring的时间复杂度是O(1)，详见普林斯顿算法第四版)<br> Space complexity: O(1）
 ``` Java
 class Solution {
     public int strStr(String haystack, String needle) {
