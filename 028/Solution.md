@@ -51,7 +51,8 @@ class Solution {
                     break;
                 }
             }
-            // If all characters in needle are checked without any mistake, which means we find this substring correctly, return i.
+            // If all characters in needle are checked without any mistake, 
+            // which means we find this substring correctly, return i.
             if (j == l2) return i;
         }
         //Otherwise, return -1.
