@@ -30,7 +30,7 @@
 | 01 | [Array and String](https://leetcode.com/explore/learn/card/array-and-string/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Array%20and%20String.md)| 
 | 02 | [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Binary%20Search.md)|
 | 03 | [Hash table (incomplete)](https://leetcode.com/explore/learn/card/hash-table/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Hash%20table.md)|
-| 04 | [Stack(incomplete)](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1369/)|[Note]()|
+| 04 | [Stack(incomplete)](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1369/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Stack.md)|
 ## Data structure 
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
 - [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
