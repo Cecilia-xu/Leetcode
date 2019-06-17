@@ -125,3 +125,4 @@ class Solution {
     }
 }
 ```
+注： 1. switch语句的语法记清楚： ①先switch（比较的变量名）②case + 值：条件语句；别忘记break ！③default语句！2. switch case里的变量不能重复命名，不知道原因，反正除法里如果还是起ab就报错
