@@ -38,4 +38,4 @@ class Solution {
 }
 ```
 Note:<br>
-1. The default values in an int[] array are 0!!! (But you need to initialize the array in this way:  int res[] = new int\[T.length(a specific value)\];) 
+1. The default values in an int[] array are 0!!! <br> But you need to initialize the array in this way:  int res[] = new int\[T.length(a specific value)\];
