@@ -1,9 +1,9 @@
 # My solution: using one stack and one array
+> Time complexity for pop(): O(1)<br> Time complexity for push(): O(n)<br> 
 ```Java
 class MyQueue {
     
     private Stack<Integer> stack;
-    int top;
 
     /** Initialize your data structure here. */
     public MyQueue() {
@@ -20,6 +20,56 @@ class MyQueue {
         stack.push(x);
         for (int j = tem.length - 1; j >= 0; j --) {
             stack.push(tem[j]);
+        }
+    }
+    
+    /** Removes the element from in front of queue and returns that element. */
+    public int pop() {
+        return stack.pop();
+    }
+    
+    /** Get the front element. */
+    public int peek() {
+        return stack.peek();
+    }
+    
+    /** Returns whether the queue is empty. */
+    public boolean empty() {
+        return stack.empty();
+    }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue obj = new MyQueue();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.peek();
+ * boolean param_4 = obj.empty();
+ */
+```
+### Optimized official solution
+> The first official solution is similar to mine. However, it constructs the data structure by using two stacks, which can avoid problems of dealing with indexes.
+```Java
+class MyQueue {
+    
+    private Stack<Integer> stack;
+    int top;
+
+    /** Initialize your data structure here. */
+    public MyQueue() {
+        stack = new Stack<>();
+    }
+    
+    /** Push element x to the back of queue. */
+    public void push(int x) {
+        Stack<Integer> tempStack = new Stack<>();
+        while (!stack.empty()){
+            tempStack.push(stack.pop());
+        }
+        stack.push(x);
+        while (!tempStack.empty()){
+            stack.push(tempStack.pop());
         }
     }
     
