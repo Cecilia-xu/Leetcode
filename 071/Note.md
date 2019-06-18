@@ -2,7 +2,7 @@
 When we use ".." , we can exit the last directory we input. -> Last in First Out -> Stack
 # Algorithm
 # Pseudocode
-```
+```Java
 Input: String path
 Output: String
 
