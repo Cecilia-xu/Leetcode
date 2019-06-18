@@ -144,3 +144,4 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
  ```
+Note: solution 2 is much more efficient than the first one since we do not need to push back all the elements from the 2nd stack to the 1st stack.
