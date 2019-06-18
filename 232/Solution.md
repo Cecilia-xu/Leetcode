@@ -54,7 +54,6 @@ class MyQueue {
 class MyQueue {
     
     private Stack<Integer> stack;
-    int top;
 
     /** Initialize your data structure here. */
     public MyQueue() {
