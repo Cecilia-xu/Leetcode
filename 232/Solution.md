@@ -1,5 +1,5 @@
 # My solution1: using one stack and one array
-> Time complexity for pop(): O(1)<br> Time complexity for push(): O(n)<br> 
+> Time complexity for pop(): O(1)<br>Space complexity for pop(): O(1)<br> Time complexity for push(): O(n)<br> Space complexity for push(): O(n)
 ```Java
 class MyQueue {
     
