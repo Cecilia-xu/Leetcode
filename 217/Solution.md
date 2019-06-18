@@ -31,3 +31,4 @@ class Solution {
     }
 }
 ```
+Note: When we need to return a boolean, understand when to return true/false at first!!
