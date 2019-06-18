@@ -38,4 +38,5 @@ class Solution {
 }
 ```
 Note:<br>
-1. The default values in an int[] array are 0!!! <br> But you need to initialize the array in this way:  int res[] = new int\[T.length(a specific value)\];
+1. Default values in an int[] array are 0!!! <br> But you need to initialize the array in this way:  int res[] = new int\[T.length(a specific value)\];
+2. It is not neccessary to push the value. Since the attribute of array is that we can access any value when we get the index. Therefore, the operation of pushing index is enough. -> Save space of stack
