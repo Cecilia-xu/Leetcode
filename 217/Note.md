@@ -1,5 +1,5 @@
 # Intuition
-This question is to find duplication. Therefore, we need to check whether an element has been contained in the array or not. -> set
+Find duplication -> check whether an element has been contained in the array or not -> set
 # Algorithm 1: hash set
 - Add each element into the set
 - Before adding, we should check whether this value containing in the set or not by using contains(). If so, return true. (Which means it has duplication)
