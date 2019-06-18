@@ -28,3 +28,7 @@ public class Main {
     }
 }
 ```
+## Conclusion: solving problems
+1. When peek() or pop(), check isEmpty() in advance.
+2. The key is to find the LAST IN FIRST OUT pattern.
+3. What we push is various: not only the value, but also index, or something we think we need to use. It will not affect pop(), since we can pop this value and keep the order.
