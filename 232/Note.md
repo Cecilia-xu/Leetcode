@@ -10,4 +10,4 @@ Make two stacks store the element. The 2nd stack will be used when we need to po
 - If we want to pop something and the 2nd stack is empty, pop all the elements into the 2nd stack. Then, the last element pushed into the 2nd stack is what we need to pop.
 - If we want to pop something and the 2nd stack is not empty, pop the last element from the 2nd stack since it is the 2nd element we pushed into the queue.
 - If we want to peek something, it is similar to pop operation. Just use peek() on the 2nd stack.
-- If we want to implement empty(), do it on both 1st stack and 2nd stack. This is because all the elements are stored in two stacks.
+- If we want to implement empty(), do it on both 1st stack and 2nd stack. This is because all the elements are stored in those two stacks.
