@@ -62,4 +62,4 @@ class Solution {
 ```
 Note:<br>
 1. Since the implementation in stack is dynamic array, we can also use array/dynamic array in this question. Just use a pointer top to simulate peek() in stack.
-2.注意 ++/ --的位置！！！
+2. 注意 ++/ --的位置！！！
