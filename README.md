@@ -92,6 +92,9 @@
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/001/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/001/Note.md)|
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Solution.md)|Easy|O(J.length+S.length)|O(J.length)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/771/Note.md)|
 | 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Solution.md)|Easy|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/246/Note.md)|
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Solution.md)|Easy|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Note.md)|
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Solution.md)|Easy|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Note.md)|
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/220/Solution.md)|Medium|O(n)|O(1)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/220/Note.md)|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
