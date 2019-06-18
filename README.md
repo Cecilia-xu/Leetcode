@@ -69,6 +69,10 @@
 | 071 |[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/071/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/071/Note.md)|
 | 155 |[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Note.md)|
 | 739 |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/739/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/739/Note.md)|
+## Queue
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
+| :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 346 |[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
