@@ -1,4 +1,4 @@
-# My solution: hash set
+# My solution: hash map
 > Time complexity: O(n) <br> Space complexity: O(n)
 ```java
 class Solution {
