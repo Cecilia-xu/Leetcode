@@ -73,7 +73,7 @@
 ## Queue
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
-| 346 |[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Note.md)|
+| 346 |[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Solution.md)|Easy|O(n)|O(n)|Queue|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
