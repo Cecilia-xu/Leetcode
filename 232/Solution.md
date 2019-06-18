@@ -1,4 +1,4 @@
-# My solution1: using one stack and one array
+# My solution1: one stack and one array
 > Time complexity for pop(): O(1)<br>Space complexity for pop(): O(1)<br> Time complexity for push(): O(n)<br> Space complexity for push(): O(n)
 ```Java
 class MyQueue {
@@ -48,7 +48,7 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
 ```
-### Optimized official solution
+### Optimized official solution: 2 stacks
 > The first official solution is similar to mine. However, it constructs the data structure by using two stacks, which can avoid problems of dealing with indexes.
 ```Java
 class MyQueue {
@@ -98,3 +98,4 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
 ```
+# Solution 2: two stacks
