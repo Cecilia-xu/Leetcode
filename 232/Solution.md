@@ -1,4 +1,4 @@
-# My solution: using one stack and one array
+# My solution1: using one stack and one array
 > Time complexity for pop(): O(1)<br> Time complexity for push(): O(n)<br> 
 ```Java
 class MyQueue {
