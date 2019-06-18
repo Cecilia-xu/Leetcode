@@ -66,7 +66,8 @@
 | 020 |[Vaild Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/020/Note.md)|
 | 150 |[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/150/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/150/Note.md)|
 | 071 |[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/071/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/071/Note.md)|
-| 155 |[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Note.md)|
+| 155 |[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Solution.md)|Easy|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/155/Note.md)|
+| 739 |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/739/Solution.md)|Medium|O(n)|O(n)|Stack|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/739/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
