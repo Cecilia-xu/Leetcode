@@ -19,3 +19,8 @@ Check whether string2 has all the alphabet in string2 -> same letters same frequ
 ## Alogrithm 2
 - Time complexity: O(nlogn)
 - Space complexity: O(1)
+## Note
+- Space depends on the sorting implementation which, usually, costs O(1) auxiliary space if heapsort is used. Note that in Java, toCharArray() makes a copy of the string so it costs O(n) extra space, but we ignore this for complexity analysis because:
+
+  -It is a language dependent detail.
+  -It depends on how the function is designed. For example, the function parameter types can be changed to char[].
