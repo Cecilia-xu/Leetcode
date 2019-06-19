@@ -34,8 +34,7 @@ Note:<br>
 2. How to get the value through key? map.get(keyname)
 ### Follow up
 - What if the inputs contain unicode characters? How would you adapt your solution to such case?
-- Answer
->Use a hash table instead of a fixed size counter. Imagine allocating a large size array to fit the entire range of unicode characters, which could go up to more than 1 million. A hash table is a more generic solution and could adapt to any range of characters.
+>  Answer: Use a hash table instead of a fixed size counter. Imagine allocating a large size array to fit the entire range of unicode characters, which could go up to more than 1 million. A hash table is a more generic solution and could adapt to any range of characters.
 # My solution 2: using an array instead of hashset
 > Time complexity: O(n) <br> Space complexity: O(1)
 ```Java
