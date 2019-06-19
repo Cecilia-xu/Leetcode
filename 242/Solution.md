@@ -32,3 +32,42 @@ class Solution {
 Note:<br>
 1. How to remove a key in hashmap? remove()
 2. How to get the value through key? map.get(keyname)
+# My solution 2: sorting
+> Time complexity: O(nlogn) <br> Space complexity: O(1)
+```Java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        char[] sChar = s.toCharArray();
+        char[] tChar = t.toCharArray();
+        Arrays.sort(sChar);
+        Arrays.sort(tChar);
+        for (int i = 0; i < s.length(); i ++) {
+            if (sChar[i] != tChar[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+### Optimized solution
+```Java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        char[] sChar = s.toCharArray();
+        char[] tChar = t.toCharArray();
+        Arrays.sort(sChar);
+        Arrays.sort(tChar);
+        return Arrays.equals(sChar,tChar);
+    }
+}
+```
+Note:<br>
+1. If we want to compare two differnt arrays, we have to make sure these two arrays have the same length at first.
+2. When we want to compare two different arrays, the simpliest way is to use: Arrays.equals(array1,array2)
