@@ -32,7 +32,31 @@ class Solution {
 Note:<br>
 1. How to remove a key in hashmap? remove()
 2. How to get the value through key? map.get(keyname)
-# My solution 2: sorting
+# My solution 2: using an array instead of hashset
+> Time complexity: O(n) <br> Space complexity: O(1)
+```Java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        int[] counter = new int[26];
+        char[] sChar = s.toCharArray();
+        char[] tChar = t.toCharArray();
+        for (int i = 0; i < sChar.length; i ++) {
+            counter[sChar[i] - 'a'] ++;
+            counter[tChar[i] - 'a'] --;
+        }
+        for (int count : counter) {
+            if (count != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+# My solution 3: sorting
 > Time complexity: O(nlogn) <br> Space complexity: O(1)
 ```Java
 class Solution {
