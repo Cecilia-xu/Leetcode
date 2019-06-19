@@ -15,7 +15,7 @@ Check whether string2 has all the alphabet in string2 -> same letters same frequ
 # Complexity
 ## Algorithm 1
 - Time complexity: O(n)
-- Space complexity: O(1)
+- Space complexity: O(1)  Although we do use extra space, the space complexity is O(1) because the table's size stays constant no matter how large n is.
 ## Alogrithm 2
 - Time complexity: O(nlogn)
 - Space complexity: O(1)
