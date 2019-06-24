@@ -36,5 +36,5 @@ class Logger {
 ```
 Note: <br>
 1. Be calm! Make sure what you are writing is right before running your code.
-2. Map- containsKey!!! set- contains
+2. Map- containsKey/contiansValue!!! set- contains
 ### Optimized solution
