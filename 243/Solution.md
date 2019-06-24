@@ -49,4 +49,4 @@ class Solution {
 }
 ```
 Note:<br>
-This is a more efficient solution because we can avoid to update minDistance even though position is not updated!! We can just compare and update minDistance when position[i] is updated.
+This is a more efficient solution because we can avoid to update minDistance even though position is not updated!! 
