@@ -1,4 +1,5 @@
 # My solution 1: using hashmap
+> Time complexity: O(1)(each time)<br> Space complexity: O(n) (n: the number of the message/overall)
 ```Java
 class Logger {
     
@@ -37,7 +38,7 @@ class Logger {
 Note: <br>
 1. Be calm! Make sure what you are writing is right before running your code.
 2. Map- containsKey/contiansValue!!! set- contains
-3. > or < 类似问题一定要考虑清楚要不要加=（不等式容易出问题）
+3. 涉及不等式问题一定要考虑清楚要不要加=（不等式容易出问题）
 ### Optimized solution
 ```Java
 class Logger {
@@ -72,6 +73,7 @@ Note:<br>
 1. Using getOrDefault method to avoid using containKey: getOrDefault(Object key, V defaultValue)
 Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.
 # Optimized solution 2: optimize space(follow-up)
+> Time complexity: O(1) (each time)<br> Space complexity: O(1) (10 space overall)
 ```Java
 public class Logger {
     HashSet<String> dic = new HashSet<>();
