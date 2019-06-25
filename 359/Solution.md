@@ -1,4 +1,4 @@
-# My solution
+# My solution 1: using hashmap
 ```Java
 class Logger {
     
@@ -38,3 +38,36 @@ Note: <br>
 1. Be calm! Make sure what you are writing is right before running your code.
 2. Map- containsKey/contiansValue!!! set- contains
 ### Optimized solution
+# Optimized solution 2: optimize space
+```Java
+public class Logger {
+    HashSet<String> dic = new HashSet<>();
+    Queue<Tuple> q = new LinkedList<>();
+  
+    public Logger() {}
+    
+    private static class Tuple {
+        int t;
+        String msg;
+        public Tuple(int t, String msg) {
+            this.t = t;
+            this.msg = msg;
+        }
+    } 
+    
+    public boolean shouldPrintMessage(int timestamp, String message) {
+        while (!q.isEmpty() && q.peek().t <= timestamp - 10) {
+            String next = q.remove().msg;
+            dic.remove(next);
+        }
+        
+        if (!dic.contains(message)) {
+            dic.add(message);
+            q.add(new Tuple(timestamp,message));
+            return true;
+        }
+        return false;
+    }
+
+}
+```
