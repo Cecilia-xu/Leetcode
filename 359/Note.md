@@ -12,6 +12,6 @@ This is a searching problem: a message exists in the last 10 timestamp? -> Key: 
 # Algorithm
 - create a queue to store message & timestamp in pairs -> create a new static class with these 2 attributes
 - clean useless space: if timestamp is not the last 10 (using timestamp) or queue is not empty
-- check the target message contains in the queue or not -> no build in method in our own class -> create a hashset to store message
+- check the target message contains in the queue or not -> no build in method in our own class -> create a hashset to store message (in Logger class!)
   - If contains: put message & timestamp in the queue and message in the hashset, return true
   - If not: return false
