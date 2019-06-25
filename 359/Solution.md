@@ -37,6 +37,7 @@ class Logger {
 Note: <br>
 1. Be calm! Make sure what you are writing is right before running your code.
 2. Map- containsKey/contiansValue!!! set- contains
+3. > or < 类似问题一定要考虑清楚要不要加=（不等式容易出问题）
 ### Optimized solution
 ```Java
 class Logger {
@@ -68,8 +69,9 @@ class Logger {
  */
  ```
 Note:<br>
-1. 
-# Optimized solution 2: optimize space
+1. Using getOrDefault method to avoid using containKey: getOrDefault(Object key, V defaultValue)
+Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.
+# Optimized solution 2: optimize space(follow-up)
 ```Java
 public class Logger {
     HashSet<String> dic = new HashSet<>();
@@ -102,3 +104,7 @@ public class Logger {
 
 }
 ```
+Note：<br>
+1. If we have too many messages, hashmap might be blow up. Therefore, we need to optimize space. Since we just need to understand whether the timestamp of this message is in the last 10 or not, we can just store 10 latest tuples to save space.
+2. This is a first in first out data structure, so we can use queue to store all tuples. In order to store each tuple as message + timestamp, we should also create a static class named tuple.
+3. Define a class: NOT BRACKeTS!!!
