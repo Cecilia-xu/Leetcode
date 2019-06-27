@@ -55,6 +55,7 @@
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/561/Note.md)|
 | 167 | [Two sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/167/Note.md)|
 | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/243/Solution.md)|Easy|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/243/Note.md)|
+| 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/244/Solution.md)|Medium|O(n)|O(1)|Array|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/244/Note.md)|
 ## String
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
