@@ -63,6 +63,7 @@
 | 028 |[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/028/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/028/Note.md)|
 | 013 |[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/013/Solution.md)|Easy|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/013/Note.md)|
 | 681 |[Next Closest Time](https://leetcode.com/problems/next-closest-time/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/681/Solution.md)|Medium|O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/681/Note.md)|
+| 125 |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/125/Solution.md)||O(n)|O(1)|String|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/125/Note.md)|
 ## Stack
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
