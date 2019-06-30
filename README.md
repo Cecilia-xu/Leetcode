@@ -99,6 +99,7 @@
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/359/Solution.md)|Easy|O(1)|O(n)/O(1)|Hash Table, Design|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/359/Note.md)|
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Note.md)|
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Note.md)|
+| 202 | [Happy number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/202/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/202/Note.md)|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
