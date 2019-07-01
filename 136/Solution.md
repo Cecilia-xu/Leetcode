@@ -1,4 +1,4 @@
-# My solution：Bit manipulation
+# My solution 1：Bit manipulation
 > Time complexity: O(n) <br> Space complexity: O(1)
 ```Java
 class Solution {
@@ -25,3 +25,22 @@ class Solution {
 }
 ```
 注意：0对某一个数做XOR计算，最终结果依然是这个数
+# Solution 2: Hash set
+> Time complexity: O(n) <br> Space complexity:O(n)
+```Java
+class Solution {
+    public int singleNumber(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int n : nums) {
+            if (!set.isEmpty() && set.contains(n)) {
+                set.remove(n);
+            }
+            else {
+                set.add(n);
+            }
+        }
+        return set.iterator().next();
+    }
+}
+```
+Note: get the first element from a set: using set.iterator().next()
