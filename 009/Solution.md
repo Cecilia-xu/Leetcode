@@ -43,3 +43,5 @@ class Solution {
     }
 }
 ```
+Note:<br>
+1.We need to think about overflow in this question. 
