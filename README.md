@@ -120,8 +120,3 @@
 | 326 |[Power of Three](https://leetcode.com/problems/power-of-three/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Solution.md)|Easy|O(logn)|O(1)|Math|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/326/Note.md)|
 | 263 |[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/263/Solution.md)|Easy|O(log2n+log3n+log5n)|O(1)|Math|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/263/Note.md)|
 | 009 |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/009/Solution.md)|Easy|O(n)|0(1)|Math|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/009/Note.md)|
-## Frequent mistakes
-- No idea on solving problems
-- Ignore corner case
-- Bugs
-- Oh-shit
