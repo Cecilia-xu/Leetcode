@@ -33,6 +33,7 @@
 | 04 | [Stack(incomplete)](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1369/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Stack.md)|
 | 05 | [Queue(incomplete)](https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/)|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/LeetCodeExplore/Queue.md)|
 | 06 | [Linked list(incomplete)](https://leetcode.com/explore/learn/card/linked-list/)|[Note]()|
+| 06 | [Binary Search tree(incomplete)](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/141/basic-operations-in-a-bst/)|[Note]()|
 ## Data structure 
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/Array.md)
 - [ArrayList](https://github.com/Cecilia-xu/Leetcode/blob/master/DataStructure/ArrayList.md)
