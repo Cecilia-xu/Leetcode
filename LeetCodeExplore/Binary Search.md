@@ -60,5 +60,5 @@ int binarySearch(int[] nums, int target){
   return -1;
 }
 ```
-### My conclusion
-This template can be used into some questions similar to "OOOOOOOOOOOXXXXXXXXXXX". Sometimes, we do not need to compare different elements in the array.
+### conclusion
+Reference:https://github.com/yuzhoujr/leetcode/issues/8
