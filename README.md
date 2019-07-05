@@ -105,6 +105,7 @@
 ## Binary search tree
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 098 |[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/098/Solution.md)|Medium|O()|O()|Binary search tree|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/098/Note.md)|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
