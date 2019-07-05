@@ -102,6 +102,9 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/217/Note.md)|
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/219/Note.md)|
 | 202 | [Happy number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/202/Solution.md)|Easy|O(n)|O(n)|Hash Table|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/202/Note.md)|
+## Binary search tree
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
+| :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 ## Bit Manipulation
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
