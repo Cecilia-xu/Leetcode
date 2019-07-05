@@ -10,3 +10,11 @@ According to the property of BST, for each node:
 - return the node if the target value is equal to the value of the node;
 - continue searching in the left subtree if the target value is less than the value of the node;
 - continue searching in the right subtree if the target value is larger than the value of the node.
+## Insertion
+- search the left or right subtrees according to the relation of the value of the node and the value of our target node;
+- repeat STEP 1 until reaching an external node;
+- add the new node as its left or right child depending on the relation of the value of the node and the value of our target node.
+## Deletion
+- If the target node has no child, we can simply remove the node.
+- If the target node has one child, we can use its child to replace itself.
+- If the target node has two children, replace the node with its in-order successor or predecessor node and delete that node.
