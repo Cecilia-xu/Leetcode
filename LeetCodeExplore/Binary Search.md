@@ -64,7 +64,7 @@ int binarySearch(int[] nums, int target){
 Reference:https://github.com/yuzhoujr/leetcode/issues/8
 # 做题总结
 1. binary search的本质-》减半&找到第一个使得g（x）成立的index
-2.通用模板
+2. Template
 ```Java
 int binary search (int[] nums, int target) {
   int low = 0, high = nums.length;
