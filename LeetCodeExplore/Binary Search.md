@@ -62,3 +62,30 @@ int binarySearch(int[] nums, int target){
 ```
 ### conclusion
 Reference:https://github.com/yuzhoujr/leetcode/issues/8
+# 做题总结
+1. binary search的本质-》减半&找到第一个使得g（x）成立的index
+2.通用模板
+```Java
+int binary search (int[] nums, int target) {
+  int low = 0, high = nums.length;
+  
+  while (low < high) {
+    int mid = low + (high - low) / 2;
+    //可有可无
+    if (nums[mid] == target) {
+      return mid;
+    }
+    //g(x)
+    else if (nums[mid] > target) {
+      high = mid;
+    }
+    else {
+      low = mid - 1;
+    }
+  }
+  
+  return low;
+```
+3. 左闭右开或者左闭右闭都可以，重要的是后续代码要保证定义的一致。但是经验来看，在需要避免整形溢出的情况下，即最大数可能取到Integer.MAX_VALUE的时候，尽可能选择左闭右闭比较好操作
+4. 题目中会经常存在整型溢出的考点（比如：数字翻转 or 乘法 or 加法），这个时候可以考虑把mid，low，high都设成long型，但一定要记得return时候转换；另外还需要注意，当出现整型溢出时应当return什么值，有时候题目会提到。
+5. 做除法要小心出现除数为0程序错误的情况
