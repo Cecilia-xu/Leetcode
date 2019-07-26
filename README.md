@@ -6,7 +6,7 @@
 - [Bit Manipulation](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#bit-manipulation)
 - [Array](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#array)
 - [String](https://github.com/Cecilia-xu/Leetcode#string)
-- [Linked List]()
+- [Linked List](https://github.com/Cecilia-xu/Leetcode#linked-list)
 - [Stack](https://github.com/Cecilia-xu/Leetcode#stack)
 - [Queue](https://github.com/Cecilia-xu/Leetcode#queue)
 - [Sort]()
