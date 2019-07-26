@@ -85,7 +85,7 @@
 ## Linked List
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
-| 206 |[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Solution.md)|Easy|O()|O()|Linked List|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Note.md)|
+| 206 |[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Solution.md)|Easy|O(n)|O(1)|Linked List|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
