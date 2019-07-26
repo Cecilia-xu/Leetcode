@@ -82,6 +82,10 @@
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
 | 346 |[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Solution.md)|Easy, Design|O(n)|O(n)|Queue|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/346/Note.md)|
+## Linked List
+| No | Title | Solution | Difficulty | Time | Space | Tag | Note |
+| :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
+| 206 |[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Solution.md)|Easy|O()|O()|Linked List|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/206/Note.md)|
 ## Binary search
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
