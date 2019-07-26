@@ -11,8 +11,7 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode pre = null;
-        ListNode curr = head;
+        ListNode pre = null, curr = head;
         while (curr != null) {
             ListNode next = curr.next;
             curr.next = pre;
@@ -24,3 +23,5 @@ class Solution {
     }
 }
 ```
+Note:<br>
+1. After iteration, the curr pointer will point to the last node, which is null. However, the head of the reversed linked list is not null. Therefore, we should return pre.
