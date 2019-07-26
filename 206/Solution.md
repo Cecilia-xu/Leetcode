@@ -50,3 +50,8 @@ class Solution {
     }
 }
 ```
+Note:
+1. How to write recursion: 
+- List the last simplest case and what it will return
+- List other cases which should be composed of the similar method with different input and other necessary operations
+2. Space complexity: When using recursion, the previous head.next will be kept until the recursion reached n depth.
