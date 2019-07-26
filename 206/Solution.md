@@ -23,5 +23,5 @@ class Solution {
     }
 }
 ```
-Note:<br>
+Note:
 1. After iteration, the curr pointer will point to the last node, which is null. However, the head of the reversed linked list is not null. Therefore, we should return pre.
