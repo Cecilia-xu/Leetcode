@@ -1,4 +1,5 @@
 # Leetcode
+Leetcode solutions in Java
 ## Table of Contents
 - [Complexity](https://github.com/Cecilia-xu/Leetcode/blob/master/README.md#complexity)
 - [LeetCode Explore](https://github.com/Cecilia-xu/Leetcode#leetcode-explore)
