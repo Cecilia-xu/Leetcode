@@ -44,7 +44,7 @@ Note:<br>
 - add something in HashMap: use "put" not "add"
 - get VALUE in HashMap: use "get"
 - find whether a key exist or not: use "containsKey"
-2*. Not neccessary to create "res" array: use "new" Key word
+2. IMPORTANT(STILL MAKING MISTACKES) Not neccessary to create "res" array: use "new" Key word
 - how to return an int\[\] array without creating an extra int\[\] variable 
 ```Java
 return new int[] {i, j};
