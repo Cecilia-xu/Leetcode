@@ -44,7 +44,11 @@ Note:<br>
 - add something in HashMap: use "put" not "add"
 - get VALUE in HashMap: use "get"
 - find whether a key exist or not: use "containsKey"
-2. Not neccessary to create "res" array: use "new" Key word
+2*. Not neccessary to create "res" array: use "new" Key word
+- how to return an int\[\] array without creating an extra int\[\] variable 
+```Java
+return new int[] {i, j};
+```
 3. Choose correct key/value: what we need to find can be treated as value in the map. In this question, we have to find the index of two numbers. Therefore, the index is the value in the map.
 # Solution2: One-pass Hash Table
 > Time complexity: O(n)<br> Space complexity: O(n)
