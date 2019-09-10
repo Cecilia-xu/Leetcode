@@ -98,6 +98,7 @@
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Solution.md)|Easy|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/278/Note.md)|
 | 162 | [First Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/162/Note.md)|
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/540/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/540/Note.md)|
+| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Solution](https://github.com/Cecilia-xu/Leetcode/blob/master/004/Solution.md)|Medium|O(logn)|O(1)|Array, binary search|[Note](https://github.com/Cecilia-xu/Leetcode/blob/master/004/Note.md)|
 ## Map/Set
 | No | Title | Solution | Difficulty | Time | Space | Tag | Note |
 | :----- | :-----: | :----------: |:------: |:------: |:------: |:------: |:----:|
