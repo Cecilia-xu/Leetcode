@@ -22,8 +22,8 @@
 - Dynamic Programming
 - [Math](https://github.com/Cecilia-xu/Leetcode#math)
 ## Complexity
-- [Time Complexity](https://github.com/zhangruochi/leetcode/blob/master/classical_algorithm/TimeSpaceCpmlexity.md)
-- [Space Complexity](https://github.com/zhangruochi/leetcode/blob/master/classical_algorithm/TimeSpaceCpmlexity.md)
+- [Time Complexity]()
+- [Space Complexity]()
 ## LeetCode Explore
 | No | Title | Note | 
 | :----- | :-----: | :----------: | 
