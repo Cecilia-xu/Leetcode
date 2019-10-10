@@ -16,9 +16,9 @@ public class SinglyListNode {
 - traverse from the head node one by one
 - time complexity: O(n)
 2. insert ith element:
-- initialize a new node cur with given value:
+- initialize a new node cur with given value:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163224.png" width = 50%></img>
-- link cur.next to the next node next:
+- link cur.next to the next node next:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163234.png" width = 50%></img>
-- link pre.next to cur
+- link pre.next to cur:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163243.png" width = 50%></img>
