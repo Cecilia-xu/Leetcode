@@ -1,6 +1,6 @@
 # Linked list
 ## Singly linked list
-![Linkedlist](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/12/screen-shot-2018-04-12-at-152754.png)
+<img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/12/screen-shot-2018-04-12-at-152754.png" width = 50%></img>
 ### 1. Node Structure
 ``` Java
 public class SinglyListNode {
