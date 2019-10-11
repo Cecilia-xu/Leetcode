@@ -14,11 +14,22 @@ public class SinglyListNode {
 ### 2. Operations
 1. access ith element:
 - traverse from the head node one by one
-- time complexity: O(n)
-2. insert ith element:
+> time complexity: O(n)
+2. add an element:
+1) Not head node/end node
 - initialize a new node cur with given value:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163224.png" width = 50%></img>
 - link cur.next to the next node next:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163234.png" width = 50%></img>
 - link pre.next to cur:<br>
 <img src = "https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/26/screen-shot-2018-04-25-at-163243.png" width = 50%></img>
+> Time complexity: O(1)
+2) Head node
+- initialize a new node cur
+- link the new node to our original head node head
+- assign cur to head
+3) End node
+- initialize a new node cur
+- link the current end node to the new node
+- link the new node to null
+3. delete an node:
