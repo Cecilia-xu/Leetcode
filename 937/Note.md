@@ -36,4 +36,4 @@ get the 1st letter of the word, s1, s2
 - s1 letter s2 number - return -1
 - s1 letter s2 letter - 2 cases:
     - word1 == word2, compare identifier 
-    - word1 != word2, compareTo method
+    - word1 != word2, compareTo method\
