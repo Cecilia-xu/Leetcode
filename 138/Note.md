@@ -1,1 +1,6 @@
-
+# Object copying
+In object-oriented programming, object copying is creating a copy of an existing object, a unit of data in object-oriented programming. The resulting object is called an object copy or simply copy of the original object. Copying is basic but has subtleties and can have significant overhead. There are several ways to copy an object, most commonly by a copy constructor or cloning. Copying is done mostly so the copy can be modified or moved, or the current value preserved. If either of these is unneeded, a reference to the original data is sufficient and more efficient, as no copying occurs.
+## Methods of Copying
+- Shallow copy : In that case a new object B is created, and the fields values of A are copied over to B.This is also known as a field-by-field copy, or field copy. If the field value is a reference to an object (e.g., a memory address) it copies the reference, hence referring to the same object as A does, and if the field value is a primitive type it copies the value of the primitive type.
+- Deep copy : An alternative is a deep copy, meaning that fields are dereferenced: rather than references to objects being copied, new copy objects are created for any referenced objects, and references to these placed in B. The result is different from the result a shallow copy gives in that the objects referenced by the copy B are distinct from those referenced by A, and independent.
+## Implementation in Java 
