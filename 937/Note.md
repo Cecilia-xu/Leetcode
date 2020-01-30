@@ -18,6 +18,7 @@ Comparator<O> comp = new Comparator<>() {
 Note:
 1. T - generic type (choose the type which is the same as object's)
 2. Same to Object o1, Object o2
+3. Imagining that we only have two objects that need to be compared with each other
 ## How to use comparator interface by sorting?
 ``` Java
 Arrays.sort(a, comp);
@@ -27,3 +28,12 @@ a- array that need to be sorted
 - numbers 0-9: 48-57
 - letters A-Z: 65-90
 - letters a-z: 97-122
+# Solution notes
+4 cases:
+get the 1st letter of the word, s1, s2
+s1 number s2 letter - return 1
+s1 number s2 number - return 0
+s1 letter s2 number - return -1
+s1 letter s2 letter - 2 cases:
+    - word1 == word2, compare identifier 
+    - word1 != word2, compareTo method
