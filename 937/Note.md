@@ -31,9 +31,9 @@ a- array that need to be sorted
 # Solution notes
 4 cases:
 get the 1st letter of the word, s1, s2
-s1 number s2 letter - return 1
-s1 number s2 number - return 0
-s1 letter s2 number - return -1
-s1 letter s2 letter - 2 cases:
+- s1 number s2 letter - return 1
+- s1 number s2 number - return 0
+- s1 letter s2 number - return -1
+- s1 letter s2 letter - 2 cases:
     - word1 == word2, compare identifier 
     - word1 != word2, compareTo method
