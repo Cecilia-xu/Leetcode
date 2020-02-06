@@ -1,5 +1,6 @@
 # Clarify
 - The amount of money given cannot be made up by any combination of the coins? return -1
+- When amount is 0? return 0(need to clarify!!! I got mistakes here.)
 - The number of coin is infinte? Yes
 - Any other complexity requirement?
 # Intuition
