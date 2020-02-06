@@ -19,7 +19,7 @@
       - climb[n] = climb[n - 1] + climb[n - 2]
   3. initial case & corner case:
       - initial case: climb[0] = 1, climb[1] = 1
-      - no corner case: n is non-negative number
+      - corner case: n == 0. (ARRAY OUT OF BOUND: climb[1])
   4. computing sequence:
       - bottom-up: save memory
 # Complexity
