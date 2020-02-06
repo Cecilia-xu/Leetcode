@@ -12,5 +12,16 @@
 # Optimation
 - Why does the algorithm very complex? it compute too many repeat values.
 - How to optimaze? Dynamic programming(4 steps)
-  1. final condition: 
-      - climb[n] which means
+  1. state: 
+      - Last one: climb[n] which means how many way to climb n steps
+      - Sub questions: climb[n] = climb[n - 1] + climb[n - 2] , so climb[n - 1] = ? climb[n - 2] = ? are subquestions
+  2. formulating a relation among the states:
+      - climb[n] = climb[n - 1] + climb[n - 2]
+  3. initial case & corner case:
+      - initial case: climb[0] = 1, climb[1] = 1
+      - no corner case: n is non-negative number
+  4. computing sequence:
+      - bottom-up: save memory
+# Complexity
+- Time complexity analysis: we use n - 1 times the formulation for the relation among states. For each formulation, the time complexity is O(1). Overall, the time complexity is O(n - 1) --> O(n)
+- Space complexity analysis: we use an extra array: climb\[n\], whose length is n + 1, the space complexity is O(n + 1) --> O(n)
