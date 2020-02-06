@@ -2,7 +2,10 @@
 ```Java
 class Solution {
     public int climbStairs(int n) {
-        if (n <= 1) {
+        // Talk the base case of the whole question, because in DP part,
+        // we create an array whose length is n + 1, if n == 0, we might got
+        // array out of bound error : climb[1] 
+        if (n == 0) {
             return 1;
         }
         int[] climb = new int[n + 1];
