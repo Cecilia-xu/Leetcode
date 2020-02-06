@@ -18,7 +18,7 @@ DP:  MIN question (Typically, all the problems that require to maximize or minim
   - Corner case: f\[(amount - coins\[i])], what about amount - coins\[i] < 0? return Integer.MAX_VALUE
 4. Computing sequence: bottom-up, avoid repetitve computation
 # Complexity
-1. TIme complexity analysis: O(n). We use the formulation for n times. For each formulation, the time complexity is O(1). --> O(n * 1) = O(n)
-2. Space complexity analysis: O(n). we created an extra array, whose length is n + 1. O(n + 1) --> O(n)
+1. TIme complexity analysis: O(amount). We use the formulation for amount times. For each formulation, we use a loop to traverse different coins. The time complexity is O(coins.length), Overall, the time complexity is O(amount * coins.length)
+2. Space complexity analysis: O(n). we created an extra array, whose length is amount + 1. O(amount + 1) --> O(amount)
 
 
