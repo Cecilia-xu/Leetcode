@@ -29,9 +29,8 @@ class Solution {
             fast = fast.next;
         }
         
-        if (tail != null) {
-            tail.next = null;
-        }
+        tail.next = null;
+        
         return dummy.next;
     }
 }
