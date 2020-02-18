@@ -84,3 +84,24 @@ class Solution {
         return ans;
     }
 }
+// Solution 3: Max Heap
+class Solution {
+    public List<Integer> topKFrequent(int[] nums, int k) {
+        HashMap<Integer, Integer> numToFreq = new HashMap<>();
+        for (int n : nums) {
+            numToFreq.put(n, numToFreq.getOrDefault(n, 0) + 1);
+        }
+        
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((n1, n2) -> numToFreq.get(n2) - numToFreq.get(n1));
+        for (int n : numToFreq.keySet()) {
+            maxHeap.add(n);
+        }
+        
+        List<Integer> ans = new ArrayList<Integer>();
+        while (!maxHeap.isEmpty() && ans.size() != k) {
+            ans.add(maxHeap.poll());
+        }
+        
+        return ans;
+    }
+}
