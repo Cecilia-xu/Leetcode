@@ -1,3 +1,5 @@
+// Solution 1: merge sort (top --> down)
+// Not the optimal solution 
 /**
  * Definition for singly-linked list.
  * public class ListNode {
