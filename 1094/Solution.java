@@ -23,3 +23,20 @@ class Solution {
         return true;
     }
 }
+// Solution2: Simulation the process
+class Solution {
+    public boolean carPooling(int[][] trips, int capacity) {
+        int[] locations = new int[1001];
+        for (int i = 0; i < trips.length; i++) {
+            locations[trips[i][1]] += -trips[i][0];
+            locations[trips[i][2]] += trips[i][0];
+        }
+        
+        for (int loc : locations) {
+            capacity += loc;
+            if (capacity < 0) return false;
+        }
+        
+        return true;
+    }
+}
