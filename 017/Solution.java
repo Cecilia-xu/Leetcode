@@ -4,19 +4,18 @@ class Solution {
         String[] dMap = {" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         char[] output = new char[digits.length()];
         ArrayList<String> ans = new ArrayList<>();
-        if (digits.length() != 0) {
-            dfs(digits, dMap, 0, output, ans);
+        if (digits == null || digits.length() == 0) {
+            return ans;
         }
+        dfs(digits, dMap, 0, output, ans);
         return ans;
     }
     
     private void dfs(String digits, String[] dMap, int level, char[] output, ArrayList<String> ans) {
         // base case
         if (level == digits.length()) {
-            if (level > 0) {
-                ans.add(new String(output));
-                return;
-            }
+            ans.add(new String(output));
+            return;
         }
         
         // get all cases for each digit
