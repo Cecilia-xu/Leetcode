@@ -67,9 +67,6 @@ class Solution {
         while (left != right && nums[left] == nums[right]) {
             right--;
         }
-        if (right == 0) {
-            return nums[right] == target;
-        }
         int minIdx = findMin(nums, left, right);
         if (target >= nums[minIdx] && target <= nums[right]){
             return binarySearch(nums, target, minIdx, right);
