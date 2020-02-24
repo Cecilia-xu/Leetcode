@@ -44,3 +44,45 @@ class Solution {
         return -1;
     }
 }
+// Solution 2: binary search
+class Solution {
+    public int search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int left = 0, right = nums.length - 1;
+        int start = nums[0], end = nums[nums.length - 1];
+        while (left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            else if (nums[mid] >= start) {
+                if (target >= start && nums[mid] > target) {
+                    right = mid;
+                }
+                else {
+                    left = mid;
+                }
+            }
+            else {
+                if (target <= end && nums[mid] < target) {
+                    left = mid;
+                }
+                else {
+                    right = mid;
+                }
+            }
+        }
+        
+        if (nums[left] == target) {
+            return left;
+        }
+        else if (nums[right] == target) {
+            return right;
+        }
+        else {
+            return -1;
+        }
+    }
+}
