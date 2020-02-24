@@ -36,6 +36,6 @@ class Solution {
                 right = mid;
             }
         }
-        return nums[left] <= nums[right] ? nums[left] : nums[right];
+        return Math.min(nums[left], nums[right]);
     }
 }
