@@ -71,11 +71,11 @@ class Solution {
             return nums[right] == target;
         }
         int minIdx = findMin(nums, left, right);
-        if (target > nums[right]) {
-            return minIdx - 1 >= left && binarySearch(nums, target, left, minIdx - 1);
+        if (target >= nums[minIdx] && target <= nums[right]){
+            return binarySearch(nums, target, minIdx, right);
         }
         else {
-            return right >= minIdx && binarySearch(nums, target, minIdx, right);
+            return binarySearch(nums, target, left, minIdx - 1);
         }
     }
     
@@ -93,18 +93,18 @@ class Solution {
     }
     
     public boolean binarySearch(int[] nums, int target, int left, int right) {
-         while (left + 1 < right) {
+         while (left <= right) {
              int mid = left + (right - left) / 2;
              if (nums[mid] == target) {
                  return true;
              } 
              else if (nums[mid] > target) {
-                 right = mid;
+                 right = mid - 1;
              }
              else {
-                 left = mid;
+                 left = mid + 1;
              }
          }
-        return  nums[left] == target || nums[right] == target;
+        return false;
     }
 }
