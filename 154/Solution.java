@@ -17,7 +17,29 @@ class Solution {
                         findLocalMin(nums, mid + 1, right));
     }
 }
-// Solution 2: binary search
+// Solution 2: binary search template 1
+class Solution {
+    public int findMin(int[] nums) {
+        int left = 0, right = nums.length - 1;
+        while (left != right && nums[left] == nums[right]) {
+            left ++;
+        }
+        if (left == nums.length - 1) {
+            return nums[left];
+        }
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > nums[nums.length - 1]) {
+                left = mid + 1;
+            }
+            else {
+                right = mid - 1;
+            }
+        }
+        return nums[left];
+    }
+}
+// Solution 3: binary search template 2
 class Solution {
     public int findMin(int[] nums) {
         int left = 0, right = nums.length - 1;
