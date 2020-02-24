@@ -17,3 +17,24 @@ class Solution {
                         findLocalMin(nums, mid + 1, right));
     }
 }
+// Solution 2: binary search
+class Solution {
+    public int findMin(int[] nums) {
+        int left = 0, right = nums.length - 1;
+        while (left != right && nums[left] == nums[right]) {
+            right--;
+        }
+        int target = nums[right];
+        while (left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] <= target) {
+                right = mid;
+            }
+            else {
+                left = mid;
+            }
+        }
+        
+        return Math.min(nums[left], nums[right]);
+    }
+}
