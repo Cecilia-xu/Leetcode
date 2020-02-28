@@ -1,4 +1,34 @@
-// Solution 1: BST inorder traversal
+// Solution 1: Recursion(best)
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public boolean isValidBST(TreeNode root) {
+        return isValidRange(root, null, null);
+    }
+    
+    private boolean isValidRange(TreeNode root, Integer min, Integer max) {
+        if (root == null) {
+            return true;
+        } 
+        if (min != null && root.val <= min) {
+            return false;
+        }
+        else if (max != null && root.val >= max) {
+            return false;
+        }
+        else {
+            return isValidRange(root.left, min, root.val) && isValidRange(root.right, root.val, max);
+        }
+    }
+}
+// Solution 2: BST inorder traversal
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
