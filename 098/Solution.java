@@ -28,7 +28,7 @@ class Solution {
         }
     }
 }
-// Solution 2: BST inorder traversal
+// Solution 2: BST inorder traversal + O(n) space
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -68,5 +68,38 @@ class Solution {
         inOrderHelper(root.left, res);
         res.add(root.val);
         inOrderHelper(root.right, res);
+    }
+}
+// Solution 3: BST inorder traversal + O(h) space
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    private Integer pre;
+    private boolean isValid;
+    
+    public boolean isValidBST(TreeNode root) {
+        pre = null;
+        isValid = true;
+        inorderTraversal(root);
+        return isValid;
+    }
+    
+    private void inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inorderTraversal(root.left);
+        if (pre != null && pre >= root.val) {
+            isValid = false;
+        }
+        pre = root.val;
+        inorderTraversal(root.right);
     }
 }
