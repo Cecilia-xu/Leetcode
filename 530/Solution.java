@@ -1,4 +1,4 @@
-// Solution: inorder traversal
+// Solution: inorder traversal + O(n) space
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
