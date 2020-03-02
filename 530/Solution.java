@@ -28,3 +28,36 @@ class Solution {
         inorderTraversal(root.right, inorderList);
     }
 }
+// Solution 2: inorder traversal + O(h) complexity
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    private int min;
+    private Integer pre;
+    
+    public int getMinimumDifference(TreeNode root) {
+        min = Integer.MAX_VALUE;
+        pre = null;
+        inorderTraversal(root);
+        return min;
+    }
+    
+    private void inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inorderTraversal(root.left);
+        if (pre != null) {
+            min = Math.min(min, Math.abs(pre - root.val));
+        }
+        pre = root.val;
+        inorderTraversal(root.right);
+    }
+}
