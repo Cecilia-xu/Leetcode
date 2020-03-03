@@ -6,12 +6,12 @@
 - No.1214 Two Sum BSTs: inorder- two sorted array + two pointers / two sets 
 - No.1099 Two Sum: the larget sum less than k - two pointers 
 
-#### Other questions
-##### Two Sum- unique pairs
-Description
+### Other questions
+#### Two Sum- unique pairs
+- Description
 Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
 
-Example
+- Example
 Given nums = [1,1,2,45,46,46], target = 47
 return 2
 
