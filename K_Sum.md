@@ -1,10 +1,12 @@
 # K Sum Conclusion
-- No.1 Two Sum : using hashmap (Notice: when two numbers are the same e.g. 2 + 2 = 4, do we have 2 different 2 in the array?)
+#### Questions in LeetCode
+- No.001 Two Sum : using hashmap (Notice: when two numbers are the same e.g. 2 + 2 = 4, do we have 2 different 2 in the array?)
 - No.167 Two Sum II - Input Array is sorted : using two pointers: sum > target, end--/ sum < target, start++ (Notice: index starts from 1 in this question)
-- No.170 Two Sum III - Data Structure design: combination of I and II
+- No.170 Two Sum III - Data Structure design: hashmap is better
 - No.653 Two Sum IV - Input is a BST: inorder is sorted array + two pointers
 - No.1214 Two Sum BSTs: inorder- two sorted array + two pointers / two sets 
 - No.1099 Two Sum: the largest sum less than k - two pointers + update max sum (< k) in the loop
+- No.015 3Sum - Let's see we run through all indices of a possible first element of a triplet, and then use two pointers to find the other two elements.
 
 ### Other questions
 #### Two Sum- unique pairs
