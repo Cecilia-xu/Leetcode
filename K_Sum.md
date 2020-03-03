@@ -83,4 +83,46 @@ public static int uniquePairs(int[] nums, int target){
         return count;
     }
 ```
-#### 
+#### Two Sum - Greater than target
+> Description
+Given an array of integers, find how many pairs in the array such that their sum is bigger than a specific target number. Please return the number of pairs.
+> Example
+Given numbers = [2, 7, 11, 15], target = 24. Return 1. (11 + 15 is the only pair)
+> Challenge
+Do it in O(1) extra space and O(nlogn) time.
+```Java
+// Solution 1: two pointers
+// Sort the array at first.
+// If nums[start] + nums[end] > target, it means the number after start + nums[end]. count += end - start
+// Else, start++
+public class Solution {
+    /**
+     * @param nums: an array of integer
+     * @param target: an integer
+     * @return: an integer
+     */
+    public int twoSum2(int[] nums, int target) {
+        // Write your code here
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        
+        Arrays.sort(nums);
+        
+        int count = 0;
+        int i = 0;
+        int j = nums.length - 1;
+        while (i < j) {
+            if (nums[i] + nums[j] <= target) {
+                i++;
+            }
+            else {
+                count += j - i;
+                j--;
+            }
+        }
+        
+        return count;
+    }
+}
+```
