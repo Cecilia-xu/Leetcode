@@ -8,10 +8,10 @@
 
 ### Other questions
 #### Two Sum- unique pairs
-> Description
+> **Description**
 Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
 
-> Example
+> **Example**
 Given nums = [1,1,2,45,46,46], target = 47
 return 2
 1 + 46 = 47
@@ -84,9 +84,9 @@ public static int uniquePairs(int[] nums, int target){
     }
 ```
 #### Two Sum - Greater than target
-> Description
+> **Description**
 Given an array of integers, find how many pairs in the array such that their sum is bigger than a specific target number. Please return the number of pairs.
-> Example
+> **Example**
 Given numbers = [2, 7, 11, 15], target = 24. Return 1. (11 + 15 is the only pair)
 > Challenge
 Do it in O(1) extra space and O(nlogn) time.
@@ -161,7 +161,7 @@ public class Solution {
 }
 ```
 #### Two sum - closest to target (Similar question: Leetcode 1099)
-> Description
+> **Description**
 Given an array nums of n integers, find two integers in nums such that the sum is closest to a given number, target.
 Return the difference between the sum of the two integers and the target.
 ```Java
