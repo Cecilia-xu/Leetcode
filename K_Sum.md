@@ -1,10 +1,10 @@
 # K Sum Conclusion
 - No.1 Two Sum : using hashmap (Notice: when two numbers are the same e.g. 2 + 2 = 4, do we have 2 different 2 in the array?)
-- No.167 Two Sum II - Input Array is sorted : using two pointers (Notice: index starts from 1 in this question)
+- No.167 Two Sum II - Input Array is sorted : using two pointers: sum > target, end--/ sum < target, start++ (Notice: index starts from 1 in this question)
 - No.170 Two Sum III - Data Structure design: combination of I and II
 - No.653 Two Sum IV - Input is a BST: inorder is sorted array + two pointers
 - No.1214 Two Sum BSTs: inorder- two sorted array + two pointers / two sets 
-- No.1099 Two Sum: the larget sum less than k - two pointers 
+- No.1099 Two Sum: the largest sum less than k - two pointers + update max sum (< k) in the loop
 
 ### Other questions
 #### Two Sum- unique pairs
@@ -129,6 +129,43 @@ public class Solution {
 #### Two Sum - Two Sum - Less than or equal to target 
 ```Java
 // Solution 1: two pointers
+public class Solution {
+    /**
+     * @param nums an integer array
+     * @param target an integer
+     * @return the difference between the sum and the target
+     */
+    public int twoSumClosest(int[] nums, int target) {
+        // Write your code here
+        
+        Arrays.sort(nums);
+        
+        int min = Integer.MAX_VALUE;
+        
+        int left = 0;
+        int right = nums.length - 1;
+        
+        while (left < right) {
+            if (nums[left] + nums[right] < target) {
+                min = Math.min(min, target - nums[left] - nums[right]);
+                left++;
+            }
+            else {
+                min = Math.min(min, nums[left] + nums[right] - target);
+                right--;
+            }
+        }
+        
+        return min;
+    }
+}
+```
+#### Two sum - closest to target (Similar question: Leetcode 1099)
+> Description
+Given an array nums of n integers, find two integers in nums such that the sum is closest to a given number, target.
+Return the difference between the sum of the two integers and the target.
+```Java
+// Solution: Sort + two pointers + update min difference in the loop
 public class Solution {
     /**
      * @param nums an integer array
