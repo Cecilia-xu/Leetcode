@@ -5,8 +5,8 @@
 3. For some questions, we can use hashmap/hashset to ensure the O(n) time complexity.(v.s. sorting is O(nlogn))
 4. If we do not need to find sum == target but to find the count of larger/smaller combinations, we do not need to use two pointers in all cases. (knowing index is enough to count all the results.)
 5. If we need to find the closest/lower bound/ upper bound sum of target, two pointer + record the min Math.abs(difference)/min/max
-6. Be careful: Is target constant(e.g. 0)/variable(e.g. target)? Does the index we should return start from 0 or 1?
-7. Pre assumption: When the target does not exist?/ When the length of array is invalid?/ Does the array have duplicate elements?/ Does the result should be unique?(e.g.[2,3,5] & [2,5,3])/ Does the solution only have one available solution?/ return?(count,boolean,result)
+6. Be careful: Is target constant(e.g. 0)/variable(e.g. target)? Does the index we should return start from 0 or 1?/ Is the hash table empty when we want to get something from it?/ Does we combine the same element for the answer? 
+7. Pre assumption: When the target does not exist?/ When the length of array is invalid?/ Does the array have duplicate elements?/ Does the result should be unique?(e.g.[2,3,5] & [2,5,3])/ Does the solution only have one available solution?/ return type?(count,boolean,result)/ What should we return when we cannot find the result?
 ### Questions in LeetCode
 - No.001 Two Sum : using hashmap (Notice: when two numbers are the same e.g. 2 + 2 = 4, do we have 2 different 2 in the array?)
 - No.167 Two Sum II - Input Array is sorted : using two pointers: sum > target, end--/ sum < target, start++ (Notice: index starts from 1 in this question)
@@ -214,8 +214,37 @@ public class Solution {
 > **Description**
 Given an array of integers, find two numbers that their difference equals to a target value.
 where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are NOT zero-based.
-**Notice**
+> **Notice**
 It's guaranteed there is only one available solution
-**Example**
+> **Example**
 Given nums = [2, 7, 15, 24], target = 5
 return [1, 2] (7 - 2 = 5)
+```Java
+// HashMap
+// Intuition: A - B = target. 
+// If we want to find A in the hash map, we should look for B + target.
+// If we want to find B in the hash map, we should look for A - target.
+// Notice: return sequence/ index starts from 1
+public class Solution {
+    /*
+     * @param nums an array of Integer
+     * @param target an integer
+     * @return [index1 + 1, index2 + 1] (index1 < index2)
+     */
+    public int[] twoSum7(int[] nums, int target) {
+        // write your code here
+        HashMap<Integer, Integer> numsMap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (!numsMap.isEmpty() && numsMap.containsKey(nums[i] + target)) {
+                return new int[]{i + 1, numsMap.get(nums[i] + target)};
+            }
+            else if (!numsMap.isEmpty() && numsMap.containsKey(nums[i] - target)) {
+                return new int[]{numsMap.get(nums[i] - target), i + 1};
+            }
+            numsMap.put(nums[i], i + 1);
+        }
+        
+        return new int[]{-1,-1};
+    }
+}
+```
