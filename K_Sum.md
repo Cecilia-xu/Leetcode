@@ -1,13 +1,20 @@
 # K Sum Conclusion
-#### Questions in LeetCode
+### Intuition & Hint
+1. Sort the array before using two pointers
+2. If we need to find the unique cmbination, we should use loop to avoid checking the same element. (in while loop: use a nested while loop/ in for loop: use *continue*)
+3. For some questions, we can use hashmap/hashset to ensure the O(n) time complexity.(v.s. sorting is O(nlogn))
+4. If we do not need to find sum == target but to find the count of larger/smaller combinations, we do not need to use two pointers in all cases. (knowing index is enough to solve this question.)
+5. If we need to find the closest/lower bound/ upper bound sum of target, two pointer + record the min Math.abs(difference)/min/max
+6. Be careful: Is target constant(e.g. 0)/variable(e.g. target)? Does the index start from 0 or 1?
+### Questions in LeetCode
 - No.001 Two Sum : using hashmap (Notice: when two numbers are the same e.g. 2 + 2 = 4, do we have 2 different 2 in the array?)
 - No.167 Two Sum II - Input Array is sorted : using two pointers: sum > target, end--/ sum < target, start++ (Notice: index starts from 1 in this question)
 - No.170 Two Sum III - Data Structure design: hashmap is better
 - No.653 Two Sum IV - Input is a BST: inorder is sorted array + two pointers
 - No.1214 Two Sum BSTs: inorder- two sorted array + two pointers / two sets 
 - No.1099 Two Sum: the largest sum less than k - two pointers + update max sum (< k) in the loop
-- No.015 3Sum - Let's see we run through all indices of a possible first element of a triplet, and then use two pointers to find the other two elements.
-
+- No.015 3Sum - Let's see we run through all indices of a possible first element of a triplet, and then use two pointers to find the other two elements. (Note: This question is triplet question, which means target is 0)
+- No.016 3Sum Closest
 ### Other questions
 #### Two Sum- unique pairs
 > **Description**
