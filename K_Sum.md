@@ -19,7 +19,7 @@
 - No.018 4Sum: Similar to 3Sum
 - No.454 4SumII: Similar to 2Sum
 ### Other questions
-#### Two Sum- unique pairs
+#### Two Sum- unique pairs *deal with duplication*
 > **Description**
 Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
 
@@ -95,7 +95,7 @@ public static int uniquePairs(int[] nums, int target){
         return count;
     }
 ```
-#### Two Sum - Greater than target
+#### Two Sum - Greater than target   *find the count*
 > **Description**
 Given an array of integers, find how many pairs in the array such that their sum is bigger than a specific target number. Please return the number of pairs.
 > **Example**
@@ -138,7 +138,7 @@ public class Solution {
     }
 }
 ```
-#### Two Sum - Two Sum - Less than or equal to target 
+#### Two Sum -  Less than or equal to target  *return the result*
 ```Java
 // Solution 1: two pointers
 public class Solution {
@@ -172,7 +172,7 @@ public class Solution {
     }
 }
 ```
-#### Two sum - closest to target (Similar question: Leetcode 1099)
+#### Two sum - closest to target (Similar question: Leetcode 1099) *return the result*
 > **Description**
 Given an array nums of n integers, find two integers in nums such that the sum is closest to a given number, target.
 Return the difference between the sum of the two integers and the target.
