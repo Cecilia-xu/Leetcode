@@ -1,6 +1,6 @@
 # K Sum Conclusion
 ### Intuition & Hint
-1. Sort the array before using two pointers
+1. Sort the array before using two pointers: imagine one of the element is settle, how should we do to solve the sub question?
 2. If we need to find the unique cmbination, we should use loop to avoid checking the same element. (in while loop: use a nested while loop/ in for loop: use *continue*)
 3. For some questions, we can use hashmap/hashset to ensure the O(n) time complexity.(v.s. sorting is O(nlogn))
 4. If we do not need to find sum == target but to find the count of larger/smaller combinations, we do not need to use two pointers in all cases. (knowing index is enough to count all the results.)
@@ -14,8 +14,10 @@
 - No.1214 Two Sum BSTs: inorder- two sorted array + two pointers / two sets 
 - No.1099 Two Sum: the largest sum less than k - two pointers + update max sum (< k) in the loop
 - No.015 3Sum - Let's see we run through all indices of a possible first element of a triplet, and then use two pointers to find the other two elements. (Note: This question is triplet question, which means target is 0)
-- No.016 3Sum Closest: Similar to 2Sum cloest
-- No.259 3Sum Smaller: Similar to 2Sum larger than target
+- No.016 3Sum Closest: Similar to 2Sum cloest. Notice: integer overflow! We should use default min(MAX_VALUE) to store min difference rather than default target. e.g. target = -1, when we calculate the difference, default min - 1 will overflow.
+- No.259 3Sum Smaller: Similar to 2Sum larger than target. Use index to calculate combination counts.
+- No.018 4Sum: Similar to 3Sum
+- No.454 4SumII: Similar to 2Sum
 ### Other questions
 #### Two Sum- unique pairs
 > **Description**
