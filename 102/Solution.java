@@ -1,3 +1,4 @@
+// Solution 1: iteration
 // Time complexity: O(n). 
 // Space complexity: O(n). 
 /**
@@ -33,5 +34,39 @@ class Solution {
             res.add(levelRes);
         }
         return res;
+    }
+}
+// Solution 2: Recursion
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    private List<List<Integer>> res = new ArrayList<>();
+    
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        if (root == null) {
+            return res;
+        }
+        levelOrderTraversal(root, 0);
+        return res;
+    }
+    
+    private void levelOrderTraversal(TreeNode root, int level) {
+        if (res.size() == level) {
+            res.add(new ArrayList<Integer>());
+        }
+        res.get(level).add(root.val);
+        if (root.left != null) {
+            levelOrderTraversal(root.left, level + 1);
+        }
+        if (root.right != null) {
+            levelOrderTraversal(root.right, level + 1);
+        }
     }
 }
