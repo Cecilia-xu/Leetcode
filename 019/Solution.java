@@ -1,9 +1,12 @@
 // Two pointers
 // Figure out the definitions of two pointers: 
 // 1) slow: find the node that is before the last n-th node we want to remove 
-// Why? remove means linked the node before n-th to the node after n-th node
+//    Why? remove means linked the node before n-th to the node after n-th node
 // 2) fast: move to the end until null
 // The difference between slow and fast should be n + 1
+//
+// Time complexity: O(n)
+// Space complexity: O(1)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
