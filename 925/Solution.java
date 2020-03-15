@@ -1,4 +1,31 @@
 // Solution: Two pointers
+// More concise solution
+class Solution {
+    public boolean isLongPressedName(String name, String typed) {
+        int i = 0, j = 0;
+        char[] nameChars = name.toCharArray();
+        char[] typedChars = typed.toCharArray();
+        while (i < nameChars.length && j < typedChars.length) {
+            if (nameChars[i] == typedChars[j]) {
+                i++;
+                j++;
+            }
+            else if (i > 0 && typedChars[j] == nameChars[i - 1]) {
+                j++;
+            }
+            else {
+                return false;
+            }
+        }
+        
+        if (j < typedChars.length && typedChars[j] == typedChars[j - 1]) {
+            j++;
+        }
+        
+        return j == typedChars.length && i == nameChars.length;
+    }
+}
+// My solution
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         int i = 0, j = 0;
