@@ -66,7 +66,7 @@ class Solution {
             res.add(0, new ArrayList<Integer>());
         }
         helper(root.left, level + 1);
-        helper(root.right, level + 1);
         res.get(res.size() - level - 1).add(root.val);
+        helper(root.right, level + 1);
     }
 }
