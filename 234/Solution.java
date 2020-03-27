@@ -1,6 +1,7 @@
 // Time complexity: O(n)
 // Space complexity: O(1)
-// Intuition: 1) reverse the last half of the linked list 2) compare values of listnodes one by one in the first half and the second half
+// Intuition: 1) reverse the last half of the linked list 
+// 2) compare values of listnodes one by one in the first half and the second half
 /**
  * Definition for singly-linked list.
  * public class ListNode {
