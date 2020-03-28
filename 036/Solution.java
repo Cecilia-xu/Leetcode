@@ -59,3 +59,35 @@ class Solution {
 // Optimized solution: use one-pass nested for-loop
 // Time complexity: O(1)
 // Space complexity: O(1)
+class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        for (int i = 0; i < 9; i++) {
+            // for checking row[i]
+            HashSet<Character> visitedByRow = new HashSet<>();
+            // for checking col[i]
+            HashSet<Character> visitedByCol = new HashSet<>();
+            // for checking i-th sub-box
+            HashSet<Character> visitedByCube = new HashSet<>();
+            
+            for (int j = 0; j < 9; j++) {
+                // checked the element in row[i]
+                if (board[i][j] != '.' && !visitedByRow.add(board[i][j])) {
+                    return false;
+                }
+                // checked the element in col[i] 
+                if (board[j][i] != '.' && !visitedByCol.add(board[j][i])) {
+                    return false;
+                }
+                // checked the element in i-th sub-box
+                int row = 3 * (i / 3) + j / 3; 
+                int col = 3 * (i % 3) + j % 3;
+                if (board[row][col] != '.' && !visitedByCube.add(board[row][col])) {
+                    return false;
+                }   
+            }
+        }
+        
+        return true;
+    }
+    
+}
