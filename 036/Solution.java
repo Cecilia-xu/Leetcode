@@ -56,6 +56,6 @@ class Solution {
         }
     }
 }
-// Optimized solution: use one-pass nested for loop
+// Optimized solution: use one-pass nested for-loop
 // Time complexity: O(1)
 // Space complexity: O(1)
