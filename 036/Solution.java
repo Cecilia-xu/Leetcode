@@ -1,4 +1,4 @@
-// Brute-Force solution
+// Brute-Force solution: use three nested for-loop
 // Time complexity: O(1)
 // Space complexity: O(1)
 class Solution {
@@ -56,3 +56,6 @@ class Solution {
         }
     }
 }
+// Optimized solution: use one-pass nested for loop
+// Time complexity: O(1)
+// Space complexity: O(1)
