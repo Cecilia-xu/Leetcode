@@ -1,3 +1,23 @@
+// Simplified version:
+// Time complexity: O(max(n,m))
+// worst case
+// split in ver1 O(n) + split in ver2 O(m) + traverse in 2 string arrays
+// Space complexity: O(n + m)
+class Solution {
+    public int compareVersion(String version1, String version2) {
+        String[] ver1 = version1.split("\\.");
+        String[] ver2 = version2.split("\\.");
+        int length = Math.max(ver1.length, ver2.length);
+        for (int i = 0; i < length; i++) {
+            int num1 = (i < ver1.length ? Integer.parseInt(ver1[i]) : 0);
+            int num2 = (i < ver2.length ? Integer.parseInt(ver2[i]) : 0);
+            if (num1 != num2) {
+              return num1 > num2 ? 1 : -1;
+            }
+        }
+        return 0;
+    }    
+}
 // My solution
 class Solution {
     public int compareVersion(String version1, String version2) {
