@@ -1,3 +1,5 @@
+// Time complexity: reverse words in O(n) + reverse the whole string in O(n) + remove space in O(n) = O(n)
+// Space complexity: O(n) 
 class Solution {
     public String reverseWords(String s) {
         s = s.trim();
@@ -18,7 +20,7 @@ class Solution {
             start = end;
         }
         reverse(characters, 0, characters.length - 1);
-       int right = removeSpaces(characters);
+        int right = removeSpaces(characters);
         return new String(characters).substring(0, right);
     }
     
