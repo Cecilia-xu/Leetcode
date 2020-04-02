@@ -2,9 +2,7 @@
 //
 // Time complexity: O(n^2) Worst case: we need to divide after each element, so we need to chack n different parts in O(n) 
 // time(traversal). e.g.a4b4c5 k = 5
-//
 // Space: O(n) Worst case: the number of recursion call stacks is n
-//
 // Note: If we find a letter whose frequent is less than k, then the longest substring should be either on the left side of 
 // this letter, or on the right side of the letter.
 class Solution {
