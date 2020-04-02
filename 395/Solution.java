@@ -1,6 +1,7 @@
 // Solution 1: divide and conquer
 // Time complexity: O(nlogn)
 // Space: O(logn)
+// Note: If we find a letter whose frequent is less than k, then the longest substring should be either on the left side of this letter, or on the right side of the letter.
 class Solution {
     public int longestSubstring(String s, int k) {
         if (s.length() < k) {
