@@ -21,3 +21,32 @@ class Solution {
         return Math.max(leftDepth, rightDepth);
     }
 }
+// Solution 2: Recursion + Traversal
+// Time complexity: O(n)
+// Space complexity: O(H)
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public int depth = 0;
+    
+    public int maxDepth(TreeNode root) {
+        traverse(root, 1); // Note: root should be depth = 1
+        return depth;
+    }
+    
+    private void traverse(TreeNode root, int curDepth) {
+        if (root == null) {
+            return;
+        }
+        depth = Math.max(depth, curDepth);
+        traverse(root.left, curDepth + 1);
+        traverse(root.right, curDepth + 1);
+    }
+}
