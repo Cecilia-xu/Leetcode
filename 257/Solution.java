@@ -1,4 +1,7 @@
-// Solution 1: recursion
+// Solution 1: recursion + divide and conquer
+// Time complexity : O(n)
+// Space complexity: O(H). Best case: O(logn). Worst Case: O(n)
+// Note: I do not think it is a good solution because the use of String!
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
