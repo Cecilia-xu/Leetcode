@@ -1,4 +1,9 @@
-// Solution1: Recusion - traversal
+// Solution 1: recursion + divide and conquer(top - down) (not the best solution)
+// Time complexity: O(nlogn). This is because the method we recursively called is O(n) in each level. The number of levels 
+// is depended on the height of the recursion tree. For examle, if the tree is a complete binary tree. The height is logn. 
+// The time complexity should be O(nlogn). -> When the tree is skewed, the recursion function we called will stop early. The
+// time complexity is only O(n).
+// Space complexity: O(H)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -9,37 +14,69 @@
  * }
  */
 class Solution {
-    private class ResultType {
-        public int height;
-        public boolean isBalanced;
-        public ResultType(int height, boolean isBalanced) {
-            this.height = height;
-            this.isBalanced = isBalanced;
-        }
-    }
-    
     public boolean isBalanced(TreeNode root) {
-        return helper(root).isBalanced;
+        if (root == null) {
+            return true;
+        }
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            return false;
+        }
+        return isBalanced(root.left) && isBalanced(root.right);
     }
     
-    public ResultType helper(TreeNode root) {
-        ResultType res = new ResultType(0, true);
+    private int getHeight(TreeNode root) {
         if (root == null) {
-            return res;
+            return 0;
         }
-        ResultType leftRes = helper(root.left);
-        ResultType rightRes = helper(root.right);
-        if (!leftRes.isBalanced || !rightRes.isBalanced) {
-            res.isBalanced = false;
-        }
-        if (Math.abs(leftRes.height - rightRes.height) > 1) {
-            res.isBalanced = false;
-        }  
-        res.height = Math.max(leftRes.height, rightRes.height) + 1;
-        return res;
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 }
-// Solution2: Recursion - divide and conquer
+// Solution 2: recursion + traversal(post order) + divide and conquer (bottom-up)
+// Time complexity: O(n)
+// Space complexity: O(H)
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+final class ResultType {
+    public int height;
+    public boolean balanced;
+    public ResultType(int height, boolean balanced) {
+        this.height = height;
+        this.balanced = balanced;
+    }
+}
+class Solution {
+    public boolean isBalanced(TreeNode root) {
+        return height(root).balanced;
+    }
+    
+    public ResultType height(TreeNode root) {
+        if (root == null) {
+            return new ResultType(-1, true);
+        }
+        ResultType left = height(root.left);
+        ResultType right = height(root.right);
+        if (Math.abs(left.height - right.height) > 1 || !left.balanced || !right.balanced) {
+            return new ResultType(-1, false);
+        }
+        else {
+            return new ResultType(Math.max(left.height, right.height) + 1, true);
+        }
+    }
+}
+// Solution 3: Optimization of solution 2
+// Time complexity: O(n)
+// Space complexity: O(H)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,33 +87,27 @@ class Solution {
  * }
  */
 class Solution {
-    private class ResultType {
-        private int height;
-        private boolean isBalancedTree;
-        
-        private ResultType(int height, boolean isBalancedTree) {
-            this.height = height;
-            this.isBalancedTree = isBalancedTree;
-        }
-    }
-    
     public boolean isBalanced(TreeNode root) {
-        return helper(root).isBalancedTree;
+        return height(root) != -1;
     }
     
-    private ResultType helper(TreeNode root) {
+    public int height(TreeNode root) {
         if (root == null) {
-            return new ResultType(0, true);
+            return 0;
         }
-        ResultType res = new ResultType(0, true);
-        ResultType leftRes = helper(root.left);
-        ResultType rightRes = helper(root.right);
-        if (!leftRes.isBalancedTree || !rightRes.isBalancedTree || Math.abs(leftRes.height - rightRes.height) > 1) {
-            res.isBalancedTree = false;
+        int left = height(root.left);
+        if (left == -1) {
+            return -1;
         }
-
-        res.height = Math.max(leftRes.height, rightRes.height) + 1;
-        return res;
+        int right = height(root.right);
+        if (right == -1) {
+            return -1;
+        }
+        if (Math.abs(left - right) > 1) {
+            return -1;
+        }
+        else {
+            return Math.max(left, right) + 1;
+        }
     }
-    
 }
