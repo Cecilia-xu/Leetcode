@@ -1,3 +1,7 @@
+// Solution: BFS + dummy node
+// Time complexity: O(n)
+// Space complexity: O(n)
+// NOTE: BFS offer left child then right child! + queue: poll()!(compare with stack)
 /**
  * Definition of TreeNode:
  * public class TreeNode {
