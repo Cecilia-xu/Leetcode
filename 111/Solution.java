@@ -31,9 +31,9 @@ class Solution {
 }
 // Solution 2: Iteration + BFS (much better)
 // If the tree is unbalanced then we will find the min height when we first reach a leaf, without exploring longer paths.
-// Time complexity: O(n). When tree is skewed, we need to offer and poll every nodes.
+// Time complexity: O(n). When tree is skewed, we need to offer and poll every nodes. -> O(n)
 // Space complexity: O(n). When tree is a perfect tree, the size of queue should be the number of nodes in the last level.
-// The height is logn, the number of nodes in the last level is 2^logn = n.
+// The height is logn, the number of nodes in the last level is 2^logn = n. -> O(n)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
