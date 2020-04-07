@@ -1,3 +1,6 @@
+// Solution: recursion + divide and conquer
+// Time complexity: O(n)
+// Sapce comlexity: O(h)
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
