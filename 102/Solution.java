@@ -37,6 +37,8 @@ class Solution {
     }
 }
 // Solution 2: Recursion
+// Time complexity: O(n)
+// Space complexity: O(H). Worst case: O(n), when tree is skewed.
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,23 +52,20 @@ class Solution {
     private List<List<Integer>> res = new ArrayList<>();
     
     public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null) {
-            return res;
-        }
-        levelOrderTraversal(root, 0);
+        dfs(root, 0);
         return res;
     }
     
-    private void levelOrderTraversal(TreeNode root, int level) {
+    private void dfs(TreeNode root, int level) {
+        if (root == null) {
+            return;
+        }
         if (res.size() == level) {
             res.add(new ArrayList<Integer>());
         }
         res.get(level).add(root.val);
-        if (root.left != null) {
-            levelOrderTraversal(root.left, level + 1);
-        }
-        if (root.right != null) {
-            levelOrderTraversal(root.right, level + 1);
-        }
+        dfs(root.left, level + 1);
+        dfs(root.right, level + 1);
     }
 }
+
