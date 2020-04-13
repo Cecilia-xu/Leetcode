@@ -19,3 +19,29 @@ class Solution {
         return res;
     }
 }
+// Solution 2: Deque(单调)
+// Time complexity: O(n)
+// Space complexity: O(k)
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        Deque<Integer> deque = new ArrayDeque<>();
+        int[] res = new int[nums.length - k + 1];
+        int count = 0, start = 0, index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            while (count < k && !deque.isEmpty() && nums[i] > deque.peekLast()) {
+                deque.pollLast();
+            }
+            deque.addLast(nums[i]);
+            count++;
+            if (count == k) {
+                res[index++] = deque.peekFirst();
+                if (nums[start] == deque.peekFirst()) {
+                    deque.pollFirst();
+                }
+                count--;
+                start++;
+            }
+        }
+        return res;
+    }
+}
