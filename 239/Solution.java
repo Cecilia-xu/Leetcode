@@ -21,7 +21,7 @@ class Solution {
 }
 // Solution 2: Deque(单调)
 // Time complexity: O(n)
-// Space complexity: O(k)
+// Space complexity: O(n). O(k) deque + O(n - k + 1) result array -> O(n)
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         Deque<Integer> deque = new ArrayDeque<>();
