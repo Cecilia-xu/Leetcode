@@ -1,5 +1,7 @@
 // Solution 1: BFS (floodfill algorithm)
 // Notes: In this solution, we use the definition: A (1)connected graph with (2)n vertexes and n-1 edges is a tree
+// Time complexity: O(n)
+// Space complexity: O(n)
 class Solution {
     public boolean validTree(int n, int[][] edges) {
         // Validate the number of vertexes
@@ -26,6 +28,7 @@ class Solution {
                 }
             }
         }
+        //If we visited all nodes, which means the graph is connected.
         return visited.size() == n;
     }
     
@@ -40,6 +43,7 @@ class Solution {
         }
         // initialize the adjacency list
         // Note: add two times because: (1) vertex1 to vertex2 (2) vertex2 to vertex1
+        // Note: how to write for loop for int[][]
         for (int[] edge : edges) {
             int vertex1 = edge[0];
             int vertex2 = edge[1];
@@ -49,3 +53,4 @@ class Solution {
         return map;
     }
 }
+// Solution 2: Union Find ???
