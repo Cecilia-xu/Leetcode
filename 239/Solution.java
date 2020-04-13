@@ -19,7 +19,7 @@ class Solution {
         return res;
     }
 }
-// Solution 2: Deque(单调)
+// Solution 2: Deque(单调) + combined with sliding window template
 // Time complexity: O(n)
 // Space complexity: O(n). O(k) deque + O(n - k + 1) result array -> O(n)
 class Solution {
