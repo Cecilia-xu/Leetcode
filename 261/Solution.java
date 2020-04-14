@@ -53,4 +53,47 @@ class Solution {
         return map;
     }
 }
-// Solution 2: Union Find ???
+// Solution 2: Union Find 
+// Notes: In this solution, we use the definition: A (1)acyclic graph with (2)n vertexes and n-1 edges is a tree
+// Time complexity: O(nlog*(n)). Why it is better than solution 1? Time complexity ignores constant.(Refer: https://leetcode.com/articles/graph-valid-tree/)
+// Space complexity: O(n). O(n) for extra space: father[]
+class Solution {
+    public int[] father;
+    public boolean validTree(int n, int[][] edges) {
+        if (edges.length != n - 1) {
+            return false;
+        }
+        connectingGraph(n);
+        for (int[] edge : edges) {
+            // If edge[0] and edge[1] is already connected and there is an edge between them, there must exist a cycle.
+            if (find(edge[0]) == find(edge[1])) {
+                return false;
+            }
+            // If edge[0] and edge[1] has not connected yet, use union to these nodes.
+            union(edge[0], edge[1]);
+        }
+        return true;
+    }
+    
+    public void connectingGraph(int n) {
+        father = new int[n];
+        for (int i = 0; i < n; i++) {
+            father[i] = i;
+        }
+    }
+    
+    public int find(int vertex) {
+        if (father[vertex] == vertex) {
+            return vertex;
+        }
+        return father[vertex] = find(father[vertex]);
+    }
+    
+    public void union(int a, int b) {
+        int rootA = find(a);
+        int rootB = find(b);
+        if (rootA != rootB) {
+            father[rootA] = rootB;
+        }
+    }
+}
