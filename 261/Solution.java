@@ -55,7 +55,8 @@ class Solution {
 }
 // Solution 2: Union Find 
 // Notes: In this solution, we use the definition: A (1)acyclic graph with (2)n vertexes and n-1 edges is a tree
-// Time complexity: O(nlog*(n)). Why it is better than solution 1? Time complexity ignores constant.(Refer: https://leetcode.com/articles/graph-valid-tree/)
+// Time complexity: O(nlog*(n)). 
+// Why it is better than solution 1? Time complexity ignores constant.(Refer: https://leetcode.com/articles/graph-valid-tree/)
 // Space complexity: O(n). O(n) for extra space: father[]
 class Solution {
     public int[] father;
