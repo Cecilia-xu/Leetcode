@@ -44,3 +44,46 @@ class Solution {
         }
     }
 }
+
+
+// Sliding window(easy implementation)
+class Solution {
+    public String minWindow(String s, String t) {
+        int start, end = 0;
+        int min = Integer.MAX_VALUE;
+        String res = "";
+        int[] sourceFreq = new int[256];
+        int[] targetFreq = new int[256];
+        initializeTarget(targetFreq, t);
+        for (start = 0; start < s.length(); start++) {
+            while (end < s.length() && !isValid(sourceFreq, targetFreq)) {
+                sourceFreq[s.charAt(end)]++;
+                end++;
+            }
+            if (isValid(sourceFreq, targetFreq)) {
+                int length = end - start;
+                if (length < min) {
+                    min = length;
+                    res = s.substring(start, end);
+                }
+                sourceFreq[s.charAt(start)]--;
+            }
+        }
+        return res;
+    }
+    
+    private void initializeTarget(int[] freq, String t) {
+        for (char c : t.toCharArray()) {
+            freq[c]++; 
+        }
+    }
+    
+    private boolean isValid(int[] s, int[] t) {
+        for (int i = 0; i < 256; i++) {
+            if (s[i] < t[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
