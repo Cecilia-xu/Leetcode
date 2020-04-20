@@ -1,7 +1,7 @@
 // Solution: sequence type DP
 // Time complexity: O(n)
 // Space complexity: O(1)
-// function: cost[i][0] = min(cost[i - 1][1], cost[i -1][2]) + cost[i][0], ...
+// Equation: cost[i][0] = min(cost[i - 1][1], cost[i -1][2]) + cost[i][0], ...
 // Reference: sample question on Notes No.2
 class Solution {
     public int minCost(int[][] costs) {
