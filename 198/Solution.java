@@ -9,9 +9,6 @@ class Solution {
             if (i == 1) {
                 curMoney[i] = nums[i - 1];
             }
-            else if (i == 2) {
-                curMoney[i] = Math.max(curMoney[1], nums[i - 1]);
-            }
             else {
                 curMoney[i] = Math.max(curMoney[i - 1], curMoney[i - 2] + nums[i - 1]);
             }
