@@ -1,4 +1,4 @@
-// Solution: DP (longest sequence type -> essence: index type dp)
+// Solution1: O(n^2) DP (longest sequence type -> essence: index type dp) -> not the best solution
 // Definition: length[] means the longest length of sequence ended with nums[i]
 // Time complexity: O(n^2)
 // Space complexity: O(n)
