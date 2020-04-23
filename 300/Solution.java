@@ -9,6 +9,7 @@ class Solution {
         }
         int[] length = new int[nums.length];
         length[0] = 1;
+        int res = length[0];
         for (int i = 1; i < nums.length; i++) {
             length[i] = 1;
             // find all former elements that is smaller than nums[i], and update max length
@@ -17,11 +18,11 @@ class Solution {
                     length[i] = Math.max(length[j] + 1, length[i]);
                 }
             }
-        }
-        
-        int res = 0;
-        for (int len : length) {
-            res = Math.max(res, len);
+            
+            // update result if find any larger length
+            if (length[i] > res) {
+                res = Math.max(res, length[i]);
+            }
         }
         
         return res;
