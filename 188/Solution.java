@@ -7,7 +7,8 @@ class Solution {
         if (len <= 1) {
             return 0;
         }
-        if (k > 2 * len) {
+        // Note: when k > len / 2, no limitation on transaction
+        if (k > len / 2) {
             return noLimitMaxProfit(prices);
         }
         int states = 2 * k + 1;
@@ -61,7 +62,7 @@ class Solution {
         if (len <= 1) {
             return 0;
         }
-        if (k > 2 * len) {
+        if (k > len / 2) {
             return noLimitMaxProfit(prices);
         }
         int states = 2 * k + 1;
