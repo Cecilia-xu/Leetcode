@@ -61,7 +61,7 @@ class Solution {
         if (len <= 1) {
             return 0;
         }
-        if (k >= 2 * len) {
+        if (k > 2 * len) {
             return noLimitMaxProfit(prices);
         }
         int states = 2 * k + 1;
