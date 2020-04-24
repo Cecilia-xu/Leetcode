@@ -1,6 +1,6 @@
 // Solution: DP
-// Time complexity:
-// Space complexity:
+// Time complexity: find possible palidromes O(n^2) + find partationCounts in first i letters O(n^2) -> O(n^2)
+// Space complexity: O(n^2)
 // Mistakes conclusion: * marked comments
 
 class Solution {
