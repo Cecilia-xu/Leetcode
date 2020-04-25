@@ -1,6 +1,7 @@
 // Solution 1: dynamic programming
 // Time complexity: O(n^2)
 // Space complexity: O(n)
+// Equation: isValid[i] = isValid[j] && nums[j] >= i - j (j = 0 ... i - 1, prove existence)
 // Refer to: sample questions
 class Solution {
     public boolean canJump(int[] nums) {
@@ -18,7 +19,9 @@ class Solution {
         return isValid[nums.length - 1];
     }
 }
-// Solution 2: Greedy ???
+// Solution 2: Greedy
+// Notes: We assume we can get to the destination(lastPos) we found so far, and check where we departure from. 
+// If we can prove that we departure from nums[0], which means our assumption is correct.
 // TIme complexity: O(n)
 // Space complexity: O(1)
 public class Solution {
