@@ -1,5 +1,5 @@
 // Solution: DFS
-// Time complexity: O(n * 2^n)
+// Time complexity: O(n * 2^n). n - copy subset to result list, 2^n : the number of nodes in the recursion tree
 // Space complexity: O(n + k). n - the number of call stacks, k - the length of result
 // How to remove duplicates? 
 // (1) sort the array (add elements from small to large)
