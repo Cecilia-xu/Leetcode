@@ -28,7 +28,7 @@ class Solution {
 
 // Solution 2: HashSet
 // Time complexity: O(n)
-// Space complexity: O(1)
+// Space complexity: O(n)
 class Solution {
     public int longestConsecutive(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
