@@ -47,3 +47,61 @@ class Solution {
         return x >= 0 && x < row && y >= 0 && y < col;
     }
 }
+
+// Solution 2: dynamic programming (Very impressive!)
+// Note: The answer of the subproblem may not be the direct answer of the main problem! We can solve it indirectly.
+// In this question, we use dp to find the side length of the square.
+// Time complexity: O(mn)
+// Space complexity: O(mn)
+class Solution {
+    public int maximalSquare(char[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+        int res = 0;
+        int row = matrix.length, col = matrix[0].length;
+        int dp[][] = new int[row + 1][col + 1];
+        for (int i = 1; i <= row; i++) {
+            for (int j = 1; j <= col; j++) {
+                if (matrix[i - 1][j - 1] == '1') {
+                    dp[i][j] = Math.min(dp[i - 1][j], Math.min(dp[i - 1][j - 1], dp[i][j - 1])) + 1;
+                    res = Math.max(res, dp[i][j]);
+                }
+            } 
+        }
+        return res * res;
+    } 
+}
+
+// Solution 3: DP with space optimization
+// Time complexity: O(m * n)
+// Space complexity: O(n)
+class Solution {
+    public int maximalSquare(char[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+        int res = 0;
+        int row = matrix.length, col = matrix[0].length;
+        // Because we find that dp[i][j] is only related with dp[i - 1], use two rows for dp array
+        int dp[][] = new int[2][col + 1];
+        int cur = 0, pre = 1;
+        for (int i = 1; i <= row; i++) {
+            // change cur and pre
+            int temp = cur;
+            cur = pre;
+            pre = temp;
+            
+            for (int j = 1; j <= col; j++) {
+                if (matrix[i - 1][j - 1] == '1') {
+                    dp[cur][j] = Math.min(dp[pre][j], Math.min(dp[pre][j - 1], dp[cur][j - 1])) + 1;
+                    res = Math.max(res, dp[cur][j]);
+                }
+                else {
+                    dp[cur][j] = 0;
+                }
+            } 
+        }
+        return res * res;
+    } 
+}
