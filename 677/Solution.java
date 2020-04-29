@@ -1,6 +1,9 @@
 // Solution: Trie
-// Detailed explanation about trie: The letter can be treated as a key to find a specific node! 
-// The node itself does not contain any info about the letter! -> Searching: we check whether a node is null or not!
+// Detailed explanation about trie: 
+// 1. Searching: we check whether a node is null or not!
+// The letter can be treated as a key to find a specific node! The node itself does not contain any info about the letter!
+// If the letter exist, we must create a node with the letter key and so that the node is not null.
+// 2. Return statement: different in searching prefix and searching word (true v.s  cur.isWord!!)
 class TrieNode {
     public boolean isWord;
     public int val;
@@ -57,7 +60,7 @@ class MapSum {
     private int sumVal(TrieNode cur) {
         int res = (cur.isWord ? cur.val : 0);
         for (TrieNode node : cur.children) {
-            if (node != null) {   // 注意条件；节点不为空就沿着节点继续搜索，无需非要到结尾
+            if (node != null) {   // 注意条件；节点不为空就沿着节点继续搜索，无需非要到结尾.必须查这个条件，不然会报错空指针！
                 res += sumVal(node);
             }
         }
