@@ -1,5 +1,10 @@
-// Solution: Trie implementation (trienode implementation is based on array -> can be changed to hashmap)
+// Solution: Trie implementation (trienode implementation is based on array -> can be changed to hashmap/treemap)
 // Note: A tree-based(N-ary) data structure
+// Key Points about trie: 
+// 1. During searching: we check whether a node is null or not!
+// The letter can be treated as a key to find a specific node! The node itself does not contain any info about the letter!
+// If the letter exist, we must create a node with the letter key and so that the node is not null.
+// 2. Return statement: different in searching prefix and searching word (true v.s  cur.isWord!!)
 class TrieNode {
     public boolean isWord;
     public TrieNode[] childern;
