@@ -1,3 +1,6 @@
+// Solution: BFS
+// Time complexity: O(m * n)
+// Space complexity: O(m * n)
 class Solution {
     public int[][] grid;
     public int[][] distance;
@@ -23,7 +26,7 @@ class Solution {
             }
         }
         
-        // find answers
+        // find answers: shortest distance
         int result = Integer.MAX_VALUE;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
