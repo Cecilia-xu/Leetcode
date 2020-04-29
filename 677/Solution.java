@@ -1,4 +1,6 @@
 // Solution: Trie
+// Detailed explanation about trie: The letter can be treated as a key to find a specific node! 
+// The node itself does not contain any info about the letter! -> Searching: we check whether a node is null or not!
 class TrieNode {
     public boolean isWord;
     public int val;
