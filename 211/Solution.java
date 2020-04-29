@@ -1,5 +1,4 @@
 // Solution: Trie
-
 class TrieNode {
     public boolean isWord;
     public TrieNode[] childern;
@@ -27,6 +26,7 @@ class WordDictionary {
         this.root = new TrieNode();
     }
     
+    // Time : O(word.length())
     /** Adds a word into the data structure. */
     public void addWord(String word) {
         TrieNode cur = root;
@@ -39,6 +39,7 @@ class WordDictionary {
         cur.isWord = true;
     }
     
+    // Time: O(word.length())
     /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
     public boolean search(String word) {
         return searchHelper(word, root, 0);
