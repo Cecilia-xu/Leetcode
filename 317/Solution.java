@@ -1,6 +1,7 @@
 // Solution: BFS
 // Time complexity: O(m * n)
 // Space complexity: O(m * n)
+// Notes: 1. check whether all buildings can reach a place 2. sum up all the distance that a building can reach a place
 class Solution {
     public int[][] grid;
     public int[][] distance;
