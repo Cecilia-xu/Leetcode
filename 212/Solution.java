@@ -1,4 +1,8 @@
 // My solution: DFS + Trie
+// Time complexity: O(m * n * 4 * 3 ^ (L - 1)). The worst case scenario might be like a board contains all 'a's, and we are seaching
+// 'aaaa'. We will call dfs for m * n times. For each dfs, except the fist cell has 4 directions to try, others just has 3 
+// directions because we should exclude the cell we come from. For each word, we should search for at most L cells.
+// Space complexity: O(m * n) + O(L). L is the maximal length of a word, -> Building the trie takes O(L) + visited array O(m *n)
 class TrieNode {
     public boolean isWord;
     public TrieNode[] childern;
