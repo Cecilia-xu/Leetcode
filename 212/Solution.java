@@ -19,7 +19,7 @@ class Trie {
 }
 
 class Solution {
-    public HashSet<String> result;
+    public HashSet<String> result;      // 改进：不用hashset,直接用arraylist，如果一个单词被找到就把它的isword改成false
     public char[][] board;
     public Trie wordsTrie;
     public int[][] directions;
