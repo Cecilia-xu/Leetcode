@@ -18,7 +18,7 @@ class Solution {
             if (c == '(') {
                 int openCount = 1;
                 int j = i + 1;
-                while (j < s.length() && openCount > 0) {
+                while (j < s.length() && openCount > 0) { // do not forget to check j is out of bound or not
                     char next = s.charAt(j);
                     if (next == '(') {
                         openCount++;
@@ -28,12 +28,12 @@ class Solution {
                     }
                     j++;
                 }
-                number = calculate(s.substring(i + 1, j));
-                i = j - 1;
+                number = calculate(s.substring(i + 1, j)); // how to get the subsdtring
+                i = j - 1 // move i
             }
             
             // Operators
-            if (c != ' ' && !Character.isDigit(c) || i == s.length() - 1) {
+            if (c != ' ' && !Character.isDigit(c) || i == s.length() - 1) { //******last number case!!!!
                 if (operator == '+') {
                     stack.push(number);
                 }
@@ -46,7 +46,7 @@ class Solution {
                 else if (operator == '/') {
                     stack.push(stack.pop() / number);
                 }
-                // recover number and reassign operator 
+                // ********recover number and reassign operator 
                 number = 0;
                 operator = c;
             }
