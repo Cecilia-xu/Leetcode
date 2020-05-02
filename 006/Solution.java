@@ -3,7 +3,7 @@
 // Space complexity: O(n)
 class Solution {
     public String convert(String s, int numRows) {
-        //corner cases
+        //corner cases(******* deal with corner cases at first)
         if (s == null || s.length() <= numRows) {
             return s;
         }
