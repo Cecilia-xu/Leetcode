@@ -1,6 +1,7 @@
 // Solution: Linked List
 // Time complexity: O(n1 + n2)
 // Space complexity: O(n1 + n2)
+// Note: add two numbers condition(no reamining digits in num1/num2 || carry == 0)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
