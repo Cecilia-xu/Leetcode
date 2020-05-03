@@ -18,7 +18,7 @@ class Solution {
         for (int i = 0; i < words.length; i++) {
             char code = pattern.charAt(i);
             if (!map.containsKey(code)) {
-                if (map.values().contains(words[i])) {
+                if (map.containsValue(words[i])) {
                     return false;
                 }
                 map.put(code, words[i]);
