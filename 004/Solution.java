@@ -1,5 +1,6 @@
 // Solution: binary search
-// Time complexity: O(n1logn1)
+// Time complexity: O(log(min(n1, n2)))
+// Space complexity: O(1)
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length;
