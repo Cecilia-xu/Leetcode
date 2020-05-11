@@ -1,3 +1,6 @@
+// Solution: Sort + two pointers
+// Time complexity: O(n^3)
+// Space complexity: O(1)
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
