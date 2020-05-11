@@ -1,7 +1,7 @@
 # K Sum Conclusion
 ### Intuition & Hint
-1. Sort the array before using two pointers: imagine one of the element is settle, how should we do to solve the sub question?
-2. If we need to find the unique cmbination, we should use loop to avoid checking the same element. (in while loop: use a nested while loop/ in for loop: use *continue*)
+1. Sort the array before using two pointers. See if one of the element is settle, how should we do to solve the sub question?
+2. If we need to find the unique cmbination, we should avoid checking the same element. (use a nested while loop/ for loop + *continue*)
 3. For some questions, we can use hashmap/hashset to ensure the O(n) time complexity.(v.s. sorting is O(nlogn))
 4. If we do not need to find sum == target but to find the count of larger/smaller combinations, we do not need to use two pointers in all cases. (knowing index is enough to count all the results.)
 5. If we need to find the closest/lower bound/ upper bound sum of target, two pointer + record the min Math.abs(difference)/min/max
