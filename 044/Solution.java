@@ -15,11 +15,14 @@ class Solution {
                     continue;
                 }
                 
+                // can match a letter
                 if (i > 0 && j > 0 && (wordS[i - 1] == wordP[j - 1] || wordP[j - 1] == '?')) {
                     match[i][j] = match[i - 1][j - 1];
                 }
                 else if (j > 0 && wordP[j - 1] == '*') {
+                    // * as zero character
                     match[i][j] = match[i][j - 1];
+                    // * matches a character
                     if (i > 0) {
                         match[i][j] = match[i][j] || match[i - 1][j];
                     }
