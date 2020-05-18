@@ -1,5 +1,7 @@
 // Solution: string
 // similar to: Add to numbers
+// Time complexity: O(n + m)
+// Space complexity: O(1)
 class Solution {
     public String addBinary(String a, String b) {
         int i = a.length() - 1, j = b.length() - 1;
