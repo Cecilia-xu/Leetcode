@@ -24,8 +24,8 @@ class Solution {
         
         // recursion
         for (int i = curIdx; i < num.length(); i++) {
-            // leading zero -> invalid number 
-            // Note: 0 is valid!!!
+            // *****leading zero -> invalid number 
+            // *****Note: 0 is valid!!!
             if (num.charAt(curIdx) == '0' && i != curIdx) {
                 break;
             }
@@ -42,6 +42,7 @@ class Solution {
             else {
                 dfs(res, expression + "+" + n, num, target, i + 1, value + n, n);
                 dfs(res, expression + "-" + n, num, target, i + 1, value - n, -n);
+                //******how to deal with multiplication -> store the previous number for recovering
                 dfs(res, expression + "*" + n, num, target, i + 1, value - preNum + preNum * n, preNum * n);
             }
         }
