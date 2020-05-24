@@ -36,10 +36,9 @@ class Solution {
                     ans.append(part);
                     num--;
                 }
-                
-                // change i
+              
+                // *change i
                 i = end - 1;
-                num = 0;
             }
             else if (c == ']') {
                 return ans.toString();
