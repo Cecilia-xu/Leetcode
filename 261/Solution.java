@@ -1,7 +1,7 @@
 // Solution 1: BFS (floodfill algorithm)
 // Notes: In this solution, we use the definition: A (1)connected graph with (2)n vertexes and n-1 edges is a tree
-// Time complexity: O(n)
-// Space complexity: O(n)
+// Time complexity: O(V + E)
+// Space complexity: O(V + E)
 class Solution {
     public boolean validTree(int n, int[][] edges) {
         // Validate the number of vertexes
@@ -55,16 +55,18 @@ class Solution {
 }
 // Solution 2: Union Find 
 // Notes: In this solution, we use the definition: A (1)acyclic graph with (2)n vertexes and n-1 edges is a tree
-// Time complexity: O(nlog*(n)). 
+// Time complexity: O(nlog*(n)) -> O(v + e)
 // Why it is better than solution 1? Time complexity ignores constant.(Refer: https://leetcode.com/articles/graph-valid-tree/)
-// Space complexity: O(n). O(n) for extra space: father[]
+// Space complexity: O(v). O(n) for extra space: father[]
 class Solution {
     public int[] father;
     public boolean validTree(int n, int[][] edges) {
         if (edges.length != n - 1) {
             return false;
         }
+        // o(v)
         connectingGraph(n);
+        // o(e)
         for (int[] edge : edges) {
             // If edge[0] and edge[1] is already connected and there is an edge between them, there must exist a cycle.
             if (find(edge[0]) == find(edge[1])) {
@@ -76,6 +78,8 @@ class Solution {
         return true;
     }
     
+    // union find template
+    // 1. initailize union find
     public void connectingGraph(int n) {
         father = new int[n];
         for (int i = 0; i < n; i++) {
@@ -83,6 +87,7 @@ class Solution {
         }
     }
     
+    // 2. find
     public int find(int vertex) {
         if (father[vertex] == vertex) {
             return vertex;
@@ -90,6 +95,7 @@ class Solution {
         return father[vertex] = find(father[vertex]);
     }
     
+    // 3. union
     public void union(int a, int b) {
         int rootA = find(a);
         int rootB = find(b);
