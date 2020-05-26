@@ -1,6 +1,10 @@
 // Solution: Tree + divide and conquer
 // Time complexity: O(n)
 // Space complexity: O(h)
+// Note: LCA question: decide by the position of p and q (3 cases)
+// Case 1: if p and q on the different side of the tree OR p or q is the root, LCA -> root
+// Case 2: if both p and q are on the left side of the tree, find LCA on the left subtree.
+// Case 3: if both p and q are on the right side of the tree, find LCA on the right subtree.
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
