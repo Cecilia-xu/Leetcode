@@ -18,7 +18,7 @@
  * }
  */
 class Solution {
-	public int count;
+    public int count;
     public int goodNodes(TreeNode root) {
         if (root == null) {
 	        return 0;
@@ -28,7 +28,7 @@ class Solution {
         return count;
     }
     
-	private void inorder(TreeNode root, int max) {
+    private void inorder(TreeNode root, int max) {
       // base case 
 		  if (root == null) {
 			  return;
