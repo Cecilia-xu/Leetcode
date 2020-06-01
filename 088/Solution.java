@@ -1,4 +1,6 @@
 // Two pointers: from end to start
+// Time complexity: O(n)
+// Space complexity: O(1)
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1, j = n - 1;
@@ -11,10 +13,10 @@ class Solution {
                 nums1[k--] = nums2[j--];
             }
         }
-        
-        while (i >= 0) {
-            nums1[k--] = nums1[i--];
-        }
+        // since i is the index of nums1, the remaining elements in nums1 has no need to be moved.
+//         while (i >= 0) {
+//             nums1[k--] = nums1[i--];
+//         }
         
         while(j >= 0) {
             nums1[k--] = nums2[j--];
